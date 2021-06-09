@@ -1,0 +1,177 @@
+.myDiv {
+  margin-top: 0;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,139,1) 100%);
+  margin-bottom: 0;
+
+}
+
+.bodyDiv {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,139,1) 100%);
+  height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 25px;
+}
+
+.aboutBodyDiv {
+  background: #e5e5e5;
+  height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.logoDiv {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,139,1) 100%);
+}
+
+.buttonDivider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  color: #fffAF0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150px;
+}
+
+h2 {
+  margin: 0;
+  color: #fffAF0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 75px;
+}
+
+.h2-blue-headers {
+  color: #5b92e5;
+}
+
+h3 {
+  margin: 0;
+  color: #fffAF0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+.h3-blue-headers {
+  color: #5b92e5;
+}
+
+h4 {
+  margin: 0px;
+  color: #fffAF0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+}
+
+.h4-blue-headers {
+  color: #5b92e5;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: #fffAF0;
+}
+
+.p-focus {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+  color: #fffAF0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.p-body {
+  color: 	#686868;
+}
+
+.p-body-small {
+  color: #686868;
+  font-size: 19px;
+}
+
+.blue{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(2,0,36), rgba(0,0,139));
+}
+
+.blue div{
+  height: 100%;
+  width: 49%;    
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.glow {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #5b92e5, 0 0 10px #5b92e5, 0 0 15px #5b92e5, 0 0 20px #5b92e5, 0 0 25px #5b92e5, 0 0 30px #5b92e5, 0 0 35px #5b92e5;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #5b92e5, 0 0 15px #5b92e5, 0 0 20px #5b92e5, 0 0 25px #5b92e5, 0 0 30px #5b92e5, 0 0 35px #5b92e5, 0 0 40px #5b92e5;
+  }
+}
+
+a {
+  color: #fffAF0;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color: #5b92e5; 
+   text-decoration: none; 
+   cursor: pointer;  
+}
+
+.anchor {
+  color: #5b92e5; 
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}
+
+/* Fractions */
+
+.frac {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: 0.001em;
+  text-align: center;
+}
+.frac > span {
+  display: block;
+  padding: 0.1em;
+}
+.frac span.bottom {
+  border-top: thin solid black;
+}
+.frac span.symbol {
+  display: none;
+} 
