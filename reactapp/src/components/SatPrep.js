@@ -2,6 +2,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { Link } from 'react-router-dom';
 import Collapsible from 'react-collapsible';
+import {Helmet} from "react-helmet";
 
 import Logo from './Logo'
 import Footer from './Footer'
@@ -25,13 +26,12 @@ import Image6 from '../Images/Step.png'
 
 class SatPrep extends React.Component {
 
-    constructor(props) { 
-        super(props)
-    }
-
     render() {
         return (
             <div>
+                <Helmet>
+                    <script src="reactapp\src\Scripts\Collapsible.js" type="text/javascript" />
+                </Helmet>
                 <Logo />
                 <div className="bodyDiv">
                     <h2 style={{ paddingBottom: "25px" }}>SAT Prep</h2>
@@ -73,8 +73,10 @@ class SatPrep extends React.Component {
                         went over!  I'll try to block off each section between horizontal lines to take no more than 30 minutes. 
                     </p>
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868" }}></hr>
-                    <Collapsible trigger="Heart of Algebra" triggerStyle={{ backgroundColor: "#5b92e5", color: "#fffAF0", padding: "20px", width: "100%", fontSize: "20px", paddingRight: "87.828%" }}>
-                        <div style={{ backgroundColor: "#f1f1f1", paddingBottom: "150px" }}>
+                    <button type="button" className="collapsible">Heart of Algebra</button>
+                        <div className="content" style={{  
+                            paddingBottom: "150px",
+                            }}>
                             <div style={{ marginLeft: "5%", marginRight: "5%" }}>
                                 <h3 className="h3-blue-headers" style={{ paddingTop: "150px" }}>Starting Easy: Introduction to Functions</h3>
                                 <p className="p-body" style={{ paddingBottom: "25px" }}>
@@ -167,7 +169,6 @@ class SatPrep extends React.Component {
                                 <HeartofAlgebraCompletion />
                             </div>
                         </div>
-                    </Collapsible>
                 </div>
                 <Footer />
             </div>
