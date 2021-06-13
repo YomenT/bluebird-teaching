@@ -1,8 +1,5 @@
 import React from 'react';
 
-import Image from '../Images/PositiveSlope.png'
-import Image2 from '../Images/NegativeSlope.png'
-
 class IntroToLinear extends React.Component {
     render() {
         return (
@@ -31,12 +28,12 @@ class IntroToLinear extends React.Component {
                     <li>Like any other number, a slope can be positive or negative.</li>
                 </ul>
                 <img 
-                    src={Image}
+                    src={"https://i.ibb.co/8DRkJJn/Positive-Slope.png"}
                     alt="Positive Slope"
                     width={350}
                     height={350} />
                 <img 
-                    src={Image2}
+                    src={"https://i.ibb.co/jMpqks0/Negative-Slope.png"}
                     alt="Negative Slope"
                     width={350}
                     height={350} />

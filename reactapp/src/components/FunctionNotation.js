@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Image from '../Images/FunctionNotation.png'
-
 class FunctionNotation extends React.Component {
     render() {
         return (
@@ -20,7 +18,7 @@ class FunctionNotation extends React.Component {
                     function.  Take a look at the picture below to see how I plug in the value and solve.  I tried to write as neatly as possible.
                 </p>
                 <img 
-                    src={Image}
+                    src={"https://i.ibb.co/zP2Ytm0/Function-Notation.png"}
                     alt="Function Notation"
                     width={350}
                     height={350} />

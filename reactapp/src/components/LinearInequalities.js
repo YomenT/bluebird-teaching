@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Image from '../Images/SolvingLinearInequality.png'
-
 class LinearInequalities extends React.Component {
     render() {
         return (
@@ -19,7 +17,7 @@ class LinearInequalities extends React.Component {
                     other online resources.  Feel free to reach out to us, and we'll be glad to share some with you!
                 </p>
                 <img 
-                    src={Image}
+                    src={"https://i.ibb.co/PCqzx1T/Solving-Linear-Inequality.png"}
                     alt="Linear Inequalities"
                     width={350}
                     height={350} />

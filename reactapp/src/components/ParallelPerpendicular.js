@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Image from '../Images/PerpendicularProblemCrop.png'
-
 class ParallelPerpendicular extends React.Component {
     render() {
         return (
@@ -66,7 +64,7 @@ class ParallelPerpendicular extends React.Component {
                     2.  Consider the system of linear equations below.  
                 </p>
                 <img 
-                    src={Image}
+                    src={"https://i.ibb.co/y4f12X8/Perpendicular-Problem-Crop.png"}
                     alt="Perpendicular System of Linear Equations"
                     width={350}
                     height={350} />

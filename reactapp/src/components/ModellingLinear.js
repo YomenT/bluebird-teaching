@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Image from '../Images/ModellingExplanation.png'
-
 class ModellingLinear extends React.Component {
     render() {
         return (
@@ -42,7 +40,7 @@ class ModellingLinear extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C) y = -14x + 2</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>D) y = 14x + 2</p>
                 <img 
-                    src={Image}
+                    src={"https://i.ibb.co/TMwRCrt/Modelling-Explanation.png"}
                     alt="Modelling Explanation"
                     width={550}
                     height={625} />
