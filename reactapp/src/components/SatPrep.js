@@ -61,9 +61,9 @@ class SatPrep extends React.Component {
                         went over!  I'll try to block off each section between horizontal lines to take no more than 30 minutes. 
                     </p>
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868" }}></hr>
-                    <div className="wrap-collabsible">
-                        <input id="collapsible" className="toggle" type="checkbox"></input>
-                        <label for="collapsible" className="lbl-toggle">Heart of Algebra</label>
+                    <div className="wrap-collabsible" style={{ paddingBottom: "50px" }}>
+                        <input id="HOA-collapsible" className="toggle" type="checkbox"></input>
+                        <label for="HOA-collapsible" className="lbl-toggle">Heart of Algebra</label>
                         <div className="collapsible-content">
                             <div className="collapsible-inner" style={{  
                                 paddingBottom: "150px",
@@ -159,6 +159,36 @@ class SatPrep extends React.Component {
                                     <GraphingSystemsOfLinearInequalities />
                                     <HeartofAlgebraCompletion />
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="wrap-collabsible" style={{ paddingBottom: "50px" }}>
+                        <input id="PSADA-collapsible" className="toggle" type="checkbox"></input>
+                        <label for="PSADA-collapsible" className="lbl-toggle">Problem Solving and Data Analysis</label>
+                        <div className="collapsible-content">
+                            <div className="collapsible-inner" style={{  
+                                paddingBottom: "150px",
+                                }}>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="wrap-collabsible" style={{ paddingBottom: "50px" }}>
+                        <input id="PTAM-collapsible" className="toggle" type="checkbox"></input>
+                        <label for="PTAM-collapsible" className="lbl-toggle">Passport to Advanced Math</label>
+                        <div className="collapsible-content">
+                            <div className="collapsible-inner" style={{  
+                                paddingBottom: "150px",
+                                }}>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="wrap-collabsible">
+                        <input id="ATIM-collapsible" className="toggle" type="checkbox"></input>
+                        <label for="ATIM-collapsible" className="lbl-toggle">Addtional Topics in Math</label>
+                        <div className="collapsible-content">
+                            <div className="collapsible-inner" style={{  
+                                paddingBottom: "150px",
+                                }}>
                             </div>
                         </div>
                     </div>
