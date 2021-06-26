@@ -16,7 +16,7 @@ class HeartofAlgebraCompletion extends React.Component {
                     comments, questions, or concerns below.
                 </p>
                 <form action="mailto:yomen.tohmaz.edu@gmail.com" method="post" encType="multipart/form-data">
-                    <textarea name="Feedback" rows="4" cols="50"></textarea>
+                    <textarea name="Feedback" rows="5" cols="80"></textarea>
                     <br></br>
                     <label for="Feedback">P.S. Try doing this on Google Chrome or Microsoft Edge.</label>
                     <br></br>

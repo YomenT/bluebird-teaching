@@ -2,8 +2,10 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { Link } from 'react-router-dom';
 
+// Heart of Algebra
 import Logo from './Logo'
 import Footer from './Footer'
+import IntroductionToHeartOfAlgebra from "./IntroductionToHeartOfAlgebra"
 import FunctionNotation from './FunctionNotation'
 import IntroToLinear from './IntroToLinear'
 import ModellingLinear from './ModellingLinear'
@@ -14,6 +16,10 @@ import HeartofAlgebraCompletion from './HeartofAlgebraCompletion.js'
 import LinearInequalities from './LinearInequalities.js'
 import GraphingLinearInequalities from './GraphingLinearInequalities.js'
 import GraphingSystemsOfLinearInequalities from './GraphingSystemsOfLinearInequalities.js'
+
+// Passport to Advanced Math
+import PassportToAdvancedMathIntroduction from "./passport-to-advanced-math/PassportToAdvancedMathIntroduction.js";
+import ExponentRules from "./passport-to-advanced-math/ExponentRules";
 
 class SatPrep extends React.Component {
 
@@ -69,7 +75,9 @@ class SatPrep extends React.Component {
                                 paddingBottom: "150px",
                                 }}>
                                 <div style={{ marginLeft: "5%", marginRight: "5%" }}>
-                                    <h3 className="h3-blue-headers" style={{ paddingTop: "150px" }}>Starting Easy: Introduction to Functions</h3>
+                                    <IntroductionToHeartOfAlgebra />
+                                    <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
+                                    <h3 className="h3-blue-headers">Starting Easy: Introduction to Functions</h3>
                                     <p className="p-body" style={{ paddingBottom: "25px" }}>
                                         <strong>Definition: </strong> A function is just a relation where one x value corresponds to exactly one y value.
                                     </p>
@@ -179,6 +187,10 @@ class SatPrep extends React.Component {
                             <div className="collapsible-inner" style={{  
                                 paddingBottom: "150px",
                                 }}>
+                                    <div style={{ marginLeft: "5%", marginRight: "5%" }}>
+                                        <PassportToAdvancedMathIntroduction />
+                                        <ExponentRules />
+                                    </div>
                             </div>
                         </div>
                     </div>

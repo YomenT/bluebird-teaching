@@ -57,6 +57,11 @@ h2 {
   color: #5b92e5;
 }
 
+.h2-blue-headers-small {
+  font-size: 60px;
+  color: #5b92e5;
+}
+
 h3 {
   margin: 0;
   color: #fffAF0;
@@ -128,6 +133,16 @@ p {
 
 label {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.high-level-objectives {
+  color: #686868;
+  font-size: 20px;
+}
+
+.nested-ul {
+  font-size: 16px;
+  color: #686868;
 }
 
 @-webkit-keyframes glow {
