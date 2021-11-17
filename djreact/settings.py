@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-import django_heroku
+#import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +26,7 @@ SECRET_KEY = 'ld^lzbe!0151re*tr!6t2=-c#=iea(pg0mt3(r7^#55%hr-*x('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com']
 
 
 # Application definition
@@ -137,5 +137,5 @@ STATICFILES_DIRS = [
 #     '',
 # ]
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
