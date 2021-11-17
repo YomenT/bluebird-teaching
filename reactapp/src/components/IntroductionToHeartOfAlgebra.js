@@ -5,7 +5,7 @@ class IntroductionToHeartOfAlgebra extends React.Component {
         return (
             <div>
                 <p className="p-body" style={{ paddingTop: "150px", paddingBottom: "25px" }}>
-                    Most would call this portion of the SAT the "easiet", but the Heart of Algebra covers a lot of content from late middle school 
+                    Most would call this portion of the SAT the "easiest", but the Heart of Algebra covers a lot of content from late middle school 
                     and early high school; students often complain that they forgot some of the content.  Therefore, don't be discouraged if you 
                     find this portion to already be a bit challenging.  We are here to help!
                 </p>
