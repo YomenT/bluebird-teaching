@@ -29,6 +29,8 @@ class ExponentRules extends React.Component {
                     <p className='p-body-small'>
                         <b>The Exponent Rule:  </b> When you have two or more of the <i>same</i> bases being multiplied together, you add the exponenets.
                     </p>
+                </div>
+                <div className='row'>
                     <ul className='p-body'>
                         <li>x<sup>3</sup> * x<sup>4</sup> = x<sup>7</sup></li>
                         <li>2<sup>2</sup> * 2<sup>7</sup> = 2<sup>9</sup></li>
@@ -39,6 +41,8 @@ class ExponentRules extends React.Component {
                     <p className='p-body-small'>
                         <b>The Quotient Rule:  </b> When you have two or more of the <i>same</i> bases being divided, you subtract the exponenets.
                     </p>
+                </div>
+                <div className='row'>
                     <ul className='p-body'>
                         <li>x<sup>5</sup> / x<sup>3</sup> = x<sup>2</sup></li>
                         <li>5<sup>10</sup> / 5<sup>8</sup> = 5<sup>2</sup></li>
@@ -49,6 +53,8 @@ class ExponentRules extends React.Component {
                     <p className='p-body-small'>
                         <b>The Power Rule:  </b> When an exponent is being raised to the power of another exponent, you multiply the exponents.
                     </p>
+                </div>
+                <div className='row'>
                     <ul className='p-body'>
                         <li>(y<sup>3</sup>)<sup>4</sup> = y<sup>12</sup></li>
                         <li>(3<sup>2</sup>)<sup>2</sup> = 3<sup>4</sup></li>
@@ -59,6 +65,8 @@ class ExponentRules extends React.Component {
                     <p className='p-body-small'>
                         <b>The Zero Exponent Rule:  </b> When a number is raised to the 0 power, the result is just 1.
                     </p>
+                </div>
+                <div className='row'>
                     <ul className='p-body'>
                         <li>y<sup>0</sup> = 1</li>
                         <li>1452<sup>0</sup> = 1</li>
@@ -69,6 +77,8 @@ class ExponentRules extends React.Component {
                     <p className='p-body-small'>
                         <b>The Negative Exponent Rule:  </b> When a number is raised to a negative power, you take the reciprical, and the new exponent flips sign.
                     </p>
+                </div>
+                <div className='row'>
                     <ul className='p-body'>
                         <li>y<sup>0</sup> = 1</li>
                         <li>1452<sup>0</sup> = 1</li>
