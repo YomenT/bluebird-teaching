@@ -27,7 +27,7 @@ class ExponentRules extends React.Component {
 
                 <div className='row'>
                     <p className='p-body-small'>
-                        <b>The Exponent Rule:  </b> When you have two or more of the <i>same</i> bases being multiplied together, you add the exponenets.
+                        <b>The Product Rule:  </b> When you have two or more of the <i>same</i> bases being multiplied together, you add the exponenets.
                     </p>
                 </div>
                 <div className='row'>
@@ -80,9 +80,23 @@ class ExponentRules extends React.Component {
                 </div>
                 <div className='row'>
                     <ul className='p-body'>
-                        <li>y<sup>0</sup> = 1</li>
-                        <li>1452<sup>0</sup> = 1</li>
+                        <li>y<sup>-2</sup> = 1/y<sup>2</sup></li>
+                        <li>3<sup>-4</sup> = 1/3<sup>-4</sup></li>
                     </ul>
+                </div>
+
+                <div className='row'>
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+                </div>
+                <div className='row'>
+                    <p className='p-body'>
+                        With these questions, you don't have to solve all the way.  Basically, I don't want you to bother applying the exponent.  Just do what we've seen in the examples above; stop when the last step is just applying the exponent.
+                    </p>
+                </div>
+                <div className='row'>
+                    <p className='p-body'>
+                        1.  9  
+                    </p>
                 </div>
 
             </div>
