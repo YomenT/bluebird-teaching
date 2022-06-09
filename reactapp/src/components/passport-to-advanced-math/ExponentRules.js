@@ -108,7 +108,6 @@ class ExponentRules extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>3</sup></p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>2</sup></p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>D) x</p>
-
             </div>
         )
     }
