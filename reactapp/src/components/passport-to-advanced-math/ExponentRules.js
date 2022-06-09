@@ -90,14 +90,24 @@ class ExponentRules extends React.Component {
                 </div>
                 <div className='row'>
                     <p className='p-body'>
-                        With these questions, you don't have to solve all the way.  Basically, I don't want you to bother applying the exponent.  Just do what we've seen in the examples above; stop when the last step is just applying the exponent.
+                        With these questions, you don't have to solve all the way.  Basically, I don't want you to bother applying the exponent itself.  Just 
+                        do what we've seen in the examples above; stop when the last step is just applying the exponent.  Use the answer choices below to 
+                        guide you if you're stuck.
                     </p>
                 </div>
                 <div className='row'>
                     <p className='p-body'>
-                        1.  9  
+                        <div className='q' >1.  Simplify: &nbsp;</div>
+                        <div className='frac'>
+                            <div className='numer'>x<sup>4</sup> * x<sup>2</sup></div>
+                            <div className='denom'>x<sup>5</sup></div>
+                        </div>
                     </p>
                 </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A) x<sup>4</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>3</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>2</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D) x</p>
 
             </div>
         )

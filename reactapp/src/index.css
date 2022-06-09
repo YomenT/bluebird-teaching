@@ -272,3 +272,24 @@ input[type='checkbox'] {
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
 }
+
+/* Fractions */
+
+div.q {
+  float: left;
+  height: 2em;
+  padding: 0.75em 0 0.75em 0;
+}
+
+div.frac {
+  float: left;
+  text-align: center;
+}
+
+div.numer {
+  border-bottom: 1px solid black;
+}
+
+div.denom {
+  border-top: 1px solid black;
+}
