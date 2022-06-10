@@ -88,6 +88,7 @@ class ExponentRules extends React.Component {
                 <div className='row'>
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
                 </div>
+
                 <div className='row'>
                     <p className='p-body'>
                         With these questions, you don't have to solve all the way.  Basically, I don't want you to bother applying the exponent itself.  Just 
@@ -95,19 +96,43 @@ class ExponentRules extends React.Component {
                         guide you if you're stuck.
                     </p>
                 </div>
+
+                <div className='row'>
+                    <p className='p-body'>1.  Simplify: x<sup>4</sup> * x<sup>2</sup></p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A) x<sup>6</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>5</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>4</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D) x<sup>3</sup></p>
+                
+                <div className='row'>
+                    <p className='p-body'>2.  Simplify: (x<sup>2</sup>)<sup>7</sup></p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A) x<sup>15</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>14</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>9</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D) x<sup>8</sup></p>
+
                 <div className='row'>
                     <p className='p-body'>
-                        <div className='q' >1.  Simplify: &nbsp;</div>
+                    <div className='q'>3.  This one might be a bit harder, but you've got this!  Simplify: &nbsp;</div>
                         <div className='frac'>
-                            <div className='numer'>x<sup>4</sup> * x<sup>2</sup></div>
+                            <div className='numer'>x<sup>2</sup></div>
                             <div className='denom'>x<sup>5</sup></div>
                         </div>
                     </p>
                 </div>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A) x<sup>4</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>3</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>2</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D) x</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A) x<sup>10</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>7</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>-3</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>
+                <div className='q'>D) &nbsp;</div>
+                    <div className='frac'>
+                        <div className='numer'>1</div>
+                        <div className='denom'>x<sup>3</sup></div>
+                    </div>
+                </p>
+
             </div>
         )
     }
