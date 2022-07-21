@@ -132,7 +132,12 @@ class ExponentRules extends React.Component {
                         <div className='denom'>x<sup>3</sup></div>
                     </div>
                 </p>
-
+                <h4 className="h4-blue-headers" style={{ paddingTop: "150px" }}>Create it!</h4>
+                <p className="p-body">
+                    While we're going to look at harder exponent problems that involve multiple rules, it all still stems down to these 5 rules.  Try 
+                    to create some sort of way to remember these 5 rules.  A classic way would be flash cards; there are also online alternatives 
+                    like Quizlet.  Feel free to stick with the classics or get creative!
+                </p>
             </div>
         )
     }
