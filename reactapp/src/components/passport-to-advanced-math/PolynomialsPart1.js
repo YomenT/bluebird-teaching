@@ -51,6 +51,28 @@ class PolynomialsPart1 extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  41y</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  40y</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  39y</p>
+
+                <div className="row">
+                    <p className="p-body">2.  8x - 4x - 3</p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  5x - 3</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  4x - 3</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  5x</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  4x</p>
+
+                <div className="row">
+                    <p className="p-body">3.  4x + 3y + 2x - y<sup>2</sup></p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  6x + 3y - y<sup>2</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  6x - 2y</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  6x - 2y<sup>2</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  6x + 4y - y<sup>2</sup></p>
+
+                <div className="row">
+                    <p className="p-body">
+                        4.  Even if you've already watched the full video, go back to original problem from the video above and try it on your own.
+                    </p>
+                </div>
             </div>
         )
     }
