@@ -42,6 +42,9 @@ class PolynomialsPart1 extends React.Component {
                     <p className='p-body'>
                         Simplify the following expressions as much as possible by combining like terms.
                     </p>
+                    <p className="p-body-small">
+                        Remember you can reach out anytime you have any questions!  Just head over to "contact us" at the bottom right of this page.
+                    </p>
                 </div>
 
                 <div className='row'>
@@ -73,6 +76,25 @@ class PolynomialsPart1 extends React.Component {
                         4.  Even if you've already watched the full video, go back to original problem from the video above and try it on your own.
                     </p>
                 </div>
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "150px" }}>Create it!</h4>
+                <p className="p-body">
+                    Let's make a very simple game with what we've learned.
+                </p>
+                <ol className="p-body">
+                    <li>Gather about 10 to 15 flash cards.</li>
+                    <li>Write a random term (-10, 4x, -7y, 958xyz, etc) on one side of each flash card; leave the other side blank.</li>
+                    <li>Shuffle the flash cards.</li>
+                    <li>Set all the flash cards face down on a surface, so that all you see is the blank side.</li>
+                    <li>
+                        For as many times as you like, randomly select any number of flash cards, and turn them over to see the terms.  
+                        Move the flash cards around to make an expression with the terms, and see if you can combine any like terms.
+                    </li>
+                </ol>
+                <p className="p-body">
+                    If you like, you can try practice this with someone else.  Feel free to reach out if you have any questions; also feel free to share any pictures 
+                    of the game with us!
+                </p>
             </div>
         )
     }
