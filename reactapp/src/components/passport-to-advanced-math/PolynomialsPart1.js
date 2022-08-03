@@ -27,7 +27,30 @@ class PolynomialsPart1 extends React.Component {
                             url="https://youtu.be/FNnmseBlvaY"
                         />
                     </div>
+                    <p className="p-body">
+                        Keep in mind that in the SAT, you're probably not going to get a lot of questions where you just have to combine like terms.  Combining 
+                        like terms is a skill we need to develop to work with harder problems; it's something you're usually going to want to do whenever 
+                        working with expressions in the SAT.
+                    </p>
                 </div>
+
+                <div className='row'>
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+                </div>
+
+                <div className='row'>
+                    <p className='p-body'>
+                        Simplify the following expressions as much as possible by combining like terms.
+                    </p>
+                </div>
+
+                <div className='row'>
+                    <p className='p-body'>1.  91y + 4y - 54y</p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  42y</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  41y</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  40y</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  39y</p>
             </div>
         )
     }
