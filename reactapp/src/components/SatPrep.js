@@ -21,6 +21,7 @@ import GraphingSystemsOfLinearInequalities from './GraphingSystemsOfLinearInequa
 import PassportToAdvancedMathIntroduction from "./passport-to-advanced-math/PassportToAdvancedMathIntroduction.js";
 import ExponentRules from "./passport-to-advanced-math/ExponentRules";
 import ExponentRules2 from "./passport-to-advanced-math/ExponentRules2";
+import PolynomialsPart1 from "./passport-to-advanced-math/PolynomialsPart1";
 
 class SatPrep extends React.Component {
 
@@ -190,6 +191,7 @@ class SatPrep extends React.Component {
                                 }}>
                                     <div style={{ marginLeft: "5%", marginRight: "5%" }}>
                                         <PassportToAdvancedMathIntroduction />
+                                        <PolynomialsPart1 />
                                         <ExponentRules />
                                         <ExponentRules2 />
                                     </div>
