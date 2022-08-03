@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
 class PolynomialsPart1 extends React.Component {
     render() {
@@ -18,8 +19,14 @@ class PolynomialsPart1 extends React.Component {
                     </p>
                     <p className="p-body-small">
                         In an expression, terms can combine if they have the same variable (or no variable), <strong>and</strong> they have the same exponent.  
-                        Click <a href={"https://www.mathsisfun.com/definitions/like-terms.html"} target={"_blank"} className="anchor">here</a> for a website that gives a nice summary.
+                        Click <a href={"https://www.mathsisfun.com/definitions/like-terms.html"} target={"_blank"} className="anchor">here</a> for a website that gives a nice 
+                        summary.  Also, take a look at the following video.  The speaker goes through a nice challenging problem for you.  
                     </p>
+                    <div>
+                        <ReactPlayer 
+                            url="https://youtu.be/FNnmseBlvaY"
+                        />
+                    </div>
                 </div>
             </div>
         )
