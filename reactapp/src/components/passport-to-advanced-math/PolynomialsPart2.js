@@ -55,6 +55,41 @@ class PolynomialsPart2 extends React.Component {
                         width={350}
                         height={350} />
                 </div>
+
+                <div className="row">
+                    <p className="p-body">
+                        Now let's look at another question.  Instead of adding sets of terms, we're gonna try subtracting.
+                    </p>
+                </div>
+
+                <div className="row">
+                    <p className="p-body-small">
+                        Again, original question is in yellow, and the final answer is in blue.
+                    </p>
+                    <ol className="p-body">
+                        <li>
+                            <strong>This time, we can't just drop the paranthesis</strong>.  Think of it as almost having another added step.
+                        </li>
+                    </ol>
+                </div>
+
+                <div className='row'>
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+                </div>
+
+                <div className="row">
+                    <p className="p-body-small">
+                        Always remember you can reach out for any help through the email in "Contact Us" at the bottom right of this page :)
+                    </p>
+                </div>
+
+                {/* <div className='row'>
+                    <p className='p-body'>1.  91y + 4y - 54y</p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  42y</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  41y</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  40y</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  39y</p> */}
             </div>
         )
     }
