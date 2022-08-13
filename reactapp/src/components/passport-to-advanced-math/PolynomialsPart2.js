@@ -57,7 +57,7 @@ class PolynomialsPart2 extends React.Component {
                 </div>
 
                 <div className="row">
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         Now let's look at another question.  Instead of adding sets of terms, we're gonna try subtracting.
                     </p>
                 </div>
