@@ -7,7 +7,7 @@ class PolynomialsPart2 extends React.Component {
                 <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
 
                 <div className="row">
-                    <h3 className="h3-blue-headers">Polynomials Part 2: Adding Monomials, Binomials, and Polynomials</h3>
+                    <h3 className="h3-blue-headers">Polynomials Part 2: Adding/Subtracting Monomials, Binomials, and Polynomials</h3>
                 </div>
 
                 <div className="row">
