@@ -77,7 +77,7 @@ class PolynomialsPart1 extends React.Component {
                     </p>
                 </div>
 
-                <h4 className="h4-blue-headers" style={{ paddingTop: "150px" }}>Create it!</h4>
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
                 <p className="p-body">
                     Let's make a very simple game with what we've learned.
                 </p>
