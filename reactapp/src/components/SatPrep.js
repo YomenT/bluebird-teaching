@@ -22,6 +22,7 @@ import PassportToAdvancedMathIntroduction from "./passport-to-advanced-math/Pass
 import ExponentRules from "./passport-to-advanced-math/ExponentRules";
 import ExponentRules2 from "./passport-to-advanced-math/ExponentRules2";
 import PolynomialsPart1 from "./passport-to-advanced-math/PolynomialsPart1";
+import PolynomialsPart2 from "./passport-to-advanced-math/PolynomialsPart2";
 
 class SatPrep extends React.Component {
 
@@ -192,6 +193,7 @@ class SatPrep extends React.Component {
                                     <div style={{ marginLeft: "5%", marginRight: "5%" }}>
                                         <PassportToAdvancedMathIntroduction />
                                         <PolynomialsPart1 />
+                                        <PolynomialsPart2 />
                                         <ExponentRules />
                                         <ExponentRules2 />
                                     </div>
