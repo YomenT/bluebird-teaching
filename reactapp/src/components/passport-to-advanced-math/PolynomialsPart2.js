@@ -28,7 +28,7 @@ class PolynomialsPart2 extends React.Component {
                     </p>
 
                     <img 
-                        src={"https://ibb.co/kx7DXMt"}
+                        src={"https://i.ibb.co/vHFdkDS/Adding-Polynomials1.png"}
                         alt="Function Notation"
                         width={350}
                         height={350} />
