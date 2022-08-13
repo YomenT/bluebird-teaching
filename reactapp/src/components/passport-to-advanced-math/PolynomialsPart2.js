@@ -27,8 +27,28 @@ class PolynomialsPart2 extends React.Component {
                         just one term (a monomial) with a set of three terms (a trinomial/polynomial), etc.
                     </p>
 
+                    <p className="p-body">
+                        Let's take a look at the image below.
+                    </p>
+
+                    <p className="p-body-small">
+                        The original question is in yellow, and the final answer is in blue.
+                    </p>
+                    <ol className="p-body">
+                        <li>
+                            Sine the two sets of terms in parenthesis are being added, we can actually just drop the parenthesis around all of the sets of terms; 
+                            we keep all of the signs the same.
+                        </li>
+                        <li>That was the added step at the beginning that we mentioned.  From here, we combine like terms like we're used to.</li>
+                        <li>The only like terms are the 3x and -2x.</li>
+                        <li>
+                            Combining them (subtracting them because of the negative in front of the 2x) gives us our final answer of just x + y.  There's nothing 
+                            more that we can combine.
+                        </li>
+                    </ol>
+
                     <img 
-                        src={"https://i.ibb.co/vHFdkDS/Adding-Polynomials1.png"}
+                        src={"https://i.ibb.co/q9M24cN/Adding-Polynomials2.png"}
                         alt="Function Notation"
                         width={350}
                         height={350} />
