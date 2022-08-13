@@ -30,7 +30,9 @@ class PolynomialsPart2 extends React.Component {
                     <p className="p-body">
                         Let's take a look at the image below.
                     </p>
+                </div>
 
+                <div className="row">
                     <p className="p-body-small">
                         The original question is in yellow, and the final answer is in blue.
                     </p>
