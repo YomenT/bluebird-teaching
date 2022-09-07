@@ -10,7 +10,9 @@ class Logo extends React.Component {
                     <img
                         style={{ marginBottom: "0px" }}
                         src={require('../Images/BlueBird-Secondary-Logo-Color.png')}
-                        alt="Open" />
+                        alt="Open"
+                        width={125}
+                        height={75} />
                     </Link>
                 </div>
                 <div style={{ textAlign: "right" }}>
