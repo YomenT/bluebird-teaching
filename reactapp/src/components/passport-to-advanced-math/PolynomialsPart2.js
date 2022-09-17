@@ -83,13 +83,13 @@ class PolynomialsPart2 extends React.Component {
                     </p>
                 </div>
 
-                {/* <div className='row'>
-                    <p className='p-body'>1.  91y + 4y - 54y</p>
+                <div className='row'>
+                    <p className='p-body'>1.  4x - (3y + 1)</p>
                 </div>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  42y</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  41y</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  40y</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  39y</p> */}
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  4x - 3y + 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  4x + 3y + 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  4x + 3y - 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  4x - 3y - 1</p>
             </div>
         )
     }
