@@ -38,7 +38,7 @@ class PolynomialsPart2 extends React.Component {
                     </p>
                     <ol className="p-body">
                         <li>
-                            Sine the two sets of terms in parenthesis are being added, we can actually just drop the parenthesis around all of the sets of terms; 
+                            Since the two sets of terms in parenthesis are being added, we can actually just drop the parenthesis around all of the sets of terms; 
                             we keep all of the signs the same.
                         </li>
                         <li>That was the added step at the beginning that we mentioned.  From here, we combine like terms like we're used to.</li>
