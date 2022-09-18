@@ -70,7 +70,18 @@ class PolynomialsPart2 extends React.Component {
                         <li>
                             <strong>This time, we can't just drop the paranthesis</strong>.  Think of it as almost having another added step.
                         </li>
+                        <li>
+                            You have to actually distribute the minus sign to each value inside the following paranthesis.  Think of it as multiplying everything within the 
+                            following paranthesis by -1.
+                        </li>
+                        <li>Once the negative sign in front of the parenthesis has been distributed, combine like terms as you normally would.</li>
                     </ol>
+
+                    <img 
+                        src={"https://i.ibb.co/YNYnSWh/Adding-Polynomials3.png"}
+                        alt="Function Notation"
+                        width={350}
+                        height={350} />
                 </div>
 
                 <div className='row'>
@@ -84,12 +95,53 @@ class PolynomialsPart2 extends React.Component {
                 </div>
 
                 <div className='row'>
-                    <p className='p-body'>1.  4x - (3y + 1)</p>
+                    <p className='p-body'>1.  (7y - y) + (3x - 1)</p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  8y + 3x + 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  6y + 3x + 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  8y + 3x - 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  6y + 3x - 1</p>
+
+                <div className='row'>
+                    <p className='p-body'>2.  4x - (3y + 1)</p>
                 </div>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  4x - 3y + 1</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  4x + 3y + 1</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  4x + 3y - 1</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  4x - 3y - 1</p>
+
+                <div className="row">
+                    <p className="p-body">3.  (12y - x) - (2x + 3y)</p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  9y - 3x</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  9y + x</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  15y - 3x</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  15y + x</p>
+
+                <div className="row">
+                    <p className="p-body">4.  (x - y) - (4x - y + 1)</p>
+                </div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  -5x + 2y -1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  -3x - 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  5x - 2y + 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  -3x + y - 1</p>
+
+                <div className="row">
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+                </div>
+
+                <div className="row">
+                    <p className="p-body">
+                        We just learned about adding and subtracting polynomials.  Up next is multiplying polynomials.  
+                    </p>
+
+                    <p className="p-body-small">
+                        Since we're learning about polynomials in parts like this, I think it might be a nice idea to create a sort of summary of what we've learned in 
+                        this section; we'll continue to add to it in the next section on multiplying polynomials.  You can get creative in creating this summary: it can 
+                        be an infographic, a paragraph on a paper, a verbal summary, etc.  Just try to at least mention the steps to adding and subtracting polynomials 
+                        somewhere in your summary.  Once you've done it, please feel free to share it with us!
+                    </p>
+                </div>
             </div>
         )
     }
