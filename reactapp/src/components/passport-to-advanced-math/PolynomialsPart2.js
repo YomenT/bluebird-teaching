@@ -80,7 +80,7 @@ class PolynomialsPart2 extends React.Component {
                     <img 
                         src={"https://i.ibb.co/YNYnSWh/Adding-Polynomials3.png"}
                         alt="Function Notation"
-                        width={350}
+                        width={425}
                         height={350} />
                 </div>
 
