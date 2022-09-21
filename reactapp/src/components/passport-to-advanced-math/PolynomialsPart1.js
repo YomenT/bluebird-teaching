@@ -27,7 +27,7 @@ class PolynomialsPart1 extends React.Component {
                             url="https://youtu.be/FNnmseBlvaY"
                         />
                     </div>
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         Keep in mind that in the SAT, you're probably not going to get a lot of questions where you just have to combine like terms.  Combining 
                         like terms is a skill we need to develop to work with harder problems; it's something you're usually going to want to do whenever 
                         working with expressions in the SAT.

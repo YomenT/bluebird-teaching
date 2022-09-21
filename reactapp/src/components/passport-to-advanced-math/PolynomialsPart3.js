@@ -35,7 +35,7 @@ class PolynomialsPart3 extends React.Component {
                         />
                     </div>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
                         The FOIL method applies to multiplying binomials, but we really just use the same way of thinking for multiplying all other groups of terms 
                         (polynomials).  No matter the number of terms in the parentheses, start from the left and multiply one term at a time with the rest of the 
                         terms in the second set of parentheses.
@@ -44,7 +44,7 @@ class PolynomialsPart3 extends React.Component {
                     <img 
                         src={"https://i.ibb.co/k2HXvyz/PNG-image-4.png"}
                         alt="Function Notation"
-                        width={350}
+                        width={500}
                         height={350} />
                 </div>
 
