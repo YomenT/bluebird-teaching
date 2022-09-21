@@ -25,10 +25,10 @@ class FactoringPart1 extends React.Component {
                     <img 
                         src={"https://i.ibb.co/zPgXYBz/Factoring1.png"}
                         alt="Function Notation"
-                        width={500}
-                        height={350} />
+                        width={600}
+                        height={550} />
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
                         To find the x-intercept in a linear equation, we set y equal to zero.  We're doing the exact same thing when we factor.  We 
                         solve the equation for y, set the whole equation equal to zero, and we factor.  That's why "solutions" to a quadratic equation 
                         means the same thing as the x-intercepts.  When you use factoring to solve a quadratic equation, you are also finding the 
