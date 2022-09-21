@@ -89,3 +89,5 @@ class PolynomialsPart3 extends React.Component {
         )
     }
 }
+
+export default PolynomialsPart3
