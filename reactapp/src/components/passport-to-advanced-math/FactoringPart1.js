@@ -46,11 +46,11 @@ class FactoringPart1 extends React.Component {
                     <p className="p-body-small">
                         Take a look at the steps below.  They may not make much sense at first, but just read them over now and keep them in mind.
                     </p>
-                    <ul className="p-body">
-                        <li>1.  If needed, get the quadratic equation into standard form.</li>
-                        <li>2.  Factor</li>
-                        <li>3.  Take each factor and set it equal to zero to get your solutions.</li>
-                    </ul>
+                    <ol className="p-body">
+                        <li>If needed, get the quadratic equation into standard form.</li>
+                        <li>Factor</li>
+                        <li>Take each factor and set it equal to zero to get your solutions.</li>
+                    </ol>
                 </div>
             </div>
         )
