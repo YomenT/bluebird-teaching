@@ -34,6 +34,14 @@ class FactoringPart1 extends React.Component {
                         means the same thing as the x-intercepts.  When you use factoring to solve a quadratic equation, you are also finding the 
                         x-intercepts.
                     </p>
+
+                    <p className="p-body">
+                        Keep in mind that factoring is actually just one way of solving quadratic equations.  There are two other ways: the quadratic formula, and 
+                        another method called "completing the square".  We'll learn more about those two later.  There are three methods in total; again, all for 
+                        the same purpose of solving a quadratic equation.
+                    </p>
+
+                    <p className="p-body">Enough with the theory, let's see how factoring is actually done.</p>
                 </div>
             </div>
         )
