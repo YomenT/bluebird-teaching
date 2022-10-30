@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'react-image-resizer'
 
 class PolynomialsPart2 extends React.Component {
     render() {
@@ -49,8 +50,8 @@ class PolynomialsPart2 extends React.Component {
                         </li>
                     </ol>
 
-                    <img 
-                        src={"https://i.ibb.co/q9M24cN/Adding-Polynomials2.png"}
+                    <Image 
+                        img src={"https://i.ibb.co/q9M24cN/Adding-Polynomials2.png"}
                         alt="Function Notation"
                         width={350}
                         height={350} />
