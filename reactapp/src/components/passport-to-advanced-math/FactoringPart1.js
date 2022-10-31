@@ -41,6 +41,18 @@ class FactoringPart1 extends React.Component {
                 <p className="p-body">Enough with the theory, let's see how factoring is actually done.</p>
 
                 <p className="p-body-small">
+                    Let's start by watching the video below.  For those of you that are already pretty comfortable with facotring, feel free to go on to 
+                    the Try It problems right after.  For those of you that want a little bit more of a breakdown/explanation, feel free to look at the material 
+                    after the video below and before the Try It section.
+                </p>
+
+                <div>
+                    <ReactPlayer 
+                        url="https://www.youtube.com/watch?v=Axv7cqezipY"
+                    />
+                </div>
+
+                <p className="p-body-small">
                     Take a look at the steps below.  They may not make much sense at first, but just read them over now and keep them in mind.
                 </p>
                 <ol className="p-body">
