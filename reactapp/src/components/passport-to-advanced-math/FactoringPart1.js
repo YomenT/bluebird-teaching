@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
 class FactoringPart1 extends React.Component {
     render() {
