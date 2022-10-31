@@ -49,7 +49,7 @@ class FactoringPart1 extends React.Component {
 
                 <div>
                     <ReactPlayer 
-                        url="https://www.youtube.com/watch?v=Axv7cqezipY"
+                        url="https://www.youtube.com/watch?v=-4jANGlJRSY&t=1s"
                     />
                 </div>
 
