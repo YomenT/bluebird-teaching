@@ -53,7 +53,7 @@ class FactoringPart1 extends React.Component {
                     />
                 </div>
 
-                <p className="p-body-small">
+                <p className="p-body-small" style={{ paddingTop: "25px" }}>
                     Take a look at the steps below.  They may not make much sense at first, but just read them over now and keep them in mind.
                 </p>
                 <ol className="p-body">
