@@ -70,6 +70,18 @@ class FactoringPart1 extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x + 7)(x + 7)</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (x - 7)(x - 7)</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (x + 7)(x - 7)</p>
+
+                <p className='p-body'>2.  Solve the following quadratic equation for the x-intercepts: 2x<sup>2</sup> - 14x + 24</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = -3 and x = 4</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = 3 and x = -4</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = -3 and x = -4</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 3 and x = 4</p>
+
+                <p className='p-body'>2.  Factor the trinomial: 6x<sup>2</sup> + 11x - 10</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (-3x - 2)(2x + 5)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (3x + 2)(2x - 5)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (3x - 2)(2x + 5)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (3x - 2)(-2x + 5)</p>
             </div>
         )
     }
