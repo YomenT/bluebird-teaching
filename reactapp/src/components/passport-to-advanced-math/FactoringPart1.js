@@ -54,13 +54,22 @@ class FactoringPart1 extends React.Component {
                 </div>
 
                 <p className="p-body-small" style={{ paddingTop: "25px" }}>
-                    Take a look at the steps below.  They may not make much sense at first, but just read them over now and keep them in mind.
+                    In the video, the speaker goes through many examples you might encounter when factoring a trinomial.  However, try to make a summary of this video.  Try 
+                    to think of a set of steps you'd use to summarize factoring a trinomial.  You'll actually be doing this in the Create It section too.
                 </p>
-                <ol className="p-body">
-                    <li>If needed, get the quadratic equation into standard form.</li>
-                    <li>Factor</li>
-                    <li>Take each factor and set it equal to zero to get your solutions.</li>
-                </ol>
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                <p className="p-body-small">
+                    Some of the questions are going to ask you to factor, and some of them are going to ask you to solve.  When in doubt, use the answer choices to guide 
+                    you, but factoring means just finding the factors, and solving means finding the x-intercepts.  Answer choices that involve solving would look like 
+                    "x = some number".
+                </p>
+
+                <p className='p-body'>1.  Factor the trinomial: x<sup>2</sup> - 14x + 49</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x + 7)(x + 7)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (x - 7)(x - 7)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (x + 7)(x - 7)</p>
             </div>
         )
     }
