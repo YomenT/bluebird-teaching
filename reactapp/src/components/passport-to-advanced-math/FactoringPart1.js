@@ -82,6 +82,22 @@ class FactoringPart1 extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (3x + 2)(2x - 5)</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (3x - 2)(2x + 5)</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (3x - 2)(-2x + 5)</p>
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                <p className="p-body">
+                    If you didn't already, go back and try to create your own set of steps to factoring.
+                </p>
+
+                <p className="p-body-small">
+                    Try to take different cases into consideration.  What if the first value in the front is greater than one?  Does it change anything if the 
+                    value in the front is negative?  As a bonus, consider if the quadratic equation looked a little different that what we've seen in the sample 
+                    problems.  What if the quadratic equation in the question looked like x<sup>2</sup> + 49 = 14?
+                </p>
+
+                <p className="p-body">
+                    Once you've got your set of steps, feel free to share them with us for feedback!
+                </p>
             </div>
         )
     }
