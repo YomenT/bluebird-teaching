@@ -7,7 +7,7 @@ class FactoringPart1 extends React.Component {
             <div>
                 <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
 
-                <h3 className="h3-blue-headers">Factoring Part 1: Difference of Perfect Squares</h3>
+                <h3 className="h3-blue-headers">Factoring Part 1: Factoring Trinomials</h3>
                 
                 <p className="p-body">
                     You've probably heard of factoring before, but I think that a lot of people learn to use factoring, but they don't really know the 
