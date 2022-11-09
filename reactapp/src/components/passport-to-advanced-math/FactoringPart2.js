@@ -31,6 +31,27 @@ class FactoringPart2 extends React.Component {
                 <p className='p-body-small'>
                     <i>Remember that taking the square root of a positive numbers yields two answers: one positive and one negative.</i>
                 </p>
+
+                <p className='p-body'>
+                    If I asked you to factor the binomial, it would still be very easy.  The factors would simply be (x + 4) and (x - 4).  You can get that by reverse 
+                    engineering from the solutions that we got.  
+                </p>
+
+                <p className="p-body-small">
+                    Below are the <strong>requirements</strong> to factoring a binomial using difference of perfect squares.
+                </p>
+                <ol className="p-body">
+                    <li>All terms in the binomial must be perfect squares.  This means the square root is a whole number; not some long decimal.</li>
+                    <li>
+                        The two terms in the binomial must be subtracted from each other.  This method doesn't apply if the two terms in 
+                        the binomial are being added.  Below are some examples.
+                    </li>
+                    <ul>
+                        <li>x<sup>2</sup> - 64 = 0</li>
+                        <li>x<sup>2</sup> - 9 = 0</li>
+                        <li>x<sup>2</sup> - 25 = 0</li>
+                    </ul>
+                </ol>
                     
             </div>
         )
