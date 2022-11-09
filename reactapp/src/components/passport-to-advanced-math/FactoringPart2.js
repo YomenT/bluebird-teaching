@@ -27,6 +27,10 @@ class FactoringPart2 extends React.Component {
                     alt="Function Notation"
                     width={350}
                     height={350} />
+
+                <p className='p-body-small'>
+                    <i>Remember that taking the square root of a positive numbers yields two answers: one positive and one negative.</i>
+                </p>
                     
             </div>
         )
