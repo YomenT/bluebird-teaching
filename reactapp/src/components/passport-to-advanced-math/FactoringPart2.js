@@ -71,7 +71,7 @@ class FactoringPart2 extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 1 and x = -1</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = 1 and x = 1</p>
 
-                <p className='p-body'>3.  Solve the following binomial: 9x<sup>2</sup> - 1</p>
+                <p className='p-body'>3.  Solve the following binomial: 9x<sup>2</sup> - 1 = 0</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (3x + 1)(3x - 1)</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (3x + 1)(3x + 1)</p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 1/3 and x = -1/3</p>
