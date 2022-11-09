@@ -53,6 +53,46 @@ class FactoringPart2 extends React.Component {
                     </ul>
                 </ol>
                     
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                <p className='p-body-small'>
+                    Always remember that you can reach out anytime you get stuck!
+                </p>
+
+                <p className='p-body'>1.  Factor the following binomial: x<sup>2</sup> - 36 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x - 6)(x + 6)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (x - 6)(x - 6)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 6 and x = -6</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = -6 and x = -6</p>
+
+                <p className='p-body'>2.  Factor the following binomial: x<sup>2</sup> - 1 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x + 1)(x + 1)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (x - 1)(x + 1)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 1 and x = -1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = 1 and x = 1</p>
+
+                <p className='p-body'>3.  Solve the following binomial: 9x<sup>2</sup> - 1</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (3x + 1)(3x - 1)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (3x + 1)(3x + 1)</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 1/3 and x = -1/3</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = 1/3 and x = 1/3</p>
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                <p className='p-body'>
+                    How come this method of factoring (difference of perfect squares) only works when we have a binomial where the two terms are being subtracted?  Why 
+                    can't we factor the same way when the two terms are being added?  Basically, why can't we use the same approach to factoring with something like 
+                    x + 16 = 0?  
+                </p>
+
+                <p className='p-body-small'>
+                    Try this out and come write a brief explanation as to why difference of perfect squares doesn't work on the above example equation.  Once you're done, 
+                    share it with us!  
+                </p>
+
+                <p className='p-body-small'>
+                    If you're not sure how to start, try <strong>solving</strong> that equation above (x + 16 = 0); using the method that we talked about at the very beginning.  
+                </p>
             </div>
         )
     }
