@@ -26,6 +26,7 @@ import PolynomialsPart2 from "./passport-to-advanced-math/PolynomialsPart2";
 import PolynomialsPart3 from "./passport-to-advanced-math/PolynomialsPart3";
 import FactoringPart1 from "./passport-to-advanced-math/FactoringPart1";
 import FactoringPart2 from "./passport-to-advanced-math/FactoringPart2";
+import QuadraticFunctionPart1 from "./passport-to-advanced-math/QuadraticFunctionPart1";
 
 class SatPrep extends React.Component {
 
@@ -198,6 +199,7 @@ class SatPrep extends React.Component {
                                         <PolynomialsPart1 />
                                         <PolynomialsPart2 />
                                         <PolynomialsPart3 />
+                                        <QuadraticFunctionPart1 />
                                         <FactoringPart1 />
                                         <FactoringPart2 />
                                         <ExponentRules />
