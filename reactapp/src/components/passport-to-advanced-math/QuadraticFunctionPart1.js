@@ -55,37 +55,51 @@ class QuadraticFunctionPart1 extends React.Component {
 
                 <img 
                     src={"https://i.ibb.co/3RvFkDf/Standard-Form1.png"}
-                    alt="Sample Quadratic Equation Graph"
-                    width={200}
-                    height={200} />
+                    alt="Standard Form"
+                    width={350}
+                    height={350} />
 
                 <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
 
-                <p className='p-body'>Which of the following represent a graph of a possible quadratic function (Select all that apply)?</p>
+                <p className='p-body'>1.  Which of the following represent a graph of a possible quadratic function (Select all that apply)?</p>
                 <p className="p-body-small">A)</p>
                 <img 
                     src={"https://i.ibb.co/wSYnzm4/Quadratics-Answer2.png"}
-                    alt="Sample Quadratic Equation Graph"
+                    alt="Answer Choice 1"
                     width={200}
                     height={200} />
-                <p className="p-body-small">B)</p>
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
                 <img 
                     src={"https://i.ibb.co/6JhkCBV/Quadratics-Answer3.png"}
-                    alt="Sample Quadratic Equation Graph"
+                    alt="Answer Choice 2"
                     width={200}
                     height={200} />
-                <p className="p-body-small">C)</p>
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
                 <img 
                     src={"https://i.ibb.co/h8NtMB7/Quadratics-Answer1.png"}
-                    alt="Sample Quadratic Equation Graph"
+                    alt="Answer Choice 3"
                     width={200}
                     height={200} />
-                <p className="p-body-small">D)</p>
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
                 <img 
                     src={"https://i.ibb.co/rF4Lqzb/Quadratics-Answer4.png"}
-                    alt="Sample Quadratic Equation Graph"
+                    alt="Answer Choice 4"
                     width={200}
                     height={200} />
+
+                <p className="p-body">2.  Which of the following quadratic equations are written in standard form (Select all that apply)?</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  4x<sup>2</sup> - 4 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  8x - 4 + 3x<sup>2</sup> = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  79x<sup>2</sup> - 1 + x = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>2</sup> - x = 0</p>
+
+                <p className="p-body">3.  Which answer choice below shows the following quadratic equation written in standard form: 6 - 3x = -x<sup>2</sup></p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  -x<sup>2</sup> + 3x - 6 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x<sup>2</sup> + 3x - 6 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  -x<sup>2</sup> - 3x + 6 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>2</sup> - 3x + 6 = 0</p>
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
             </div>
         )
     }
