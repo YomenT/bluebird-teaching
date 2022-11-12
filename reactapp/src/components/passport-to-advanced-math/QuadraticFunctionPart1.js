@@ -43,6 +43,15 @@ class QuadraticFunctionPart1 extends React.Component {
                     <li>-34x<sup>2</sup> = 67 - x</li>
                     <li>9 = x<sup>2</sup></li>
                 </ul>
+
+                <p className="p-body-small">
+                    If an equation is not in standard form, we simply have to move things around until it is.  Take a look at the picture below that shows 
+                    a demonstration of this.
+                </p>
+
+                {/* Image of getting equation into standard form needed. */}
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
             </div>
         )
     }
