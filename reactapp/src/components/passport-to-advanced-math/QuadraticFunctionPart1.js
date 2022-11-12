@@ -62,25 +62,25 @@ class QuadraticFunctionPart1 extends React.Component {
                 <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
 
                 <p className='p-body'>Which of the following represent a graph of a possible quadratic function (Select all that apply)?</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)</p>
+                <p className="p-body-small">A)</p>
                 <img 
                     src={"https://i.ibb.co/wSYnzm4/Quadratics-Answer2.png"}
                     alt="Sample Quadratic Equation Graph"
                     width={200}
                     height={200} />
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)</p>
+                <p className="p-body-small">B)</p>
                 <img 
                     src={"https://i.ibb.co/6JhkCBV/Quadratics-Answer3.png"}
                     alt="Sample Quadratic Equation Graph"
                     width={200}
                     height={200} />
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)</p>
+                <p className="p-body-small">C)</p>
                 <img 
                     src={"https://i.ibb.co/h8NtMB7/Quadratics-Answer1.png"}
                     alt="Sample Quadratic Equation Graph"
                     width={200}
                     height={200} />
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)</p>
+                <p className="p-body-small">D)</p>
                 <img 
                     src={"https://i.ibb.co/rF4Lqzb/Quadratics-Answer4.png"}
                     alt="Sample Quadratic Equation Graph"
