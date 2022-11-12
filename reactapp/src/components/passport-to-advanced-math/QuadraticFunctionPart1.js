@@ -87,17 +87,17 @@ class QuadraticFunctionPart1 extends React.Component {
                     width={200}
                     height={200} />
 
-                <p className="p-body">2.  Which of the following quadratic equations are written in standard form (Select all that apply)?</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  4x<sup>2</sup> - 4 = 0</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  8x - 4 + 3x<sup>2</sup> = 0</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  79x<sup>2</sup> - 1 + x = 0</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>2</sup> - x = 0</p>
+                <p className="p-body" style={{ paddingTop: "25px" }}>2.  Which of the following quadratic equations are written in standard form (Select all that apply)?</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>A)  4x<sup>2</sup> - 4 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>B)  8x - 4 + 3x<sup>2</sup> = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>C)  79x<sup>2</sup> - 1 + x = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>D)  x<sup>2</sup> - x = 0</p>
 
                 <p className="p-body">3.  Which answer choice below shows the following quadratic equation written in standard form: 6 - 3x = -x<sup>2</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  -x<sup>2</sup> + 3x - 6 = 0</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x<sup>2</sup> + 3x - 6 = 0</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  -x<sup>2</sup> - 3x + 6 = 0</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>2</sup> - 3x + 6 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>A)  -x<sup>2</sup> + 3x - 6 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>B)  x<sup>2</sup> + 3x - 6 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>C)  -x<sup>2</sup> - 3x + 6 = 0</p>
+                <p className="p-body-small" style={{ marginLeft: "4%" }}>D)  x<sup>2</sup> - 3x + 6 = 0</p>
 
                 <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
             </div>
