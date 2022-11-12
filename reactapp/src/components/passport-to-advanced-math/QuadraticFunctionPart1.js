@@ -17,7 +17,11 @@ class QuadraticFunctionPart1 extends React.Component {
                     The graph of a quadratic function looks like a "bell curve".  Below are just a few examples.
                 </p>
 
-                {/* Images of example quadratic graphs needed. */}
+                <img 
+                    src={"https://i.ibb.co/dLCzYHH/Screenshot-3.png"}
+                    alt="Sample Quadratic Equation Graph"
+                    width={350}
+                    height={350} />
 
                 <p className="p-body">
                     Quadratic functions also have a standar form of: <strong>ax<sup>2</sup> + bx + c = 0</strong>
@@ -49,9 +53,39 @@ class QuadraticFunctionPart1 extends React.Component {
                     a demonstration of this.
                 </p>
 
-                {/* Image of getting equation into standard form needed. */}
+                <img 
+                    src={"https://i.ibb.co/3RvFkDf/Standard-Form1.png"}
+                    alt="Sample Quadratic Equation Graph"
+                    width={200}
+                    height={200} />
 
                 <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                <p className='p-body'>Which of the following represent a graph of a possible quadratic function (Select all that apply)?</p>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)</p>
+                <img 
+                    src={"https://i.ibb.co/wSYnzm4/Quadratics-Answer2.png"}
+                    alt="Sample Quadratic Equation Graph"
+                    width={200}
+                    height={200} />
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)</p>
+                <img 
+                    src={"https://i.ibb.co/6JhkCBV/Quadratics-Answer3.png"}
+                    alt="Sample Quadratic Equation Graph"
+                    width={200}
+                    height={200} />
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)</p>
+                <img 
+                    src={"https://i.ibb.co/h8NtMB7/Quadratics-Answer1.png"}
+                    alt="Sample Quadratic Equation Graph"
+                    width={200}
+                    height={200} />
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)</p>
+                <img 
+                    src={"https://i.ibb.co/rF4Lqzb/Quadratics-Answer4.png"}
+                    alt="Sample Quadratic Equation Graph"
+                    width={200}
+                    height={200} />
             </div>
         )
     }
