@@ -93,7 +93,7 @@ class QuadraticFunctionPart1 extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%" }}>C)  79x<sup>2</sup> - 1 + x = 0</p>
                 <p className="p-body-small" style={{ marginLeft: "4%" }}>D)  x<sup>2</sup> - x = 0</p>
 
-                <p className="p-body">3.  Which answer choice below shows the following quadratic equation written in standard form: 6 - 3x = -x<sup>2</sup></p>
+                <p className="p-body">3.  Which choice shows the following quadratic equation written in standard form: 6 - 3x = -x<sup>2</sup></p>
                 <p className="p-body-small" style={{ marginLeft: "4%" }}>A)  -x<sup>2</sup> + 3x - 6 = 0</p>
                 <p className="p-body-small" style={{ marginLeft: "4%" }}>B)  x<sup>2</sup> + 3x - 6 = 0</p>
                 <p className="p-body-small" style={{ marginLeft: "4%" }}>C)  -x<sup>2</sup> - 3x + 6 = 0</p>
