@@ -100,6 +100,15 @@ class QuadraticFunctionPart1 extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%" }}>D)  x<sup>2</sup> - 3x + 6 = 0</p>
 
                 <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                <p className="p-body">
+                    Formulate an explanation as to why answer choice A from number 1 in the Try It section is not correct.  
+                </p>
+
+                <p className="p-body-small">
+                    This explanation can be written, verbal, or whatever other method you'd like.  Always feel free to share it with use, too!  <i>If you're stuck, 
+                    try reviewing the very first section under Heart of Algebra: Introduction to Functions.</i>
+                </p>
             </div>
         )
     }
