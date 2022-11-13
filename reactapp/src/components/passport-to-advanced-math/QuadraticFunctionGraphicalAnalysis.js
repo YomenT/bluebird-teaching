@@ -17,6 +17,9 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     look at graphing a quadratic function by hand just yet.  Instead we're just going to do a graphical analysis; for example, what graphical 
                     difference would there be between x<sup>2</sup> + 1 = y and -x<sup>2</sup> + 1 = y?
                 </p>
+
+                <p className="p-body-small"><strong><i>Why are the equations set to y and not 0?</i></strong>  Simply put, when we are factoring/solving, we get all the x's on one side, 
+                and we set the equation equal to 0.  When we are graphing, we still move all the x's to one side, but we set the equation equal to y.</p>
             </div>
         )
     }
