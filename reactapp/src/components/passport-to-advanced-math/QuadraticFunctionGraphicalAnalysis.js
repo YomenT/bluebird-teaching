@@ -35,7 +35,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     width={350}
                     height={350} />
 
-                <p className="p-body">
+                <p className="p-body" style={{ paddingTop: "25px" }}>
                     -x<sup>2</sup> + 1 = y
                 </p>
 
@@ -45,7 +45,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     width={350}
                     height={350} />
 
-                <p className="p-body">
+                <p className="p-body" style={{ paddingTop: "25px" }}>
                     There is only one difference.  The one that had a positive x<sup>2</sup> opened upward, and the one with a negative x<sup>2</sup> opened downward.  Let's 
                     break this down.
                 </p>
