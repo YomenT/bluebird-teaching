@@ -20,6 +20,30 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
 
                 <p className="p-body-small"><strong><i>Why are the equations set to y and not 0?</i></strong>  Simply put, when we are factoring/solving, we get all the x's on one side, 
                 and we set the equation equal to 0.  When we are graphing, we still move all the x's to one side, but we set the equation equal to y.</p>
+
+                <p className="p-body">
+                    Take a look at the graphs below; let's analyze the difference(s).
+                </p>
+
+                <p className="p-body">
+                    x<sup>2</sup> + 1 = y
+                </p>
+
+                <img 
+                    src={"https://i.ibb.co/jzrjpK7/Graphical-Analysis1.png"}
+                    alt="Graphical Analysis 1"
+                    width={350}
+                    height={350} />
+
+                <p className="p-body">
+                    -x<sup>2</sup> + 1 = y
+                </p>
+
+                <img 
+                    src={"https://i.ibb.co/Fzz76Xh/Graphical-Analysis2.png"}
+                    alt="Graphical Analysis 1"
+                    width={350}
+                    height={350} />
             </div>
         )
     }
