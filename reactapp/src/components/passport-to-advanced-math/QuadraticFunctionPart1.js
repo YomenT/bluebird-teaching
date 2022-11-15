@@ -23,7 +23,7 @@ class QuadraticFunctionPart1 extends React.Component {
                     width={350}
                     height={350} />
 
-                <p className="p-body">
+                <p className="p-body" style={{ paddingTop: "25px" }}>
                     Quadratic functions also have a standar form of: <strong>ax<sup>2</sup> + bx + c = 0</strong>
                 </p>
 
