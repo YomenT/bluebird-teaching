@@ -2,11 +2,23 @@ import React from "react";
 
 class QuadraticFunctionPart1 extends React.Component {
     render() {
+
+        // Testing - To Be Removed
+        function findSquare() {
+            document.getElementById("h3testing").innerHTML = "testing";
+        }
+
         return (
             <div>
+                {/* Remove after testing. */}
+                <h1>Testing</h1>
+                <button onClick={findSquare}>Run</button>
+
+
                 <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
                 
-                <h3 className="h3-blue-headers">Introduction to The Quadratic Function</h3>
+                {/* Remove id after testing. */}
+                <h3 className="h3-blue-headers" id="h3testing">Introduction to The Quadratic Function</h3>
 
                 <p className="p-body">
                     The SAT covers quite a bit of ground when it comes to quadratics.  You'll have questions related to graphing quadratics, factoring 
