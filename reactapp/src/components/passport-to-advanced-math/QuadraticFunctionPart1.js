@@ -4,6 +4,8 @@ class QuadraticFunctionPart1 extends React.Component {
     render() {
         return (
             <div>
+                {document.write("hello")}
+
                 <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
                 
                 <h3 className="h3-blue-headers">Introduction to The Quadratic Function</h3>
