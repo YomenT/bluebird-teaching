@@ -82,26 +82,26 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                 <img 
                     src={"https://i.ibb.co/6nK08zq/Graphical-Analysis-Answer1.png"}
                     alt="Answer Choice 1"
-                    width={300}
-                    height={300} />
+                    width={500}
+                    height={500} />
                 <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
                 <img 
                     src={"https://i.ibb.co/YBpbqsF/Graphical-Analysis-Answer2.png"}
                     alt="Answer Choice 2"
-                    width={300}
-                    height={300} />
+                    width={500}
+                    height={500} />
                 <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
                 <img 
                     src={"https://i.ibb.co/WtYJJyq/Graphical-Analysis-Answer3.png"}
                     alt="Answer Choice 3"
-                    width={300}
-                    height={300} />
+                    width={500}
+                    height={500} />
                 <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
                 <img 
                     src={"https://i.ibb.co/NYW3h8z/Graphical-Analysis-Answer4.png"}
                     alt="Answer Choice 4"
-                    width={300}
-                    height={300} />
+                    width={500}
+                    height={500} />
             </div>
         )
     }
