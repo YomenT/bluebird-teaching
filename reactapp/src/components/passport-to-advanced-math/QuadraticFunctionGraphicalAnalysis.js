@@ -6,7 +6,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
             <div>
                 <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
                 
-                <h3 className="h3-blue-headers">A Graphical Analysis of Quadratic Functions</h3>
+                <h3 className="h3-blue-headers">A Graphical Analysis of Quadratic Functions (Part 1)</h3>
 
                 <p className="p-body">
                     We're going to look more into what quadratic equations look like when they are graphed.
@@ -54,6 +54,25 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     Remember the standard form we learned about in the last lesson (ax<sup>2</sup> + bx + c = 0)?  In the equations we used, there is no "bx", but that's not 
                     needed; we'll get into its importance later.  Whether "bx" is there or not, if the "a" value is positive, the graph opens upward; if the "a" value is 
                     negative, the graph opens downward.
+                </p>
+
+                <p className="p-body">
+                    What about the "c" value?
+                </p>
+
+                <p className="p-body-small">
+                    The "c" value dictates the vertical position of the start of the graph (vertex).  In the example equation, the "c" value is 1, so the vertex is 
+                    right at y = 1 or (0, 1).  If we had the same exact equation, but the "c" value was -4, the vertex would be at y = -4 or (0, -4).
+                </p>
+
+                <p className="p-body-small">
+                    <i>What about horizontal positioning of the vertex?  Will the x value of the vertex always be 0?</i>  No, the x value is not always 0 for the vertex.  
+                    It's just that in this example equation above, the x value of the vertex is 0.  If we had a "bx" term, then the vertex would not be on the y axis anymore.  
+                    Don't worry about that for now though; we'll get to that later.
+                </p>
+
+                <p className="p-body-small">
+                    The important takeaways from this lesson are the effects of positive/negative "a" values, and the effects of positive/negative "c" values.
                 </p>
             </div>
         )
