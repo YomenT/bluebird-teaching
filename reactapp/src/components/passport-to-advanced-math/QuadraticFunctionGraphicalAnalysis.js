@@ -74,6 +74,34 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                 <p className="p-body-small">
                     The important takeaways from this lesson are the effects of positive/negative "a" values, and the effects of positive/negative "c" values.
                 </p>
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                <p className='p-body'>1.  Which of the following represents the graph for -x<sup>2</sup> - 5 = y?</p>
+                <p className="p-body-small">A)</p>
+                <img 
+                    src={"https://i.ibb.co/6nK08zq/Graphical-Analysis-Answer1.png"}
+                    alt="Answer Choice 1"
+                    width={300}
+                    height={300} />
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
+                <img 
+                    src={"https://i.ibb.co/YBpbqsF/Graphical-Analysis-Answer2.png"}
+                    alt="Answer Choice 2"
+                    width={300}
+                    height={300} />
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
+                <img 
+                    src={"https://i.ibb.co/WtYJJyq/Graphical-Analysis-Answer3.png"}
+                    alt="Answer Choice 3"
+                    width={300}
+                    height={300} />
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
+                <img 
+                    src={"https://i.ibb.co/NYW3h8z/Graphical-Analysis-Answer4.png"}
+                    alt="Answer Choice 4"
+                    width={300}
+                    height={300} />
             </div>
         )
     }
