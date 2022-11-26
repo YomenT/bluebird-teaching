@@ -105,7 +105,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     width={500}
                     height={500} />
 
-                <p className='p-body'>2.  Which of the following represents the graph for x<sup>2</sup> - x + 2 = y?</p>
+                <p className='p-body' style={{ paddingTop: "25px" }}>2.  Which of the following represents the graph for x<sup>2</sup> - x + 2 = y?</p>
                 <p className="p-body-small">
                     <i>I know we haven't really talked about the bx value yet, but just use waht you know to try to guess the matching graph.</i>
                 </p>
@@ -113,26 +113,26 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                 <img 
                     src={"https://i.ibb.co/26FswcD/Graphical-Analysis-Answer5.png"}
                     alt="Answer Choice 1"
-                    width={500}
-                    height={500} />
+                    width={550}
+                    height={550} />
                 <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
                 <img 
                     src={"https://i.ibb.co/9ysFSHH/Graphical-Analysis-Answer6.png"}
                     alt="Answer Choice 2"
-                    width={500}
-                    height={500} />
+                    width={550}
+                    height={550} />
                 <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
                 <img 
                     src={"https://i.ibb.co/MR452mj/Graphical-Analysis-Answer7.png"}
                     alt="Answer Choice 3"
-                    width={500}
-                    height={500} />
+                    width={550}
+                    height={550} />
                 <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
                 <img 
                     src={"https://i.ibb.co/5jWzJMY/Graphical-Analysis-Answer8.png"}
                     alt="Answer Choice 4"
-                    width={500}
-                    height={500} />
+                    width={550}
+                    height={550} />
             </div>
         )
     }
