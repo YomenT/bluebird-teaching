@@ -61,14 +61,16 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                 </p>
 
                 <p className="p-body-small">
-                    The "c" value dictates the vertical position of the start of the graph (vertex).  In the example equation, the "c" value is 1, so the vertex is 
-                    right at y = 1 or (0, 1).  If we had the same exact equation, but the "c" value was -4, the vertex would be at y = -4 or (0, -4).
+                    The "c" value dictates the y intercept of the graph (vertex).  In the example equation, the "c" value is 1, so the y intercept is 
+                    right at y = 1 or (0, 1).  If we had the same exact equation, but the "c" value was -4, the y intercept would be at y = -4 or (0, -4).  It just 
+                    so happened that the vertex and y intercept are at the same place.  That's not always the case.
                 </p>
 
                 <p className="p-body-small">
                     <i>What about horizontal positioning of the vertex?  Will the x value of the vertex always be 0?</i>  No, the x value is not always 0 for the vertex.  
                     It's just that in this example equation above, the x value of the vertex is 0.  If we had a "bx" term, then the vertex would not be on the y axis anymore.  
-                    Don't worry about that for now though; we'll get to that later.
+                    Don't worry about that for now though; we'll get to that later.  All you have to know for now is that a "bx" term will shift the center of the graph of 
+                    the y axis (moving it right or left).
                 </p>
 
                 <p className="p-body-small">
@@ -99,6 +101,35 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                 <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
                 <img 
                     src={"https://i.ibb.co/NYW3h8z/Graphical-Analysis-Answer4.png"}
+                    alt="Answer Choice 4"
+                    width={500}
+                    height={500} />
+
+                <p className='p-body'>2.  Which of the following represents the graph for x<sup>2</sup> - x + 2 = y?</p>
+                <p className="p-body-small">
+                    <i>I know we haven't really talked about the bx value yet, but just use waht you know to try to guess the matching graph.</i>
+                </p>
+                <p className="p-body-small">A)</p>
+                <img 
+                    src={"https://i.ibb.co/26FswcD/Graphical-Analysis-Answer5.png"}
+                    alt="Answer Choice 1"
+                    width={500}
+                    height={500} />
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
+                <img 
+                    src={"https://i.ibb.co/9ysFSHH/Graphical-Analysis-Answer6.png"}
+                    alt="Answer Choice 2"
+                    width={500}
+                    height={500} />
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
+                <img 
+                    src={"https://i.ibb.co/MR452mj/Graphical-Analysis-Answer7.png"}
+                    alt="Answer Choice 3"
+                    width={500}
+                    height={500} />
+                <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
+                <img 
+                    src={"https://i.ibb.co/5jWzJMY/Graphical-Analysis-Answer8.png"}
                     alt="Answer Choice 4"
                     width={500}
                     height={500} />
