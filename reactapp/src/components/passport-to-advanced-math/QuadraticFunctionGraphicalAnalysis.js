@@ -139,7 +139,31 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                 <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
 
                 <p className="p-body">
+                    The correct answer to number 2 in the Try It section is answer choice C.  Try to develop some sort of explanation or pattern for this.  
+                </p>
 
+                <p className="p-body-small">
+                    You're probably going to need more "test data" before you start seeing a trend; to better create some sort of explanation/pattern.  Below are some instructions for you.  Just 
+                    keep in mind that as you type them, try to analyze any pattern you see to try to explain how the bx term effects the graph.
+                </p>
+
+                <ol className="p-body">
+                    <li>Click <a href="https://www.desmos.com/calculator">here</a> to go to an online graphing calculator.</li>
+                    <li>
+                        Type the quadratic equations below to the left of the page.  Every time you type in a quadratic equation, you'll see the graph come up on the right.  I recommend you type the equations in one at a 
+                        time.  It might get a little messy if you type in the equations all together.  Also, feel free to just copy and paste.
+                    </li>
+                    <ul>
+                        <li>x<sup>2</sup> - 3x - 1 = y</li>
+                        <li>x<sup>2</sup> + 3x - 1 = y</li>
+                        <li>x<sup>2</sup> - x + 5 = y</li>
+                        <li>x<sup>2</sup> + x + 5 = y</li>
+                    </ul>
+                </ol>
+
+                <p className="p-body">
+                    After you've done your visual analysis of the graphs, try to formulate some explanation as to how the bx term impacts the graph.  Does it cause the graph to shift up, down, left, right, etc?  Does it cause the 
+                    bell curve to widen or get more narrow?  How does it possibly do those things?  Once you've come up with your explanation, feel free to share it with us!
                 </p>
             </div>
         )
