@@ -105,9 +105,11 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     width={500}
                     height={500} />
 
-                <p className='p-body' style={{ paddingTop: "25px" }}>2.  Which of the following represents the graph for x<sup>2</sup> - x + 2 = y?</p>
+                <p className='p-body' style={{ paddingTop: "25px" }}>2.  Which of the following could possibly represent the graph for x<sup>2</sup> - x + 2 = y?  There are two possible answers.</p>
                 <p className="p-body-small">
-                    <i>I know we haven't really talked about the bx value yet, but just use waht you know to try to guess the matching graph.</i>
+                    <i>I know we haven't really talked about the bx value yet, but just use waht you know to try to guess the matching graph.</i>  I know that there is really only one 
+                    matching graph for the above equation, but if you're to only use what you know about the impacts of the "a" and "c" values, which two graphs below could match the above 
+                    equation?
                 </p>
                 <p className="p-body-small">A)</p>
                 <img 
@@ -133,6 +135,12 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     alt="Answer Choice 4"
                     width={550}
                     height={550} />
+
+                <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                <p className="p-body">
+
+                </p>
             </div>
         )
     }
