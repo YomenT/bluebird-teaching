@@ -148,7 +148,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                 </p>
 
                 <ol className="p-body">
-                    <li>Click <a href="https://www.desmos.com/calculator">here</a> to go to an online graphing calculator.</li>
+                    <li>Click <a href="https://www.desmos.com/calculator" style={{ color: "#5b92e5" }}>here</a> to go to an online graphing calculator.</li>
                     <li>
                         Type the quadratic equations below to the left of the page.  Every time you type in a quadratic equation, you'll see the graph come up on the right.  I recommend you type the equations in one at a 
                         time.  It might get a little messy if you type in the equations all together.  Also, feel free to just copy and paste.
