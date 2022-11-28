@@ -14,7 +14,17 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                 </p>
 
                 <p className="p-body-small">
-                    
+                    <i>We actually encountered this a little bit in the last question of the Try It section of the previous lesson.</i>
+                </p>
+
+                <p className="p-body-small">
+                    There is actually another form to the quadratic equation.  We've been looking at standard form, but there is actually a form called vertex form.  To fully be able to pinpoint the exact matching graph to 
+                    a quadratic equation, we would actually use vertex form.  What we're doing now is a general way of graphically analyzing a quadratic equation.  We'll get more into vertex form later.  A general 
+                    graphical analysis and a more precise graphical analysis are both necessary skills for the SAT.
+                </p>
+
+                <p className="p-body">
+                    The sign (positive/negative) of the "b" value is what determines if the graph will be shifted right or left of the y axis.  <i>Again, this isn't entirely accurate; we'll see a more accurate analysis when we do vertex form.</i>  
                 </p>
             </div>
         )
