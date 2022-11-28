@@ -99,11 +99,11 @@ p {
 }
 
 .p-body {
-  color: 	#686868;
+  color: 	#365789;
 }
 
 .p-body-small {
-  color: #686868;
+  color: #365789;
   font-size: 19px;
 }
 
@@ -136,13 +136,13 @@ label {
 }
 
 .high-level-objectives {
-  color: #686868;
+  color: #365789;
   font-size: 20px;
 }
 
 .nested-ul {
   font-size: 16px;
-  color: #686868;
+  color: #365789;
 }
 
 @-webkit-keyframes glow {
@@ -216,7 +216,7 @@ input[type='checkbox'] {
 
   padding: 1rem;
 
-  color: #fffAF0;
+  color: #ffffff;
   background: #5b92e5;
 
   cursor: pointer;
