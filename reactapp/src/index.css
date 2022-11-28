@@ -257,7 +257,7 @@ input[type='checkbox'] {
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 3000vh;
-  background-color: #fffAF0;
+  background-color: #ffffff;
 }
 
 .toggle:checked + .lbl-toggle {
