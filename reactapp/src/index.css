@@ -2,14 +2,14 @@
   margin-top: 0;
   text-align: center;
   /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,139,1) 100%); */
-  background: linear-gradient(90deg,#1b2b44,#4874b7);
+  background: linear-gradient(90deg,#1b2b44,#365789);
   margin-bottom: 0;
 
 }
 
 .bodyDiv {
   /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,139,1) 100%); */
-  background: linear-gradient(90deg,#1b2b44,#4874b7);
+  background: linear-gradient(90deg,#1b2b44,#365789);
   height: 100%;
   padding-left: 10%;
   padding-right: 10%;
@@ -28,7 +28,7 @@
 
 .logoDiv {
   /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,139,1) 100%); */
-  background: linear-gradient(90deg,#1b2b44,#4874b7);
+  background: linear-gradient(90deg,#1b2b44,#365789);
 }
 
 .buttonDivider{
@@ -114,7 +114,7 @@ p {
   margin: 0;
   padding: 0;
   /* background: linear-gradient(to right, rgb(2,0,36), rgba(0,0,139)); */
-  background: linear-gradient(90deg,#1b2b44,#4874b7);
+  background: linear-gradient(90deg,#1b2b44,#365789);
 }
 
 .blue div{
