@@ -20,12 +20,12 @@ class IntroToLinear extends React.Component {
                     <li>The <i>slope</i> measures the steepness of a line.  It is also known as the rate of change.  Slope is also often defined 
                     as <sup>rise</sup>&frasl;<sub>run</sub>.</li>
                     <li>Below is the equation to find slope given two points.</li>
-                    <div className='q'>
+                    {/* <div className='q'> */}
                         <div class="frac" style={{ fontSize: "17px", marginLeft: "47%" }}>
                             <div className='numer'>y<sub>2</sub> - y<sub>1</sub></div>
                             <div className='denom'>x<sub>2</sub> - x<sub>1</sub></div>
                         </div>
-                    </div>
+                    {/* </div> */}
                     <li>Like any other number, a slope can be positive or negative.</li>
                 </ul>
                 <img 
