@@ -12,9 +12,7 @@ class FunctionNotation extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Function Notation</h2>
                 </div>
                 <div className='aboutBodyDiv'>
-                    <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
-                    <h3 className="h3-blue-headers" style={{ paddingBottom: "25px" }}>Function Notation</h3>
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         You've probably seen functions written like <span style={{ color: "#5b92e5" }}>y = 2x - 1</span>, but I can write the same function as <span style={{ color: "#5b92e5" }}>f(x) = 2x - 1</span>.  At face value, these two formats don't have any differences.  You can literally 
                         imagine the <span style={{ color: "#5b92e5" }}>f(x)</span> to be a <span style={{ color: "#5b92e5" }}>y</span>.  However, the SAT likes to 
                         use the <span style={{ color: "#5b92e5" }}>f(x)</span> format when trying to give a value for <span style={{ color: "#5b92e5" }}>x</span>.

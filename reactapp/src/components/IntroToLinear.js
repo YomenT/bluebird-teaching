@@ -12,9 +12,7 @@ class IntroToLinear extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Introduction to Linear Functions</h2>
                 </div>
                 <div className='aboutBodyDiv'>
-                    <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
-                    <h3 className="h3-blue-headers" style={{ paddingBottom: "25px" }}>Introduction to Linear Functions</h3>
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         While it is very likely that you've covered all about linear functions in current/previous math courses, we're going to break down linear 
                         functions piece by piece.  There are quite a few things to remember, so we're going to break this into chunks.  Below is what you'll need to 
                         be able to recall off the top of your head for now.  
