@@ -1,5 +1,7 @@
 import React from 'react'
+
 import Logo from './Logo'
+import Footer from './Footer'
 
 class IntroductionToHeartOfAlgebra extends React.Component {
     render() {
