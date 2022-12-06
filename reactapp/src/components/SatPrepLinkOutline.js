@@ -6,7 +6,7 @@ class SatPrepLinkOutline extends React.Component {
             <div>
                 <h4 className="h4-blue-headers">Heart of Algebra</h4>
                 <ol className="p-body">
-                    <li>A little bit about Heart of Algebra</li>
+                    <li style={{ paddingTop: "20px" }}>A little bit about Heart of Algebra</li>
                     <li>Introduction to Functions</li>
                     <li>Function Notation</li>
                     <li>Introduction to Linear Functions</li>
@@ -19,12 +19,12 @@ class SatPrepLinkOutline extends React.Component {
                         </ul>
                     <li>Linear Inequalities</li>
                     <li>Graphing Linear Inequalities</li>
-                    <li>Graphing Systems of Linear Inequalities</li>
+                    <li style={{ paddingBottom: "25px" }}>Graphing Systems of Linear Inequalities</li>
                 </ol>
                 <h4 className="h4-blue-headers">Problem Solving and Data Analysis</h4>
                 <h4 className="h4-blue-headers">Passport to Advanced Math</h4>
                 <ol className="p-body">
-                    <li>A little bit about Passport to Advanced Math</li>
+                    <li style={{ paddingBottom: "20px" }}>A little bit about Passport to Advanced Math</li>
                     <li>Polynomials</li>
                         <ul className="p-body">
                             <li>Part 1</li>
@@ -45,7 +45,7 @@ class SatPrepLinkOutline extends React.Component {
                     <li>Exponent Rules</li>
                         <ul className="p-body">
                             <li>Part 1</li>
-                            <li>Part 2</li>
+                            <li style={{ paddingBottom: "25px" }}>Part 2</li>
                         </ul>
                 </ol>
                 <h4 className="h4-blue-headers">Additional Topics in Math</h4>
