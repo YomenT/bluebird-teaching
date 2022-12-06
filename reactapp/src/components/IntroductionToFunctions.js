@@ -12,9 +12,7 @@ class IntroductionToLinearFunctions extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Introduction to Functions</h2>
                 </div>
                 <div className="aboutBodyDiv">
-                    <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
-                    <h3 className="h3-blue-headers">Starting Easy: Introduction to Functions</h3>
-                    <p className="p-body" style={{ paddingBottom: "25px" }}>
+                    <p className="p-body" style={{ paddingBottom: "25px", paddingTop: "25px" }}>
                         <strong>Definition: </strong> A function is just a relation where one x value corresponds to exactly one y value.
                     </p>
                     <p className="p-body-small">
