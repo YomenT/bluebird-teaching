@@ -2,6 +2,8 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { Link } from 'react-router-dom';
 
+import SatPrepLinkOutline from "./SatPrepLinkOutline";
+
 // Heart of Algebra
 import Logo from './Logo'
 import Footer from './Footer'
@@ -77,10 +79,7 @@ class SatPrep extends React.Component {
                         went over!  I'll try to block off each section between horizontal lines to take no more than 30 minutes. 
                     </p>
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868" }}></hr>
-                    <h4 className="h4-blue-headers">Heart of Algebra</h4>
-                    <h4 className="h4-blue-headers">Problem Solving and Data Analysis</h4>
-                    <h4 className="h4-blue-headers">Passport to Advanced Math</h4>
-                    <h4 className="h4-blue-headers">Additional Topics in Math</h4>
+                    <SatPrepLinkOutline />
                     <div className="wrap-collabsible" style={{ paddingTop: "50px", paddingBottom: "50px" }}>
                         <input id="HOA-collapsible" className="toggle" type="checkbox"></input>
                         <label for="HOA-collapsible" className="lbl-toggle">Heart of Algebra</label>
