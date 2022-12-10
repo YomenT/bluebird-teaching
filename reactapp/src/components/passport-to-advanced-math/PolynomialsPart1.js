@@ -1,17 +1,18 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
+import Logo from './Logo'
+import Footer from './Footer'
+
 class PolynomialsPart1 extends React.Component {
     render() {
         return (
-            <div className="container-fluid">
-                <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
-
-                <div className="row">
-                    <h3 className="h3-blue-headers">Polynomials Part 1: Combining Like Terms</h3>
+            <div>
+                <Logo />
+                <div className='bodyDiv'>
+                    <h2 style={{ paddingBottom: "25px" }}>Polynomials Part 1: Combining Like Terms</h2>
                 </div>
-
-                <div className="row">
+                <div className="aboutBodyDiv">
                     <p className="p-body">
                         Let's start this "hard" portion of the SAT nice and easy; we'll spend these next few sections learning about polynomials.  In this particular 
                         section, we're going to talk about combining like terms within a polynomial.  We're going to have a bunch of expressions containing at least 3 terms 
@@ -32,55 +33,39 @@ class PolynomialsPart1 extends React.Component {
                         like terms is a skill we need to develop to work with harder problems; it's something you're usually going to want to do whenever 
                         working with expressions in the SAT.
                     </p>
-                </div>
 
-                <div className='row'>
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
-                </div>
 
-                <div className='row'>
                     <p className='p-body'>
                         Simplify the following expressions as much as possible by combining like terms.
                     </p>
                     <p className="p-body-small">
                         Remember you can reach out anytime you have any questions!  Just head over to "contact us" at the bottom right of this page.
                     </p>
-                </div>
 
-                <div className='row'>
                     <p className='p-body'>1.  91y + 4y - 54y</p>
-                </div>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  42y</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  41y</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  40y</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  39y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  42y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  41y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  40y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  39y</p>
 
-                <div className="row">
                     <p className="p-body">2.  8x - 4x - 3</p>
-                </div>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  5x - 3</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  4x - 3</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  5x</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  4x</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  5x - 3</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  4x - 3</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  5x</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  4x</p>
 
-                <div className="row">
                     <p className="p-body">3.  4x + 3y + 2x - y<sup>2</sup></p>
-                </div>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  6x + 3y - y<sup>2</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  6x - 2y</p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  6x - 2y<sup>2</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  6x + 4y - y<sup>2</sup></p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  6x + 3y - y<sup>2</sup></p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  6x - 2y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  6x - 2y<sup>2</sup></p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  6x + 4y - y<sup>2</sup></p>
 
-                <div className="row">
                     <p className="p-body">
                         4.  Even if you've already watched the full video, go back to original problem from the video above and try it on your own.
                     </p>
-                </div>
 
-                <div className="row">
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
-                </div>
-                <div className="row">
                     <p className="p-body">
                         Let's make a very simple game with what we've learned.
                     </p>
