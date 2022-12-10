@@ -12,7 +12,7 @@ class PassportToAdvancedMathIntroduction extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>About Passport to Advanced Math</h2>
                 </div>
                 <div className='aboutBodyDiv'>
-                    <p className="p-body" style={{ paddingBottom: "25px", paddingTop: "150px" }}>
+                    <p className="p-body" style={{ paddingBottom: "25px", paddingTop: "25px" }}>
                         By this point, many students express concern that this portion of the SAT, and Addtional Topics in Math, are the "harder parts" of the SAT.  
                         However, I wouldn't say this is necessarily true...
                     </p>

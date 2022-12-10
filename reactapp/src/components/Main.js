@@ -65,8 +65,8 @@ const Main = () => {
       {/* Passport to Advanced Math */}
       <Route exact path='/passport_to_advanced_math/about' component={PassportToAdvancedMathIntroduction}></Route>
       <Route exact path='/passport_to_advanced_math/polynomials_part1' component={PolynomialsPart1}></Route>
-      <Route exact path='/passport_to_advanced_math/polynomials_part1' component={PolynomialsPart2}></Route>
-      <Route exact path='/passport_to_advanced_math/polynomials_part1' component={PolynomialsPart3}></Route>
+      <Route exact path='/passport_to_advanced_math/polynomials_part2' component={PolynomialsPart2}></Route>
+      <Route exact path='/passport_to_advanced_math/polynomials_part3' component={PolynomialsPart3}></Route>
       <Route exact path='/passport_to_advanced_math/intro_to_quadratic_functions' component={QuadraticFunctionPart1}></Route>
       <Route exact path='/passport_to_advanced_math/quadratic_graphical_analysis_part1' component={QuadraticFunctionGraphicalAnalysis}></Route>
       <Route exact path='/passport_to_advanced_math/quadratic_graphical_analysis_part2' component={QuadraticFunctionGraphicalAnalysis2}></Route>
