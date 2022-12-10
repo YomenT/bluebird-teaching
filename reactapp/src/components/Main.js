@@ -23,9 +23,23 @@ import LinearInequalities from './LinearInequalities';
 import GraphingLinearInequalities from './GraphingLinearInequalities';
 import GraphingSystemsOfLinearInequalities from './GraphingSystemsOfLinearInequalities';
 
+// Passport to Advanced Math
+import PassportToAdvancedMathIntroduction from './passport-to-advanced-math/PassportToAdvancedMathIntroduction'
+import PolynomialsPart1 from './passport-to-advanced-math/PolynomialsPart1'
+import PolynomialsPart2 from './passport-to-advanced-math/PolynomialsPart2'
+import PolynomialsPart3 from './passport-to-advanced-math/PolynomialsPart3'
+import QuadraticFunctionPart1 from './passport-to-advanced-math/QuadraticFunctionPart1'
+import QuadraticFunctionGraphicalAnalysis from './passport-to-advanced-math/QuadraticFunctionGraphicalAnalysis'
+import QuadraticFunctionGraphicalAnalysis2 from './passport-to-advanced-math/QuadraticFunctionGraphicalAnalysis2'
+import FactoringPart1 from './passport-to-advanced-math/FactoringPart1'
+import FactoringPart2 from './passport-to-advanced-math/FactoringPart2'
+import ExponentRules from './passport-to-advanced-math/ExponentRules';
+import ExponentRules2 from './passport-to-advanced-math/ExponentRules2';
+
 const Main = () => {
   return (
     <Switch> 
+      {/* Main Links */}
       <Route exact path='/' component={HomePage}></Route>
       <Route exact path='/about' component={About}></Route>
       <Route exact path='/contact' component={Contact}></Route>
@@ -47,6 +61,19 @@ const Main = () => {
       <Route exact path='/heart_of_algebra/linear_inequalities' component={LinearInequalities}></Route>
       <Route exact path='/heart_of_algebra/graphing_linear_inequalities' component={GraphingLinearInequalities}></Route>
       <Route exact path='/heart_of_algebra/graphing_system_linear_inequalities' component={GraphingSystemsOfLinearInequalities}></Route>
+
+      {/* Passport to Advanced Math */}
+      <Route exact path='/passport_to_advanced_math/about' component={PassportToAdvancedMathIntroduction}></Route>
+      <Route exact path='/passport_to_advanced_math/polynomials_part1' component={PolynomialsPart1}></Route>
+      <Route exact path='/passport_to_advanced_math/polynomials_part1' component={PolynomialsPart2}></Route>
+      <Route exact path='/passport_to_advanced_math/polynomials_part1' component={PolynomialsPart3}></Route>
+      <Route exact path='/passport_to_advanced_math/intro_to_quadratic_functions' component={QuadraticFunctionPart1}></Route>
+      <Route exact path='/passport_to_advanced_math/quadratic_graphical_analysis_part1' component={QuadraticFunctionGraphicalAnalysis}></Route>
+      <Route exact path='/passport_to_advanced_math/quadratic_graphical_analysis_part2' component={QuadraticFunctionGraphicalAnalysis2}></Route>
+      <Route exact path='/passport_to_advanced_math/factoring1' component={FactoringPart1}></Route>
+      <Route exact path='/passport_to_advanced_math/factoring2' component={FactoringPart2}></Route>
+      <Route exact path='/passport_to_advanced_math/exponent_rules_part1' component={ExponentRules}></Route>
+      <Route exact path='/passport_to_advanced_math/exponent_rules_part2' component={ExponentRules2}></Route>
     </Switch>
   );
 }

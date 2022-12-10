@@ -25,28 +25,28 @@ class SatPrepLinkOutline extends React.Component {
                 <h4 className="h4-blue-headers">Problem Solving and Data Analysis</h4>
                 <h4 className="h4-blue-headers">Passport to Advanced Math</h4>
                 <ol className="p-body">
-                    <li style={{ paddingBottom: "20px" }}>A little bit about Passport to Advanced Math</li>
+                    <Link to="/passport_to_advanced_math/about" style={{ color: "#365789" }}><li style={{ paddingTop: "20px" }}><strong>A little bit about Passport to Advanced Math</strong></li></Link>
                     <li>Polynomials</li>
                         <ul className="p-body">
-                            <li>Part 1</li>
-                            <li>Part 2</li>
-                            <li>Part 3</li>
+                            <Link to="/passport_to_advanced_math/polynomials_part1" style={{ color: "#365789" }}><li>Part 1</li></Link>
+                            <Link to="/passport_to_advanced_math/polynomials_part2" style={{ color: "#365789" }}><li>Part 2</li></Link>
+                            <Link to="/passport_to_advanced_math/polynomials_part3" style={{ color: "#365789" }}><li>Part 3</li></Link>
                         </ul>
-                    <li>Introduction to the Quadratic Function</li>
+                    <Link to="/passport_to_advanced_math/intro_to_quadratic_functions" style={{ color: "#365789" }}><li>Introduction to the Quadratic Function</li></Link>
                     <li>Quadratic Function Graphical Analysis</li>
                         <ul className="p-body">
-                            <li>Part 1</li>
-                            <li>Part 2</li>
+                            <Link to="/passport_to_advanced_math/quadratic_graphical_analysis_part1" style={{ color: "#365789" }}><li>Part 1</li></Link>
+                            <Link to="/passport_to_advanced_math/quadratic_graphical_analysis_part2" style={{ color: "#365789" }}><li>Part 2</li></Link>
                         </ul>
                     <li>Factoring Quadratic Equations</li>
                         <ul className="p-body">
-                            <li>Part 1</li>
-                            <li>Part 2</li>
+                            <Link to="/passport_to_advanced_math/factoring1" style={{ color: "#365789" }}><li>Part 1</li></Link>
+                            <Link to="/passport_to_advanced_math/factoring2" style={{ color: "#365789" }}><li>Part 2</li></Link>
                         </ul>
                     <li>Exponent Rules</li>
                         <ul className="p-body">
-                            <li>Part 1</li>
-                            <li style={{ paddingBottom: "25px" }}>Part 2</li>
+                            <Link to="/passport_to_advanced_math/exponent_rules_part1" style={{ color: "#365789" }}><li>Part 1</li></Link>
+                            <Link to="/passport_to_advanced_math/exponent_rules_part2" style={{ color: "#365789" }}><li style={{ paddingBottom: "25px" }}>Part 2</li></Link>
                         </ul>
                 </ol>
                 <h4 className="h4-blue-headers">Additional Topics in Math</h4>
