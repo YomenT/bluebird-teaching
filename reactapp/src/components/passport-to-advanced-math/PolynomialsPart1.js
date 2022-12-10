@@ -1,8 +1,8 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-import Logo from './Logo'
-import Footer from './Footer'
+import Logo from '../Logo'
+import Footer from '../Footer'
 
 class PolynomialsPart1 extends React.Component {
     render() {
@@ -84,6 +84,7 @@ class PolynomialsPart1 extends React.Component {
                         of the game with us!
                     </p>
                 </div>
+                <Footer />
             </div>
         )
     }

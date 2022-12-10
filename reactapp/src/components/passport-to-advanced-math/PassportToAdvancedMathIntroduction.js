@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Logo from './Logo'
-import Footer from './Footer'
+import Logo from '../Logo'
+import Footer from '../Footer'
 
 class PassportToAdvancedMathIntroduction extends React.Component {
     render() {
