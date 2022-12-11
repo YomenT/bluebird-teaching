@@ -12,7 +12,7 @@ class QuadraticFunctionPart1 extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Introduction to The Quadratic Function</h2>
                 </div>
                 <div className="aboutBodyDiv">
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         The SAT covers quite a bit of ground when it comes to quadratics.  You'll have questions related to graphing quadratics, factoring 
                         quadratics (trinomials, binomials, etc), solving quadratics, etc.  
                     </p>

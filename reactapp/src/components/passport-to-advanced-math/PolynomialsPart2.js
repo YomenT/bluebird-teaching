@@ -12,7 +12,7 @@ class PolynomialsPart2 extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Polynomials Part 2: Adding/Subtracting Monomials, Binomials, and Polynomials</h2>
                 </div>
                 <div className="aboutBodyDiv">
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         We're going to be doing what we did in the last section; with just one added step, so this section shouldn't be too hard.    
                     </p>
 

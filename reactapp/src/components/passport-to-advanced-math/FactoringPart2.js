@@ -12,7 +12,7 @@ class FactoringPart2 extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Factoring Part 2: Difference of Perfect Squares</h2>
                 </div>
                 <div className='aboutBodyDiv'>
-                    <p className='p-body-small'>
+                    <p className='p-body-small' style={{ paddingTop: "25px" }}>
                         Previously, we looked at how to find solutions (x-intercepts) for a quadratic equation.  It just so happened that all the equations involved in the previous section 
                         were trinomials.  This won't always be the case...
                     </p>

@@ -12,7 +12,7 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>A Graphical Analysis of Quadratic Functions (Part 2)</h2>
                 </div>
                 <div className="aboutBodyDiv">
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         In the last session, we mainly looked at the impacts of the "a" and "c" values have on the graph of a quadratic function.  This time, we're going to look at how the "b" value from the bx term in ax<sup>2</sup> + bx + c = y 
                         impacts the graph.  
                     </p>

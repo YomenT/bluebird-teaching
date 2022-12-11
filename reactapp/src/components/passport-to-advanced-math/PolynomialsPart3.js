@@ -15,7 +15,7 @@ class PolynomialsPart3 extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Polynomials Part 3: Multiplying Monomials, Binomials, and Polynomials</h2>
                 </div>
                 <div className="aboutBodyDiv">
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         The last part in the polynomials series, we'll look at multiplying terms.  A lot of times people will just call this "distribution".  To be 
                         honest, I don't know if they 100% mean the same thing; regardless, we'll be looking at multiplying monomials with binomials with polynomials.
                     </p>

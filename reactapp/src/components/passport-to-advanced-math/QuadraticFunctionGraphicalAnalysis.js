@@ -12,7 +12,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>A Graphical Analysis of Quadratic Functions (Part 1)</h2>
                 </div>
                 <div className="aboutBodyDiv">
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         We're going to look more into what quadratic equations look like when they are graphed.
                     </p>
 

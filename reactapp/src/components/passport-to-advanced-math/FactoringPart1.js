@@ -13,7 +13,7 @@ class FactoringPart1 extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Factoring Part 1: Factoring Trinomials</h2>
                 </div>
                 <div className="aboutBodyDiv">
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         You've probably heard of factoring before, but I think that a lot of people learn to use factoring, but they don't really know the 
                         why behind it.  What's the purpose of factoring?  What are values, zeros, and solutions?  Do they mean the same thing?
                     </p>
