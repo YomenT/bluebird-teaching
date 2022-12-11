@@ -109,7 +109,7 @@ class QuadraticFunctionPart1 extends React.Component {
                         Formulate an explanation as to why answer choice A from number 1 in the Try It section is not correct.  
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ marginBottom: "150px" }}>
                         This explanation can be written, verbal, or whatever other method you'd like.  Always feel free to share it with use, too!  <i>If you're stuck, 
                         try reviewing the very first section under Heart of Algebra: Introduction to Functions.</i>
                     </p>

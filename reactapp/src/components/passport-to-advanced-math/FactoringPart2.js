@@ -94,7 +94,7 @@ class FactoringPart2 extends React.Component {
                         share it with us!  
                     </p>
 
-                    <p className='p-body-small'>
+                    <p className='p-body-small' style={{ marginBottom: "150px" }}>
                         If you're not sure how to start, try <strong>solving</strong> that equation above (x + 16 = 0); using the method that we talked about at the very beginning.  
                     </p>
                 </div>

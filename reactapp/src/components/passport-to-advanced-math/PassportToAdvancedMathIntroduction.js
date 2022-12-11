@@ -39,7 +39,7 @@ class PassportToAdvancedMathIntroduction extends React.Component {
                                 <li>Elimination</li>
                                 <li>Completing the Square</li>
                             </ul>
-                        <li>Understand connections between quadratics and parabolas.</li>
+                        <li style={{ marginBottom: "150px" }}>Understand connections between quadratics and parabolas.</li>
                     </ol>
                 </div>
                 <Footer />

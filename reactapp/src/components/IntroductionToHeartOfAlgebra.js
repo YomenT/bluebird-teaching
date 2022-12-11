@@ -38,7 +38,7 @@ class IntroductionToHeartOfAlgebra extends React.Component {
                             </ul>
                         <li>Understand, implement, and model linear inequalities.</li>
                         <li>Model systems of linear inequalities.</li>
-                        <li>Solve systems of linear inequalities graphically.</li>
+                        <li style={{ marginBottom: "150px" }}>Solve systems of linear inequalities graphically.</li>
                     </ol>
                 </div>
                 <Footer />

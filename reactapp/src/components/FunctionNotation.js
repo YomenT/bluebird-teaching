@@ -48,7 +48,7 @@ class FunctionNotation extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C) 10</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D) 11</p>
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         Try to create a similar problem to that last example.  Try to create a problem you think you'd encounter on the SAT.  Try writing function 
                         evaluation problems that utilize a bit more than what we've worked with like fractions.  Once you've created your sample problem, feel free 
                         to take a picture of it and share it with us, or try asking your math teacher to look it over.

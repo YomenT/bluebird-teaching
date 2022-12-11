@@ -115,7 +115,7 @@ class PolynomialsPart2 extends React.Component {
                         We just learned about adding and subtracting polynomials.  Up next is multiplying polynomials.  
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ marginBottom: "150px" }}>
                         Since we're learning about polynomials in parts like this, I think it might be a nice idea to create a sort of summary of what we've learned in 
                         this section; we'll continue to add to it in the next section on multiplying polynomials.  You can get creative in creating this summary: it can 
                         be an infographic, a paragraph on a paper, a verbal summary, etc.  Just try to at least mention the steps to adding and subtracting polynomials 

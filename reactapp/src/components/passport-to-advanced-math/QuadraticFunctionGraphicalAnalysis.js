@@ -165,7 +165,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                         </ul>
                     </ol>
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         After you've done your visual analysis of the graphs, try to formulate some explanation as to how the bx term impacts the graph.  Does it cause the graph to shift up, down, left, right, etc?  Does it cause the 
                         bell curve to widen or get more narrow?  How does it possibly do those things?  Once you've come up with your explanation, feel free to share it with us!
                     </p>

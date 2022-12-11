@@ -99,7 +99,7 @@ class FactoringPart1 extends React.Component {
                         problems.  What if the quadratic equation in the question looked like x<sup>2</sup> + 49 = 14?
                     </p>
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         Once you've got your set of steps, feel free to share them with us for feedback!
                     </p>
                 </div>

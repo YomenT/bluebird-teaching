@@ -86,7 +86,7 @@ class IntroductionToLinearFunctions extends React.Component {
                     <p className="p-body-small">
                         <i>Maybe try formulating an example problem that addresses that earlier question about circles?</i>
                     </p>
-                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
+                    <p className="p-body-small" style={{ paddingTop: "25px", marginBottom: "150px" }}>
                         Feel free in getting creative with testing it too.  Try sharing this problem with a family member, a friend, or even your math teacher.  
                         You're always free to share the problem with us, too!
                     </p>

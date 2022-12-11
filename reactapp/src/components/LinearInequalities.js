@@ -45,7 +45,7 @@ class LinearInequalities extends React.Component {
                         Create a reminder using an app on your phone or something like Google Calendar that reiterates the added step of flipping the 
                         inequality sign everytime you mulitply or divide by a negative number across the inequality.  
                     </p>
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ marginBottom: "150px" }}>
                         This might sound like such an easy rule to remember.  However, I have seen students make this mistake countless times.  If you face this 
                         problem in the mulitple choice section, there is very likely to be a trap answer choice waiting for you to choose it.  
                     </p>

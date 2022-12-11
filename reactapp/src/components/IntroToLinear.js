@@ -77,7 +77,7 @@ class IntroToLinear extends React.Component {
                         <i><strong>Take a second.</strong>  Do you have any questions?  Always feel free to reach out with any questions/concerns.</i>
                     </p>
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         Try to think of a similar scenario to the last problem about Will.  Try to think of a situation like Will's that you could model using 
                         a linear equation.  I know we haven't talked much about the y-intercept yet, but try to identify a slope in a past experience.    
                     </p>

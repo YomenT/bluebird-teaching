@@ -79,7 +79,7 @@ class PolynomialsPart1 extends React.Component {
                             Move the flash cards around to make an expression with the terms, and see if you can combine any like terms.
                         </li>
                     </ol>
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         If you like, you can try practice this with someone else.  Feel free to reach out if you have any questions; also feel free to share any pictures 
                         of the game with us!
                     </p>

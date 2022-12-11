@@ -89,7 +89,7 @@ class ParallelPerpendicular extends React.Component {
                         Create a system of linear equations where the two equations are exactly the same; same slope and same y-intercept.  What does this mean?  
                         If you don't already, do some research.  Do a quick Google search or ask your math teacher about this.  You can always ask us too!     
                     </p>
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ marginBottom: "150px" }}>
                         Once you've reached an understanding, write out a short explanation and email it to us!  
                     </p>
                 </div>

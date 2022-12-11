@@ -70,7 +70,7 @@ class PolynomialsPart3 extends React.Component {
 
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         If you created whatever form of summary in part 2 of polynomials (the very last section), go ahead and take what you've learned to add to that 
                         summary.  You can use the same method you used in the last section to summarize, or you can do something new.  For example, if you created some sort of 
                         written summary in the last section, try creating some sort of verbal summary you share with your pet.

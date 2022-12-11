@@ -1,17 +1,18 @@
 import React from 'react'
 import ReactPlayer from "react-player";
 
+import Logo from '../Logo'
+import Footer from '../Footer'
+
 class ExponentRules2 extends React.Component {
     render() {
         return (
-            <div className='container-fluid'>
-                <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868", marginTop: "150px" }}></hr>
-
-                <div className="row">
-                    <h3 className="h3-blue-headers">Exponent Rules - Part 2</h3>
+            <div>
+                <Logo />
+                <div className='bodyDiv'>
+                    <h2 style={{ paddingBottom: "25px" }}>Exponent Rules - Part 2</h2>
                 </div>
-
-                <div className="row">
+                <div className='aboutBodyDiv'>
                     <p className="p-body">
                         Part 1 of exponent rules was to get you familiar with the 5 exponent rules.  In part 2, we're going to look at how the SAT uses a 
                         combination of exponent rules in a single problem.  A single simplication problem is going to involve many steps; each step involving 
@@ -37,6 +38,7 @@ class ExponentRules2 extends React.Component {
                         />
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

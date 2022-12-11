@@ -33,7 +33,7 @@ class SystemofLinearEquations1 extends React.Component {
                         <i><strong>Question:  </strong> Would both methods (substitution and eliminiation) get the same answer?</i>
                     </p>
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         Take some time to address that earlier question above.  On a sheet of paper, solve the above example problem using substituion and 
                         elimination.  Show all your work neatly.  Once you're done, snap a picture and email it to us!
                     </p>

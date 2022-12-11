@@ -87,7 +87,7 @@ class GraphingSystemsOfLinearInequalities extends React.Component {
                         width={200}
                         height={200} />
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         You can take a break from the ordinary Create It! portions.  You've earned it!  This is actually the last section in the Heart of Algebra!  Congratulations 
                         on making this far, and go on to Problem Solving and Data Analysis whenever you're ready.  You can do this! 
                     </p>

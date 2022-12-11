@@ -59,7 +59,7 @@ class ModellingLinear extends React.Component {
                         word problems to give the "inital amount".  Feel free to reach out to use for any clarification or help, or ask your math teacher from 
                         your school for help.  Google is another option, but that is a vast ocean!    
                     </p>
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ marginBottom: "150px" }}>
                         You can use various ways to create your explanation.  It can be a written explanation, a video, etc.  Get creative about this!  Whatever 
                         method you choose, we would love to see it!  
                     </p>

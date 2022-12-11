@@ -45,7 +45,7 @@ class SystemofLinearEquations2 extends React.Component {
                         on your work, feel free to reach out to us!
                     </p>
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         This might be a little bit hard to do, but try to create an example problem that involves a system of linear equations that you might 
                         see on the SAT.  Try to create answer choices for it that you think might actually trip you up.  Once you've created it, try sharing it with 
                         another student to see if they can do it!

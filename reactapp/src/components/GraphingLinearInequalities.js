@@ -46,7 +46,7 @@ class GraphingLinearInequalities extends React.Component {
                         tell you if you're getting the answers correct.
                     </p>
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
-                    <p className="p-body">
+                    <p className="p-body" style={{ marginBottom: "150px" }}>
                         Come up with some inequalities on your own!  Think of sample inequalities you would see.  Try to mix in more fractions than we've seen.  
                         The SAT certainly won't shy away from utilizing fractions on the calculator inactive portion!  Feel free to share pictures of problems 
                         and any associated work.
