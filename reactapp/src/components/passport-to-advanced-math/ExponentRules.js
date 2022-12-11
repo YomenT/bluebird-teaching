@@ -114,22 +114,22 @@ class ExponentRules extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>D) x<sup>8</sup></p>
 
                 <div className='row'>
-                    <p className='p-body'>
-                    <div className='q'>3.  This one might be a bit harder, but you've got this!  Simplify: &nbsp;</div>
+                    <p className='p-body'>3.  This one might be a bit harder, but you've got this!  Simplify: 
                         <div className='frac'>
-                            <div className='numer'>x<sup>2</sup></div>
-                            <div className='denom'>x<sup>5</sup></div>
+                            <span className='top'>x<sup>2</sup></span>
+                            <span className='symbol'>/</span>
+                            <span className='bottom'>x<sup>5</sup></span>
                         </div>
                     </p>
                 </div>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>A) x<sup>10</sup></p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>7</sup></p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>-3</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>
-                <div className='q'>D) &nbsp;</div>
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D) 
                     <div className='frac'>
-                        <div className='numer'>1</div>
-                        <div className='denom'>x<sup>3</sup></div>
+                        <span className='top'>1</span>
+                        <span className='symbol'>/</span>
+                        <span className='bottom'>x<sup>3</sup></span>
                     </div>
                 </p>
                 <h4 className="h4-blue-headers" style={{ paddingTop: "150px" }}>Create it!</h4>
