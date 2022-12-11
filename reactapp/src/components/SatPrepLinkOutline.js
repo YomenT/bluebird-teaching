@@ -3,13 +3,12 @@ import { Link } from "react-router-dom"
 
 class SatPrepLinkOutline extends React.Component {
 
-    // visitedLink(id) {
-    //     document.getElementById(id).style.color = "#121d2d";
-    // }
+    
 
     visitedLink = () => {
         let link = document.getElementById("link1");
         link.style.color = "#121d2d";
+        sessionStorage.setItem('autosave', "#121d2d")
         if (sessionStorage("autosave")) {
             link.style.color = "#121d2d";
         }

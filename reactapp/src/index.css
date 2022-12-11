@@ -180,6 +180,10 @@ a:hover {
    cursor: pointer;  
 }
 
+a:visited {
+  color: #121d2d;
+}
+
 .anchor {
   color: #5b92e5; 
 }
