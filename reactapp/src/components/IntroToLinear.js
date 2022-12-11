@@ -27,9 +27,9 @@ class IntroToLinear extends React.Component {
                         as <sup>rise</sup>&frasl;<sub>run</sub>.</li>
                         <li> Below is the equation to find slope given two points</li>
                         <div class="frac">
-                            <span>y<sub>2</sub> - y<sub>1</sub></span>
-                            <span class="symbol">/</span>
-                            <span class="bottom">x<sub>2</sub> - x<sub>1</sub></span>
+                            <span className='top'>y<sub>2</sub> - y<sub>1</sub></span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">x<sub>2</sub> - x<sub>1</sub></span>
                         </div>
                         <li>Like any other number, a slope can be positive or negative.</li>
                     </ul>

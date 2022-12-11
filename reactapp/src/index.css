@@ -195,6 +195,9 @@ a:hover
 .frac span.bottom {
   border-top: thin solid black;
 }
+.frac span.top {
+  padding-bottom: 10px;
+}
 .frac span.symbol {
   display: none;
 } 
