@@ -174,11 +174,14 @@ a {
   text-decoration: none;
 }
 
-a:hover 
-{
+a:hover {
    color: #5b92e5; 
    text-decoration: none; 
    cursor: pointer;  
+}
+
+a:visited {
+  color: #121d2d;
 }
 
 .anchor {
