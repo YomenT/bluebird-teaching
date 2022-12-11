@@ -8,7 +8,11 @@ class SatPrepLinkOutline extends React.Component {
     // }
 
     visitedLink = () => {
-        document.getElementById('link1').style.color = "#121d2d";
+        let link = document.getElementById("link1");
+        link.style.color = "#121d2d";
+        if (sessionStorage("autosave")) {
+            link.style.color = "#121d2d";
+        }
     }
 
     render() {
