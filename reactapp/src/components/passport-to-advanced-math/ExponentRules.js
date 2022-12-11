@@ -114,7 +114,7 @@ class ExponentRules extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>D) x<sup>8</sup></p>
 
                 <div className='row'>
-                    <p className='p-body'>3.  This one might be a bit harder, but you've got this!  Simplify: 
+                    <p className='p-body'>3.  This one might be a bit harder, but you've got this!  Simplify: &nbsp; 
                         <div className='frac'>
                             <span className='top'>x<sup>2</sup></span>
                             <span className='symbol'>/</span>
@@ -125,7 +125,7 @@ class ExponentRules extends React.Component {
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>A) x<sup>10</sup></p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>B) x<sup>7</sup></p>
                 <p className="p-body-small" style={{ marginLeft: "4%"}}>C) x<sup>-3</sup></p>
-                <p className="p-body-small" style={{ marginLeft: "4%"}}>D) 
+                <p className="p-body-small" style={{ marginLeft: "4%"}}>D) &nbsp;
                     <div className='frac'>
                         <span className='top'>1</span>
                         <span className='symbol'>/</span>
