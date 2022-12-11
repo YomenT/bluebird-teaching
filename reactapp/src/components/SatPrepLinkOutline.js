@@ -3,7 +3,11 @@ import { Link } from "react-router-dom"
 
 class SatPrepLinkOutline extends React.Component {
 
-    visitedLink(id) {
+    // visitedLink(id) {
+    //     document.getElementById(id).style.color = "#121d2d";
+    // }
+
+    visitedLink = (id) => {
         document.getElementById(id).style.color = "#121d2d";
     }
 
@@ -12,7 +16,7 @@ class SatPrepLinkOutline extends React.Component {
             <div>
                 <h4 className="h4-blue-headers">Heart of Algebra</h4>
                 <ol className="list-medium">
-                    <Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><li style={{ paddingTop: "20px" }} id='link1' onClick={this.visitedLink("link1")}><strong>A little bit about Heart of Algebra</strong></li></Link>
+                    <Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><li style={{ paddingTop: "20px" }} id='link1' onClick={this.visitedLink(this.id)}><strong>A little bit about Heart of Algebra</strong></li></Link>
                     <Link to="/heart_of_algebra/introduction_to_functions" style={{ color: "#365789" }}><li>Introduction to Functions</li></Link>
                     <Link to="/heart_of_algebra/function_notation" style={{ color: "#365789" }}><li>Function Notation</li></Link>
                     <Link to="/heart_of_algebra/introduction_to_linear" style={{ color: "#365789" }}><li>Introduction to Linear Functions</li></Link>
