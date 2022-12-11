@@ -105,9 +105,19 @@ p {
   color: 	#365789;
 }
 
+.p-body-medium {
+  color: #365789;
+  font-size: 21px;
+}
+
 .p-body-small {
   color: #365789;
   font-size: 19px;
+}
+
+.list-medium {
+  color: #365789;
+  font-size: 21px;
 }
 
 .blue{
