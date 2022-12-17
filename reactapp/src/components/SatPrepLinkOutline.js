@@ -13,7 +13,7 @@ class SatPrepLinkOutline extends React.Component {
     // }
 
     changeLinkColor(e) {
-        e.style.color = "#5b92e5";
+        e.target.style.color = "#5b92e5";
     }
 
     render() {
