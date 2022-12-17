@@ -1,23 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-class SatPrepLinkOutline extends React.Component {
+class SatPrepLinkOutline extends React.Component {  
 
-    
-
-    visitedLink = () => {
-        let link = document.getElementById("link1");
-        link.style.color = "#121d2d";
-        sessionStorage.setItem('autosave', "#121d2d")
-        if (sessionStorage("autosave")) {
-            link.style.color = "#121d2d";
-        }
-    }
+    // visitedLink = () => {
+    //     let link = document.getElementById("link1");
+    //     link.style.color = "#121d2d";
+    //     sessionStorage.setItem('autosave', "#121d2d")
+    //     if (sessionStorage("autosave")) {
+    //         link.style.color = "#121d2d";
+    //     }
+    // }
 
     render() {
         return (
-            <div>
-                <h4 className="h4-blue-headers" id='link1' onClick={this.visitedLink}>Heart of Algebra</h4>
+            <div style={{ paddingBotton: "25px" }}>
+                <h4 className="h4-blue-headers">Heart of Algebra</h4>
                 <ol className="list-medium">
                     <Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><li style={{ paddingTop: "20px" }}><strong>A little bit about Heart of Algebra</strong></li></Link>
                     <Link to="/heart_of_algebra/introduction_to_functions" style={{ color: "#365789" }}><li>Introduction to Functions</li></Link>

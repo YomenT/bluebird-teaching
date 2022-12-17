@@ -79,8 +79,12 @@ class SatPrep extends React.Component {
                         went over!  I'll try to block off each section between horizontal lines to take no more than 30 minutes. 
                     </p>
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868" }}></hr>
+                    <p className="p-body">
+                        Try to go through the following links in order.  Try to keep track of which links you've visited; The color change for visited links isn't working as expected.  Sorry 
+                        for my poor coding skills, and thank you for your patience :)
+                    </p>
                     <SatPrepLinkOutline />
-                    <div className="wrap-collabsible" style={{ paddingTop: "50px", paddingBottom: "50px" }}>
+                    {/* <div className="wrap-collabsible" style={{ paddingTop: "50px", paddingBottom: "50px" }}>
                         <input id="HOA-collapsible" className="toggle" type="checkbox"></input>
                         <label for="HOA-collapsible" className="lbl-toggle">Heart of Algebra</label>
                         <div className="collapsible-content">
@@ -146,7 +150,7 @@ class SatPrep extends React.Component {
                                 }}>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <Footer />
             </div>
