@@ -1,12 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-class SatPrepLinkOutline extends React.Component {  
-
-    constructor(props) {
-        super(props);
-        this.changeLinkColor = this.changeLinkColor.bind(this);
-    }
+class SatPrepLinkOutline extends React.Component {
 
     // visitedLink = () => {
     //     let link = document.getElementById("link1");
@@ -18,13 +13,13 @@ class SatPrepLinkOutline extends React.Component {
     // }
 
     changeLinkColor(e) {
-        e.target.style.color = "#5b92e5";
+        e.style.color = "#5b92e5";
     }
 
     render() {
         return (
             <div style={{ paddingBotton: "25px" }}>
-                <h4 className="h4-blue-headers" onMouseOver={this.changeLinkColor.bind(this)}>Heart of Algebra</h4>
+                <h4 className="h4-blue-headers" onMouseOver={(event) => this.changeLinkColor(event)}>Heart of Algebra</h4>
                 <ol className="list-medium">
                     <li style={{ paddingTop: "20px" }}><Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><strong>A little bit about Heart of Algebra</strong></Link></li>
                     <li><Link to="/heart_of_algebra/introduction_to_functions" style={{ color: "#365789" }}>Introduction to Functions</Link></li>
