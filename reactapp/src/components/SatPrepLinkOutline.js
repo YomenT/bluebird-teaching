@@ -3,6 +3,11 @@ import { Link } from "react-router-dom"
 
 class SatPrepLinkOutline extends React.Component {  
 
+    constructor(props) {
+        super(props);
+        this.changeLinkColor = this.changeLinkColor.bind(this);
+    }
+
     // visitedLink = () => {
     //     let link = document.getElementById("link1");
     //     link.style.color = "#121d2d";
