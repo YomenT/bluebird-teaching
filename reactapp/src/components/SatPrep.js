@@ -79,7 +79,7 @@ class SatPrep extends React.Component {
                         went over!  I'll try to block off each section between horizontal lines to take no more than 30 minutes. 
                     </p>
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868" }}></hr>
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingBottom: "25px" }}>
                         Try to go through the following links in order.  Try to keep track of which links you've visited; The color change for visited links isn't working as expected.  Sorry 
                         for my poor coding skills, and thank you for your patience :)
                     </p>
