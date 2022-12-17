@@ -12,14 +12,18 @@ class SatPrepLinkOutline extends React.Component {
     //     }
     // }
 
+    changeLinkColor = (link) => {
+        link.style.color = "#5b92e5";
+    }
+
     render() {
         return (
             <div style={{ paddingBotton: "25px" }}>
-                <h4 className="h4-blue-headers">Heart of Algebra</h4>
+                <h4 className="h4-blue-headers" onMouseOver={changeLinkColor(this)}>Heart of Algebra</h4>
                 <ol className="list-medium">
                     <li style={{ paddingTop: "20px" }}><Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><strong>A little bit about Heart of Algebra</strong></Link></li>
-                    <Link to="/heart_of_algebra/introduction_to_functions" style={{ color: "#365789" }}><li>Introduction to Functions</li></Link>
-                    <Link to="/heart_of_algebra/function_notation" style={{ color: "#365789" }}><li>Function Notation</li></Link>
+                    <li><Link to="/heart_of_algebra/introduction_to_functions" style={{ color: "#365789" }}>Introduction to Functions</Link></li>
+                    <li><Link to="/heart_of_algebra/function_notation" style={{ color: "#365789" }}>Function Notation</Link></li>
                     <Link to="/heart_of_algebra/introduction_to_linear" style={{ color: "#365789" }}><li>Introduction to Linear Functions</li></Link>
                     <Link to="/heart_of_algebra/modelling_linear" style={{ color: "#365789" }}><li>Modelling Linear Equations</li></Link>
                     <Link to="/heart_of_algebra/parallel_perpendicular" style={{ color: "#365789" }}><li>Paralell and Perpendicular Lines</li></Link>
