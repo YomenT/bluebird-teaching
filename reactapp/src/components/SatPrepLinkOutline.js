@@ -3,15 +3,6 @@ import { Link } from "react-router-dom"
 
 class SatPrepLinkOutline extends React.Component {
 
-    // visitedLink = () => {
-    //     let link = document.getElementById("link1");
-    //     link.style.color = "#121d2d";
-    //     sessionStorage.setItem('autosave', "#121d2d")
-    //     if (sessionStorage("autosave")) {
-    //         link.style.color = "#121d2d";
-    //     }
-    // }
-
     changeLinkColorEnter(e) {
         e.target.style.color = "#5b92e5";
     }
@@ -25,7 +16,7 @@ class SatPrepLinkOutline extends React.Component {
             <div style={{ paddingBotton: "25px" }}>
                 <h4 className="h4-blue-headers">Heart of Algebra</h4>
                 <ol className="list-medium">
-                    <li style={{ paddingTop: "20px" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}><Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><strong>A little bit about Heart of Algebra</strong></Link></li>
+                    <li style={{ paddingTop: "20px" }}><Link to="/heart_of_algebra/about" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}><strong>A little bit about Heart of Algebra</strong></Link></li>
                     <li><Link to="/heart_of_algebra/introduction_to_functions" style={{ color: "#365789" }}>Introduction to Functions</Link></li>
                     <li><Link to="/heart_of_algebra/function_notation" style={{ color: "#365789" }}>Function Notation</Link></li>
                     <Link to="/heart_of_algebra/introduction_to_linear" style={{ color: "#365789" }}><li>Introduction to Linear Functions</li></Link>
