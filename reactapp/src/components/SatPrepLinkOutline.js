@@ -25,7 +25,7 @@ class SatPrepLinkOutline extends React.Component {
             <div style={{ paddingBotton: "25px" }}>
                 <h4 className="h4-blue-headers">Heart of Algebra</h4>
                 <ol className="list-medium">
-                    <li style={{ paddingTop: "20px" }} onMouseOver={this.changeLinkColor} onMouseLeave={this.changeLinkColorLeave}><Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><strong>A little bit about Heart of Algebra</strong></Link></li>
+                    <li style={{ paddingTop: "20px" }} onMouseOver={this.changeLinkColorEnter} onMouseLeave={this.changeLinkColorLeave}><Link to="/heart_of_algebra/about" style={{ color: "#365789" }}><strong>A little bit about Heart of Algebra</strong></Link></li>
                     <li><Link to="/heart_of_algebra/introduction_to_functions" style={{ color: "#365789" }}>Introduction to Functions</Link></li>
                     <li><Link to="/heart_of_algebra/function_notation" style={{ color: "#365789" }}>Function Notation</Link></li>
                     <Link to="/heart_of_algebra/introduction_to_linear" style={{ color: "#365789" }}><li>Introduction to Linear Functions</li></Link>
