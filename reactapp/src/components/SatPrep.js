@@ -4,34 +4,8 @@ import { Link } from 'react-router-dom';
 
 import SatPrepLinkOutline from "./SatPrepLinkOutline";
 
-// Heart of Algebra
 import Logo from './Logo'
 import Footer from './Footer'
-import IntroductionToHeartOfAlgebra from "./IntroductionToHeartOfAlgebra"
-import IntroductionToFunctions from './IntroductionToFunctions'
-import FunctionNotation from './FunctionNotation'
-import IntroToLinear from './IntroToLinear'
-import ModellingLinear from './ModellingLinear'
-import ParallelPerpendicular from './ParallelPerpendicular.js'
-import SystemofLinearEquations1 from './SystemofLinearEquations1.js'
-import SystemofLinearEquations2 from './SystemofLinearEquations2.js'
-import HeartofAlgebraCompletion from './HeartofAlgebraCompletion.js'
-import LinearInequalities from './LinearInequalities.js'
-import GraphingLinearInequalities from './GraphingLinearInequalities.js'
-import GraphingSystemsOfLinearInequalities from './GraphingSystemsOfLinearInequalities.js'
-
-// Passport to Advanced Math
-import PassportToAdvancedMathIntroduction from "./passport-to-advanced-math/PassportToAdvancedMathIntroduction.js";
-import ExponentRules from "./passport-to-advanced-math/ExponentRules";
-import ExponentRules2 from "./passport-to-advanced-math/ExponentRules2";
-import PolynomialsPart1 from "./passport-to-advanced-math/PolynomialsPart1";
-import PolynomialsPart2 from "./passport-to-advanced-math/PolynomialsPart2";
-import PolynomialsPart3 from "./passport-to-advanced-math/PolynomialsPart3";
-import FactoringPart1 from "./passport-to-advanced-math/FactoringPart1";
-import FactoringPart2 from "./passport-to-advanced-math/FactoringPart2";
-import QuadraticFunctionPart1 from "./passport-to-advanced-math/QuadraticFunctionPart1";
-import QuadraticFunctionGraphicalAnalysis from "./passport-to-advanced-math/QuadraticFunctionGraphicalAnalysis";
-import QuadraticFunctionGraphicalAnalysis2 from "./passport-to-advanced-math/QuadraticFunctionGraphicalAnalysis2";
 
 class SatPrep extends React.Component {
 
