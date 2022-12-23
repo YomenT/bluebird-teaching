@@ -64,7 +64,7 @@ class SatPrep extends React.Component {
                             url="https://www.youtube.com/watch?v=5qap5aO4i9A"
                         />
                     </div>
-                    <h3 className="h3-blue-headers" style={{ paddingTop: "75px" }}>How This Works</h3>
+                    <h3 className="h3-blue-headers" style={{ paddingTop: "75px", paddingBottom: "10px" }}>How This Works</h3>
                     <p className="p-body">
                         After scrolling down some, you'll see 4 different headers; all with lots of links beneath them.  Each link contains content to help 
                         prepare you better for the math portion of the SAT.  Read the "Pace Yourself" bit below to see how to better proceed through this 
