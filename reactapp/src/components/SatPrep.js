@@ -64,9 +64,13 @@ class SatPrep extends React.Component {
                             url="https://www.youtube.com/watch?v=5qap5aO4i9A"
                         />
                     </div>
-                    <Link to="/aboutsatprep">
-                        <h3 className="h3-blue-headers" style={{ paddingTop: "75px", paddingBottom: "15px" }}>Pace Yourself</h3>
-                    </Link>
+                    <h3 className="h3-blue-headers" style={{ paddingTop: "75px" }}>How This Works</h3>
+                    <p className="p-body">
+                        After scrolling down some, you'll see 4 different headers; all with lots of links beneath them.  Each link contains content to help 
+                        prepare you better for the math portion of the SAT.  Read the "Pace Yourself" bit below to see how to better proceed through this 
+                        material.
+                    </p>
+                    <h3 className="h3-blue-headers" style={{ paddingTop: "75px", paddingBottom: "15px" }}>Pace Yourself</h3>
                     <p className="p-body-small">
                         You know your schedule best!  Try to gauge how much you need to work on everyday to prepare yourself according 
                         to when you plan on taking the SAT.  It is nice to keep this chill.  Try to block out just 30 minutes a day to work on this, so you 
@@ -76,7 +80,7 @@ class SatPrep extends React.Component {
                         It is better to keep your study time on the shorter end, but try to make that time very engaging.  While spending time studying, try to 
                         ask yourself questions about the material.  If there are questions that you can't find answers to, <Link to="/contact" style={{ color: "#5b92e5" }}>let us know</Link>!  
                         The important thing is to try to stay engaged.  When you're not directly studying, try to mentally chew over the last material you 
-                        went over!  I'll try to block off each section between horizontal lines to take no more than 30 minutes. 
+                        went over.  I'll try to make sure each page of content doesn't take you more than 30 minutes to go through it.
                     </p>
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", backgroundColor: "#686868" }}></hr>
                     <p className="p-body" style={{ paddingBottom: "25px" }}>
