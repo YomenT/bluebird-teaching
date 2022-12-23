@@ -70,7 +70,7 @@ class SatPrep extends React.Component {
                         prepare you better for the math portion of the SAT.  Read the "Pace Yourself" bit below to see how to better proceed through this 
                         material.
                     </p>
-                    <h3 className="h3-blue-headers" style={{ paddingTop: "75px", paddingBottom: "15px" }}>Pace Yourself</h3>
+                    <h3 className="h3-blue-headers" style={{ paddingTop: "50px", paddingBottom: "15px" }}>Pace Yourself</h3>
                     <p className="p-body-small">
                         You know your schedule best!  Try to gauge how much you need to work on everyday to prepare yourself according 
                         to when you plan on taking the SAT.  It is nice to keep this chill.  Try to block out just 30 minutes a day to work on this, so you 
