@@ -19,12 +19,16 @@
 
 .aboutBodyDiv {
   background: #dee9f9;
-  height: 100vh;
+  height: 100%;
   padding-left: 10%;
   padding-right: 10%;
   margin: 0px;
   padding-bottom: 25px;
   padding-top: 25px;
+}
+
+#full-height {
+  height: 100vh;
 }
 
 .logoDiv {
