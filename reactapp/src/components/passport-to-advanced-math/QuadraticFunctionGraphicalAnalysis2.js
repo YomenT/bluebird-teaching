@@ -23,6 +23,10 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                         different "a" values are having on the graph.
                     </p>
 
+                    <p className="p-body-small">
+                        Again, very sorry that the pictures aren't the best, but try to focus on the x and y values.
+                    </p>
+
                     <p className="p-body" style={{ paddingTop: "50px" }}><i>x<sup>2</sup> = y</i></p>
                     <img 
                         src={"https://i.ibb.co/G0xDZjD/Graphical-Analysis3.png"}
