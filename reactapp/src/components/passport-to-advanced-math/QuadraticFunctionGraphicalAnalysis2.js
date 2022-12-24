@@ -27,12 +27,12 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                     <img 
                         src={"https://i.ibb.co/G0xDZjD/Graphical-Analysis3.png"}
                         alt="Answer Choice 1"
-                        width={500}
-                        height={500} />
+                        width={600}
+                        height={600} />
 
-                    <p className="p-body">2x<sup>2</sup> = y</p>
+                    <p className="p-body" style={{ paddingTop: "30px" }}>2x<sup>2</sup> = y</p>
 
-                    <p className="p-body">0.5x<sup>2</sup> = y</p>
+                    <p className="p-body" style={{ paddingTop: "30px" }}>0.5x<sup>2</sup> = y</p>
                 </div>
                 <Footer />
             </div>
