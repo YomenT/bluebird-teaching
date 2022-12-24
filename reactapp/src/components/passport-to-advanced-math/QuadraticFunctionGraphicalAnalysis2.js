@@ -27,8 +27,8 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                     <img 
                         src={"https://i.ibb.co/G0xDZjD/Graphical-Analysis3.png"}
                         alt="Answer Choice 1"
-                        width={300}
-                        height={300} />
+                        width={500}
+                        height={500} />
 
                     <p className="p-body">2x<sup>2</sup> = y</p>
 
