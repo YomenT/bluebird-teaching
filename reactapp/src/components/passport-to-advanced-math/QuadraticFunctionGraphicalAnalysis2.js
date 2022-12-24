@@ -23,7 +23,7 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                         different "a" values are having on the graph.
                     </p>
 
-                    <p className="p-body"><i>x<sup>2</sup> = y</i></p>
+                    <p className="p-body" style={{ paddingTop: "50px" }}><i>x<sup>2</sup> = y</i></p>
                     <img 
                         src={"https://i.ibb.co/G0xDZjD/Graphical-Analysis3.png"}
                         alt="Answer Choice 1"
@@ -43,6 +43,21 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                         alt="Answer Choice 1"
                         width={600}
                         height={600} />
+
+                    <p className="p-body" style={{ paddingTop: "50px" }}>
+                        As you might have noticed, making the "a" greater than 1 makes the graph skinnier; while making the "a" value a fraction between 1 and 0 makes 
+                        the graph wider. 
+                    </p>
+
+                    <p className="p-body-small">
+                        If you like, try going on Desmos again and try to experiment some more with this.  Below are some example equations to try.
+                    </p>
+                    <ul className="p-body">
+                        <li>2x<sup>2</sup> = y</li>
+                        <li>6x<sup>2</sup> = y</li>
+                        <li>0.8x<sup>2</sup> = y</li>
+                        <li>0.2x<sup>2</sup> = y</li>
+                    </ul>
                 </div>
                 <Footer />
             </div>
