@@ -13,23 +13,26 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                 </div>
                 <div className="aboutBodyDiv">
                     <p className="p-body" style={{ paddingTop: "25px" }}>
-                        In the last session, we mainly looked at the impacts of the "a" and "c" values have on the graph of a quadratic function.  This time, we're going to look at how the "b" value from the bx term in ax<sup>2</sup> + bx + c = y 
-                        impacts the graph.  
-                    </p>
-
-                    <p className="p-body-small">
-                        <i>We actually encountered this a little bit in the last question of the Try It section of the previous lesson.</i>
-                    </p>
-
-                    <p className="p-body-small">
-                        There is actually another form to the quadratic equation.  We've been looking at standard form, but there is actually a form called vertex form.  To fully be able to pinpoint the exact matching graph to 
-                        a quadratic equation, we would actually use vertex form.  What we're doing now is a general way of graphically analyzing a quadratic equation.  We'll get more into vertex form later.  A general 
-                        graphical analysis and a more precise graphical analysis are both necessary skills for the SAT.
+                        In the last session, we mainly looked at the impacts of the "a" and "c" values have on the graph of a quadratic function.  You may not 
+                        have noticed, but the "a" value was always 1 or -1.  <i>What happens when we have a non 1 "a" value?</i>  
                     </p>
 
                     <p className="p-body">
-                        The sign (positive/negative) of the "b" value is what determines if the graph will be shifted right or left of the y axis.  <i>Again, this isn't entirely accurate; we'll see a more accurate analysis when we do vertex form.</i>  
+                        We saw how a positive or negative value effects the graph of a quadratic equation, but let's see what happens when we change to value to 
+                        anything besides just positive or negative 1.  Take a loot at the three graph variations below; see if you can tell the effects the 
+                        different "a" values are having on the graph.
                     </p>
+
+                    <p className="p-body">x<sup>2</sup> = y</p>
+                    <img 
+                        src={"https://i.ibb.co/G0xDZjD/Graphical-Analysis3.png"}
+                        alt="Answer Choice 1"
+                        width={300}
+                        height={300} />
+
+                    <p className="p-body">2x<sup>2</sup> = y</p>
+
+                    <p className="p-body">0.5x<sup>2</sup> = y</p>
                 </div>
                 <Footer />
             </div>
