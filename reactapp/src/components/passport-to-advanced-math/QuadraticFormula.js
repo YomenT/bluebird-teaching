@@ -39,7 +39,7 @@ class QuadraticFormula extends React.Component {
                         width={325}
                         height={175} />
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "30px" }}>
                         If you haven't caught it, all those variables (a, b, and c) all come straight from the quadratic equation that you're working with.  Remember 
                         that example equation I gave you earlier?  In x<sup>2</sup> + 5x + 2 = 0, the a value is 1, the b value is 5, and the c value is 2.  You just 
                         plug those values into the quadratic formula and solve for x.  
@@ -56,7 +56,7 @@ class QuadraticFormula extends React.Component {
                         width={411}
                         height={61} />
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>
                         <i>
                             If you aren't sure how I got those values for a, b, and c, please feel free to reach out and ask about it, or just reach out with 
                             any other qustions you might have.
