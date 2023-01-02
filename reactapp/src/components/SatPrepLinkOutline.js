@@ -52,6 +52,7 @@ class SatPrepLinkOutline extends React.Component {
                             <li><Link to="/passport_to_advanced_math/factoring1" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 1</Link></li>
                             <li><Link to="/passport_to_advanced_math/factoring2" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 2</Link></li>
                         </ul>
+                    <li><Link to="passport_to_advanced_math/quadratic_formula" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>The Quadratic Formula</Link></li>
                     <li>Exponent Rules</li>
                         <ul className="list-medium">
                             <li><Link to="/passport_to_advanced_math/exponent_rules_part1" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 1</Link></li>

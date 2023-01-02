@@ -35,6 +35,7 @@ import FactoringPart1 from './passport-to-advanced-math/FactoringPart1'
 import FactoringPart2 from './passport-to-advanced-math/FactoringPart2'
 import ExponentRules from './passport-to-advanced-math/ExponentRules';
 import ExponentRules2 from './passport-to-advanced-math/ExponentRules2';
+import QuadraticFormula from './passport-to-advanced-math/QuadraticFormula';
 
 const Main = () => {
   return (
@@ -74,6 +75,7 @@ const Main = () => {
       <Route exact path='/passport_to_advanced_math/factoring2' component={FactoringPart2}></Route>
       <Route exact path='/passport_to_advanced_math/exponent_rules_part1' component={ExponentRules}></Route>
       <Route exact path='/passport_to_advanced_math/exponent_rules_part2' component={ExponentRules2}></Route>
+      <Route exact path='/passport_to_advanced_math/quadratic_formula' component={QuadraticFormula}></Route>
     </Switch>
   );
 }
