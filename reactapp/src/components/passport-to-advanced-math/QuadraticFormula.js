@@ -51,10 +51,10 @@ class QuadraticFormula extends React.Component {
                     </p>
 
                     <img 
-                        src={"https://i.ibb.co/87bKzW2/Quadratic-Formula2.png"}
+                        src={"https://wikimedia.org/api/rest_v1/media/math/render/svg/6a1536aafb8b9a1e6eb3afb5a0982a65b7f63ca4"}
                         alt="The Two Solutions"
-                        width={500}
-                        height={200} />
+                        width={411}
+                        height={61} />
 
                     <p className="p-body-small">
                         <i>
