@@ -70,10 +70,10 @@ class QuadraticFormula extends React.Component {
                     <img 
                         src={"https://i.ibb.co/M5yMXGb/Quadratic-Formula3.png"}
                         alt="Showing work"
-                        width={300}
-                        height={500} />
+                        width={550}
+                        height={650} />
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "30px" }}>
                         Obviously, it's not going to take that many steps every time; I just did every single thing one step at a time.  If you have a calculator handy, 
                         you can definitely do a lot of the steps together.  Just always be careful not to do any careless mistakes. 
                     </p>
@@ -91,12 +91,23 @@ class QuadraticFormula extends React.Component {
                         practice in.
                     </p>
 
-                    {/* Fix answer choices */}
                     <p className='p-body'>1.  -2x<sup>2</sup> + 10x - 1 = 0</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  8y + 3x + 1</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  6y + 3x + 1</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  8y + 3x - 1</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  6y + 3x - 1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = -0.102 and x = 4.898</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = 0.102 and x = 4.898</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = -0.102 and x = -4.898</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = 0.102 and x = -4.898</p>
+
+                    <p className='p-body'>1.  x<sup>2</sup> - 17x - 60 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = 7 and x = 10</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = 8 and x = 19</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = -3 and x = 20</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = -9 and x = 5</p>
+
+                    <p className='p-body'>1.  3x<sup>2</sup> + 10x + 2 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = -0.214 and x = -3.12</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = -2.2 and x = 0.21</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = -0.24 and x = 1.2</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = -3.4 and x = 2.2</p>
 
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
 
