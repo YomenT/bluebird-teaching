@@ -63,9 +63,54 @@ class QuadraticFormula extends React.Component {
                         </i>
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body">
                         Below is my work shown to use the quadratic formula to solve x<sup>2</sup> + 5x + 2 = 0.
                     </p>
+
+                    {/* Image Needed Here */}
+
+                    <p className="p-body">
+                        Obviously, it's not going to take that many steps every time; I just did every single thing one step at a time.  If you have a calculator handy, 
+                        you can definitely do a lot of the steps together.  Just always be careful not to do any careless mistakes. 
+                    </p>
+
+                    <p className="p-body-small">
+                        <i>
+                            Again, if you aren't certain about any of the steps, calculations, and/or work we've done so far, always feel free to reach out with questions.
+                        </i>
+                    </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className="p-body">
+                        Some of these equations can be factored, but it would still be better for you to just use the quadratic formula for all of these.  Just to get more 
+                        practice in.
+                    </p>
+
+                    {/* Fix answer choices */}
+                    <p className='p-body'>1.  -2x<sup>2</sup> + 10x - 1 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  8y + 3x + 1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  6y + 3x + 1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  8y + 3x - 1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  6y + 3x - 1</p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                    <p className="p-body">
+                        So far we've learned about factoring; now we've just learned about the quadratic formula.  Both are ways to do the same thing.  We're actually 
+                        going to learn about a third method called "completing the square"; again this method still gets us the same results as the previous two methods.  
+                    </p>
+
+                    <p className="p-body">Why do we have 3 different ways of producing the same results?  We'll continue to learn more about the why.</p>
+
+                    <p className="p-body-small">
+                        If you haven't already, create a some sort of diagram (can be a PowerPoint, on regular paper, etc) explaining the steps to each approach; so far 
+                        we have factoring and the quadratic formula.  We're going to add more to this diagram once we go over completing the square.  At the end of this 
+                        diagram, have an explanation as to why using the quadratic formula might be necessary over using factoring to fin the x-intercepts in a quadratic 
+                        equation.  
+                    </p>
+
+                    <p className="p-body-small"><i>As always, please let us know if you have any questions over the instructions, material, etc.</i></p>
                 </div>
                 <Footer />
             </div>
