@@ -67,7 +67,11 @@ class QuadraticFormula extends React.Component {
                         Below is my work shown to use the quadratic formula to solve x<sup>2</sup> + 5x + 2 = 0.
                     </p>
 
-                    {/* Image Needed Here */}
+                    <img 
+                        src={"https://i.ibb.co/M5yMXGb/Quadratic-Formula3.png"}
+                        alt="Showing work"
+                        width={300}
+                        height={500} />
 
                     <p className="p-body">
                         Obviously, it's not going to take that many steps every time; I just did every single thing one step at a time.  If you have a calculator handy, 
