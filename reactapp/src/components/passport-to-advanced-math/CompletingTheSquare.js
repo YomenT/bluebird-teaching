@@ -28,7 +28,7 @@ class CompletingTheSquare extends React.Component {
 
                     <p className="p-body">
                         In this lesson, we're going to look at completing the square; our last method to finding the x-intercepts (or solving) 
-                        for a quadratic equation.  Watch the video below to see an example of how this is done.
+                        for a quadratic equation.  Watch <a href="">this video</a> to see an example of how this is done.
                     </p>
 
                     <div>
