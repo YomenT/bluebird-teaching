@@ -15,7 +15,7 @@ class CompletingTheSquare extends React.Component {
 
                 <div className="aboutBodyDiv">
 
-                    <p className="p-body -small">
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
                         We've covered factoring and the quadratic formula, and we mentioned that they both achieve the same results 
                         (finding the x-intercepts).  Factoring goes through the process of finding the factors of that quadratic 
                         equation, but if that's not very easy because they're not clean whole numbers, we use the quadratic formula.  
