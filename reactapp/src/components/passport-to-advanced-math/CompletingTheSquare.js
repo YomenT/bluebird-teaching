@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
 import Logo from '../Logo'
 import Footer from '../Footer'
@@ -24,7 +25,19 @@ class CompletingTheSquare extends React.Component {
                         I'm just going to teach you how to use it to find the x-intercepts; just like factoring and the quadratic 
                         formula.
                     </p>
+
+                    <p className="p-body">
+                        In this lesson, we're going to look at completing the square; our last method to finding the x-intercepts (or solving) 
+                        for a quadratic equation.  Watch the video below to see an example of how this is done.
+                    </p>
+
+                    <div>
+                        <ReactPlayer 
+                            url="https://www.youtube.com/watch?v=xGOQYTo9AKY"
+                        />
+                    </div>
                 </div>
+                <Footer />
             </div>
         )
     }
