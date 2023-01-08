@@ -4,6 +4,14 @@ import Logo from '../Logo'
 import Footer from '../Footer'
 
 class CompletingTheSquare extends React.Component {
+
+    underlineLink(e) {
+        e.target.style.textDecoration = "underline"
+    }
+
+    removeUnderline(e) {
+        e.target.style.textDecoration = "'none';"
+    }
     
     render() {
         return (
@@ -27,8 +35,15 @@ class CompletingTheSquare extends React.Component {
 
                     <p className="p-body">
                         In this lesson, we're going to look at completing the square; our last method to finding the x-intercepts (or solving) 
-                        for a quadratic equation.  Watch <a href="https://www.youtube.com/watch?v=xGOQYTo9AKY" style={{ color: "#5b92e5" }}>this video</a> to 
-                        see an example of how this is done.
+                        for a quadratic equation.  Watch <a href="https://www.youtube.com/watch?v=xGOQYTo9AKY" style={{ color: "#5b92e5" }} 
+                        onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a> to see an example of how this is done.
+                    </p>
+
+                    <p className="p-body">
+                        Prefer reading about it?  Try <a style={{ color: "#5b92e5" }} href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:more-on-completing-square/a/solving-quadratic-equations-by-completing-the-square"
+                        onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this resource</a> from Khan Academy, or 
+                        try <a style={{ color: "#5b92e5" }} href="https://www.brainfuse.com/jsp/alc/resource.jsp?s=gre&c=35261&cc=108824" 
+                        onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this resource</a> from Brainfuse.
                     </p>
                 </div>
                 <Footer />
