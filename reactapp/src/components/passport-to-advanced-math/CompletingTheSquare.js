@@ -5,12 +5,15 @@ import Footer from '../Footer'
 
 class CompletingTheSquare extends React.Component {
 
+    khanAcademyUrl = "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:more-on-completing-square/a/solving-quadratic-equations-by-completing-the-square"
+    brainfuseUrl = "https://www.brainfuse.com/jsp/alc/resource.jsp?s=gre&c=35261&cc=108824"
+
     underlineLink(e) {
         e.target.style.textDecoration = "underline"
     }
 
     removeUnderline(e) {
-        e.target.style.textDecoration = "'none';"
+        e.target.style.textDecoration = "none"
     }
     
     render() {
@@ -35,14 +38,14 @@ class CompletingTheSquare extends React.Component {
 
                     <p className="p-body">
                         In this lesson, we're going to look at completing the square; our last method to finding the x-intercepts (or solving) 
-                        for a quadratic equation.  Watch <a href="https://www.youtube.com/watch?v=xGOQYTo9AKY" style={{ color: "#5b92e5" }} 
+                        for a quadratic equation.  Watch <a href="https://www.youtube.com/watch?v=xGOQYTo9AKY" target={"_blank"} style={{ color: "#5b92e5" }} 
                         onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a> to see an example of how this is done.
                     </p>
 
                     <p className="p-body">
-                        Prefer reading about it?  Try <a style={{ color: "#5b92e5" }} href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:more-on-completing-square/a/solving-quadratic-equations-by-completing-the-square"
+                        Prefer reading about it?  Try <a style={{ color: "#5b92e5" }} target={"_blank"} href={this.khanAcademyUrl}
                         onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this resource</a> from Khan Academy, or 
-                        try <a style={{ color: "#5b92e5" }} href="https://www.brainfuse.com/jsp/alc/resource.jsp?s=gre&c=35261&cc=108824" 
+                        try <a style={{ color: "#5b92e5" }} href={this.brainfuseUrl} target={"_blank"} 
                         onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this resource</a> from Brainfuse.
                     </p>
                 </div>
