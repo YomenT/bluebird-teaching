@@ -48,6 +48,37 @@ class CompletingTheSquare extends React.Component {
                         try <a style={{ color: "#5b92e5" }} href={this.brainfuseUrl} target={"_blank"} 
                         onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this resource</a> from Brainfuse.
                     </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className="p-body">
+                        Remember to solve each of these quadratic equations using completing the square only.
+                    </p>
+
+                    <p className='p-body'>1.  Find the x-intercepts for x<sup>2</sup> + 15x + 56 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = 10 and x = -6</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = 4 and x = -11</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 8 and x =6</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = -7 and x = -8</p>
+
+                    <p className='p-body'>2.  Find the x-intercepts for x<sup>2</sup> + 8x + 15 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = 3 and x = -5</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = -3 and x = -5</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 5 and x = 3</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = 5 and x = -3</p>
+
+                    <p className='p-body'>3.  Find the x-intercepts for x<sup>2</sup> + 8x - 9 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = -1 and x = -9</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = 2 and x = 1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 1 and x = -9</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = 1 and x = 9</p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                    <p className="p-body">
+                        Add what you've learned about completing the square to the diagram that you created in the previous lesson.  
+                        Add things like the steps in completing the square, and also maybe add an example or two.
+                    </p>
                 </div>
                 <Footer />
             </div>
