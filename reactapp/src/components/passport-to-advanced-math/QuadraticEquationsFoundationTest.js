@@ -34,6 +34,19 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         discussing a topic is really the best practice there is.  Ever wondered how quadratics are used in the real world?  
                         Feel free to discuss that with us, or look that up on your own.  Either way, don't hesitate to "talk" quadratics.
                     </p>
+
+                    <p className="p-body-small">
+                        <i>
+                            Most of the questions are going to be multiple choice.  Remember to use the answer choices as guidence if you're 
+                            stuck.
+                        </i>
+                    </p>
+
+                    <p className="p-body" style={{ paddingTop: "50px" }}>
+                        <strong>Answer the following questions using the factoring method.</strong>
+                    </p>
+
+
                 </div>
                 <Footer />
             </div>
