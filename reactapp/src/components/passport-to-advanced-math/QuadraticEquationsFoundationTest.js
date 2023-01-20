@@ -64,7 +64,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>Answer the following questions using the quadratic formula.</strong>
                     </p>
 
@@ -86,7 +86,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>Answer the following questions using completing the square.</strong>
                     </p>
 
@@ -102,7 +102,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>
                             Think of these next few questions as short-answer.  Obviously, since no one is actually 
                             going to grade you, you don't have to actually write down answers, but we strongly encourage 
@@ -115,12 +115,12 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         just like to talk about any of the questions, please feel free to reach out to us!
                     </p>
 
-                    <p className="p-body">
+                    <p className="p-body-medium">
                         9.  Can you summarize the steps for using completing the square, factoring, or the quadratic formula to 
                         solve a quadratic equation?  
                     </p>
 
-                    <p className="p-body">
+                    <p className="p-body-medium">
                         10.  When going through the above multiple choice questions, were there any mistakes you kept repeating?  
                         Usually repeated mistakes are very small, like forgetting the correct sign, but these small mistakes might 
                         just lead you to the wrong answer on the SAT.
