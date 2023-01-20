@@ -46,7 +46,23 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         <strong>Answer the following questions using the factoring method.</strong>
                     </p>
 
+                    <p className='p-body'>1.  Find the factors for x<sup>2</sup> + 2x - 24 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
 
+                    <p className='p-body'>1.  Find the solutions for x<sup>2</sup> + x - 12 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className='p-body'>1.  Find the x-intercepts for 3x<sup>2</sup> - 9x - 12 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
                 </div>
                 <Footer />
             </div>
