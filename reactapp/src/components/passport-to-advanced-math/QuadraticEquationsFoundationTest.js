@@ -52,17 +52,79 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
 
-                    <p className='p-body'>1.  Find the solutions for x<sup>2</sup> + x - 12 = 0</p>
+                    <p className='p-body'>2.  Find the solutions for x<sup>2</sup> + x - 12 = 0</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
 
-                    <p className='p-body'>1.  Find the x-intercepts for 3x<sup>2</sup> - 9x - 12 = 0</p>
+                    <p className='p-body'>3.  Find the x-intercepts for 3x<sup>2</sup> - 9x - 12 = 0</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className="p-body">
+                        <strong>Answer the following questions using the quadratic formula.</strong>
+                    </p>
+
+                    <p className='p-body'>4.  Find the x-intercepts for 2x<sup>2</sup> - 8x - 2 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className='p-body'>5.  Find the solutions for 3x<sup>2</sup> + 2  = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className='p-body'>6.  Find the roots for x<sup>2</sup> - 4x - 5 = 8</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className="p-body">
+                        <strong>Answer the following questions using completing the square.</strong>
+                    </p>
+
+                    <p className='p-body'>7.  Find the x-intercepts for x<sup>2</sup> - 4x - 32 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className='p-body'>8.  Find the factors for x<sup>2</sup> + 8x + 15 = 0</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className="p-body">
+                        <strong>
+                            Think of these next few questions as short-answer.  Obviously, since no one is actually 
+                            going to grade you, you don't have to actually write down answers, but we strongly encourage 
+                            actually answering each of these questions in your head.
+                        </strong> 
+                    </p>
+
+                    <p className="p-body-small">
+                        If you are confused by any of the questions, aren't sure how to answer any of the questions, or would 
+                        just like to talk about any of the questions, please feel free to reach out to us!
+                    </p>
+
+                    <p className="p-body">
+                        9.  Can you summarize the steps for using completing the square, factoring, or the quadratic formula to 
+                        solve a quadratic equation?  
+                    </p>
+
+                    <p className="p-body">
+                        10.  When going through the above multiple choice questions, were there any mistakes you kept repeating?  
+                        Usually repeated mistakes are very small, like forgetting the correct sign, but these small mistakes might 
+                        just lead you to the wrong answer on the SAT.
+                    </p>
                 </div>
                 <Footer />
             </div>
