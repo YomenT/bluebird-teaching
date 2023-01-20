@@ -42,6 +42,14 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         </i>
                     </p>
 
+                    <p className="p-body-small">
+                        <strong>
+                            <i>
+                                You can use a calculator for any of these questions.
+                            </i>
+                        </strong>
+                    </p>
+
                     <p className="p-body" style={{ paddingTop: "50px" }}>
                         <strong>Answer the following questions using the factoring method.</strong>
                     </p>
@@ -101,6 +109,21 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
+                        <strong>
+                            The following questions still involve direct work with quadratics, but they just aren't multiple 
+                            choice anymore.  Answer them to the best of your ability; if you need help, please reach out to us!
+                        </strong>
+                    </p>
+
+                    <p className="p-body">
+                        9.  Put 9 - 3x = 2x<sup>2</sup> into standard form.
+                    </p>
+
+                    <p className="p-body">
+                        10.  
+                    </p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>
