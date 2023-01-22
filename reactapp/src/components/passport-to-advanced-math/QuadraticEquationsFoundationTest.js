@@ -8,7 +8,6 @@ class QuadraticEquationsFoundationTest extends React.Component {
     wrongAnswer(e) {
         e.target.style.color = "#E32636"
         e.target.style.pointerEvents = "none"
-        e.getElementsByTagName('p')[0].innerHTML = "testing"
     }
 
     rightAnswer(e) {
@@ -66,54 +65,54 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     </p>
 
                     <p className='p-body'>1.  Find the factors for x<sup>2</sup> + 2x - 24 = 0</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  (x + 6) and (x - 8)</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  (x - 6) and (x + 8)</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>C)  (x - 4) and (x + 6)</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  (x + 4) and (x - 6)</p>
 
                     <p className='p-body'>2.  Find the solutions for x<sup>2</sup> + x - 12 = 0</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>A)  x = 3 and x = -4</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  x = -3 and x = 4</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  x = 5 and x = -2</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  x = 5 and x = 2</p>
 
                     <p className='p-body'>3.  Find the x-intercepts for 3x<sup>2</sup> - 9x - 12 = 0</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>A)  x = 4 and x = -1</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  x = 4 and x = 1</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  x = -4 and x = -1</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  x = =4 and x = 1</p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>Answer the following questions using the quadratic formula.</strong>
                     </p>
 
                     <p className='p-body'>4.  Find the x-intercepts for 2x<sup>2</sup> - 8x - 2 = 0</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  x = 2.236 and x = -2.236</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  x = 6.236 and x = 2.236</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  x = 4.236 and x = 0.236</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>D)  x = 4.236 and x = -0.236</p>
 
-                    <p className='p-body'>6.  Find the roots for x<sup>2</sup> - 4x - 5 = 8</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>B)  x = 6.123 and -2.123</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  </p>
+                    <p className='p-body'>5.  Find the roots for x<sup>2</sup> - 4x - 5 = 8</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  x = 4.123 and x = 2.123</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>B)  x = 6.123 and x = -2.123</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  x = -6.123 and x = 2.123</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  x = 6.123 and x = 4.123</p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>Answer the following questions using completing the square.</strong>
                     </p>
 
-                    <p className='p-body'>7.  Find the x-intercepts for x<sup>2</sup> - 4x - 32 = 0</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  </p>
+                    <p className='p-body'>6.  Find the x-intercepts for x<sup>2</sup> - 4x - 32 = 0</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  x = 8 and x = 4</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>B)  x = 8 and x = -4</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  x = 6 and x = -2</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  x = -8 and x = 4</p>
 
-                    <p className='p-body'>8.  Find the factors for x<sup>2</sup> + 8x + 15 = 0</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  </p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  </p>
+                    <p className='p-body'>7.  Find the factors for x<sup>2</sup> + 8x + 15 = 0</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  x = -3 and x = 5</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>B)  x = -1 and x = -2</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>C)  x = -3 and x = -5</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  x = 3 and x = -5</p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>
@@ -123,11 +122,11 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     </p>
 
                     <p className="p-body">
-                        9.  Put 9 - 3x = 2x<sup>2</sup> into standard form.
+                        8.  Put 9 - 3x = 2x<sup>2</sup> into standard form.
                     </p>
 
                     <p className="p-body">
-                        10.  
+                        9.  Put 4x<sup>2</sup> = 4 - x in standard form. 
                     </p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
@@ -152,6 +151,17 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         10.  When going through the above multiple choice questions, were there any mistakes you kept repeating?  
                         Usually repeated mistakes are very small, like forgetting the correct sign, but these small mistakes might 
                         just lead you to the wrong answer on the SAT.
+                    </p>
+
+                    <p className="p-body" style={{ paddingTop: "50px" }}>
+                        All done!  Linked below is my work and the answers for each of the questions.  If there are questions that 
+                        you don't see what you got wrong, please reach out to us.
+                    </p>
+
+                    <p className="p-body-small">
+                        Just a reminder again that none of this is a grade.  It's all up to you to use this resource to the fullest.  
+                        Pleae attempt every one of the questions before checking the answers.  If you can't see your mistakes, or want 
+                        to talk about a particular question or concept, <strong>please reach out to us!</strong>
                     </p>
                 </div>
                 <Footer />
