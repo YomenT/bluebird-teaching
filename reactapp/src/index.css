@@ -190,7 +190,7 @@ a:hover {
 #answer-choice {
   background-color: #dee9f9;
   transition: 0.3s;
-  margin-right: 50%;
+  margin-right: 30%;
 }
 
 #answer-choice:hover {
