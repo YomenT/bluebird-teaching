@@ -188,14 +188,12 @@ a:hover {
 }
 
 #answer-choice {
-  box-shadow: #365789;
-  color: #365789;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  background-color: #365789;
+  transition: color .3s;
 }
 
 #answer-choice:hover {
-  box-shadow: #eef4fc;
-  color: #365789;
+  opacity: 0.6;
 }
 
 .anchor {
