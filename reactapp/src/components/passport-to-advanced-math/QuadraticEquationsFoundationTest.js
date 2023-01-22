@@ -52,7 +52,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         </i>
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingBottom: "50px" }}>
                         <strong>
                             <i>
                                 You can use a calculator for any of these questions.
@@ -149,11 +149,13 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         solve a quadratic equation?  
                     </p>
 
-                    <p className="p-body-medium">
+                    <p className="p-body-medium" style={{ paddingBottom: "50px" }}>
                         10.  When going through the above multiple choice questions, were there any mistakes you kept repeating?  
                         Usually repeated mistakes are very small, like forgetting the correct sign, but these small mistakes might 
                         just lead you to the wrong answer on the SAT.
                     </p>
+
+                    <hr style={{ width: '100%', textAlign: "center", backgroundColor: "#121d2d" }}></hr>
 
                     <p className="p-body" style={{ paddingTop: "50px" }}>
                         All done!  Linked below is my work and the answers for each of the questions.  If there are questions that 
