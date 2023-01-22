@@ -188,8 +188,8 @@ a:hover {
 }
 
 #answer-choice {
-  background-color: #365789;
-  transition: color .3s;
+  background-color: #dee9f9;
+  transition: 0.3s;
 }
 
 #answer-choice:hover {
