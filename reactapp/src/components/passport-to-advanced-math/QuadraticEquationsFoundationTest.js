@@ -5,6 +5,14 @@ import Footer from '../Footer'
 
 class QuadraticEquationsFoundationTest extends React.Component {
 
+    wrongAnswer(e) {
+        e.target.style.color = "#E32636"
+    }
+
+    rightAnswer(e) {
+        e.target.style.color = "#32de84"
+    }
+
     render() {
         return (
             <div>
@@ -55,7 +63,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     </p>
 
                     <p className='p-body'>1.  Find the factors for x<sup>2</sup> + 2x - 24 = 0</p>
-                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>A)  </p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  </p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  (x - 4) and (x + 6)</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  </p>
