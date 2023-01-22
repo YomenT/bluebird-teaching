@@ -56,59 +56,53 @@ class QuadraticEquationsFoundationTest extends React.Component {
 
                     <p className='p-body'>1.  Find the factors for x<sup>2</sup> + 2x - 24 = 0</p>
                     <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  (x - 4) and (x + 6)</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  </p>
 
                     <p className='p-body'>2.  Find the solutions for x<sup>2</sup> + x - 12 = 0</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  x = 3 and x = -4</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  </p>
 
                     <p className='p-body'>3.  Find the x-intercepts for 3x<sup>2</sup> - 9x - 12 = 0</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  x = 4 and x = -1</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  </p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>Answer the following questions using the quadratic formula.</strong>
                     </p>
 
                     <p className='p-body'>4.  Find the x-intercepts for 2x<sup>2</sup> - 8x - 2 = 0</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
-
-                    <p className='p-body'>5.  Find the solutions for 3x<sup>2</sup> + 2  = 0</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  x = 4.236 and x = -0.236</p>
 
                     <p className='p-body'>6.  Find the roots for x<sup>2</sup> - 4x - 5 = 8</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  x = 6.123 and -2.123</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  </p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>Answer the following questions using completing the square.</strong>
                     </p>
 
                     <p className='p-body'>7.  Find the x-intercepts for x<sup>2</sup> - 4x - 32 = 0</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  x = 8 and x = -4</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  </p>
 
                     <p className='p-body'>8.  Find the factors for x<sup>2</sup> + 8x + 15 = 0</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>C)  x = -3 and x = -5</p>
+                    <p className="p-body-small" id="answer-choice" style={{ marginLeft: "4%"}}>D)  </p>
 
                     <p className="p-body" style={{ paddingTop: "25px" }}>
                         <strong>
