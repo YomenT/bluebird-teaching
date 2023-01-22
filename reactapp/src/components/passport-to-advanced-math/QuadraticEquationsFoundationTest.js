@@ -8,6 +8,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
     wrongAnswer(e) {
         e.target.style.color = "#E32636"
         e.target.style.pointerEvents = "none"
+        e.innerHTML = "testing"
     }
 
     rightAnswer(e) {
