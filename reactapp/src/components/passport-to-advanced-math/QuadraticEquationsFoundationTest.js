@@ -60,6 +60,8 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         </strong>
                     </p>
 
+                    <hr style={{ width: '100%', textAlign: "center", backgroundColor: "#121d2d" }}></hr>
+
                     <p className="p-body" style={{ paddingTop: "50px" }}>
                         <strong>Answer the following questions using the factoring method.</strong>
                     </p>
@@ -161,7 +163,8 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     <p className="p-body-small">
                         Just a reminder again that none of this is a grade.  It's all up to you to use this resource to the fullest.  
                         Pleae attempt every one of the questions before checking the answers.  If you can't see your mistakes, or want 
-                        to talk about a particular question or concept, <strong>please reach out to us!</strong>
+                        to talk about a particular question or concept, <strong>please reach out to us!</strong>  You can get to us 
+                        via email.  Click on the "Contact Us" button at the bottom right of this page.
                     </p>
                 </div>
                 <Footer />
