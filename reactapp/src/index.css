@@ -188,13 +188,13 @@ a:hover {
 }
 
 #answer-choice {
-  box-shadow: inset 0 0 0 0 #365789;
+  box-shadow: #365789;
   color: #365789;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 #answer-choice:hover {
-  box-shadow: inset 100px 0 0 0 #eef4fc;
+  box-shadow: #eef4fc;
   color: #365789;
 }
 
