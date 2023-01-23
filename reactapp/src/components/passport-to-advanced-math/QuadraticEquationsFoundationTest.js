@@ -169,8 +169,8 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         via email.  Click on the "Contact Us" button at the bottom right of this page.
                     </p>
 
-                    <object data="https://drive.google.com/file/d/1ubiJ_D8TtJM1BlwfmQ6rv_kmCU_SWUU-/view?usp=share_link" type="application/pdf" width="100%" height="100%">
-                        <p>Alternative text - include a link <a href="https://drive.google.com/file/d/1ubiJ_D8TtJM1BlwfmQ6rv_kmCU_SWUU-/view?usp=share_link">to the PDF!</a></p>
+                    <object data="https://www.docdroid.net/m6oylLe/answerspdf-pdf" type="application/pdf" width="100%" height="100%">
+                        <p>Alternative text - include a link <a href="https://www.docdroid.net/m6oylLe/answerspdf-pdf">to the PDF!</a></p>
                     </object>
                 </div>
                 <Footer />
