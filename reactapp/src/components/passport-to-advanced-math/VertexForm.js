@@ -61,7 +61,7 @@ class VertexForm extends React.Component {
                         width={400}
                         height={575} />
 
-                    <p className="p-body-small">Let's summarize the steps below.</p>
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>Let's summarize the steps below.</p>
 
                     <ol className="p-body">
                         <li>Start with the original equation in standard form <strong>(ax<sup>2</sup> + bx + c = 0)</strong>.</li>
