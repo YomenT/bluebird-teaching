@@ -9,7 +9,7 @@ class Footer extends React.Component {
                     <Link to="/">
                     <img
                         style={{ paddingTop: "10px", marginBottom: "0px" }}
-                        src={require('../Images/LogoMakr_2ZeJTj.png')}
+                        src={'https://i.ibb.co/1GqfVv1/Blue-Bird-Logo-Color-Light-Text.png'}
                         alt="Open"
                         width={125}
                         height={75} />
