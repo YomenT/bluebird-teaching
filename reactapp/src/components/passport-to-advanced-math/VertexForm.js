@@ -33,8 +33,17 @@ class VertexForm extends React.Component {
                         the vertex form to graph the given quadratic equation.
                     </p>
 
-                    <p className="p-body" style={{ paddingTop: "25px" }}><strong>What does vertex form look like?</strong>  Below is the form definition, 
-                    and some actual examples of what it would look like.</p>
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
+                        <strong>What does vertex form look like?</strong>  Below is the form definition, and some actual examples of what it would look 
+                        like.  Don't worry about what each of the variables represent.  We'll go over that in the next lesson.
+                    </p>
+
+                    <ul className="p-body">
+                        <li>Definition: y = a(x - h)<sup>2</sup> + k</li>
+                        <li><i>y = 2(x - 1)<sup>2</sup> + 3</i></li>
+                        <li><i>y = 3(x - 2)<sup>2</sup> - 4</i></li>
+                        <li><i>y = <sup>4</sup>&frasl;<sub>3</sub>(x + 2)<sup>2</sup> - 5</i></li>
+                    </ul>
 
                     <p className="p-body-small">
                         To switch from standard form to vertex form, <strong>we actually use completing the square</strong>.
