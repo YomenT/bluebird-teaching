@@ -169,7 +169,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         via email.  Click on the "Contact Us" button at the bottom right of this page.
                     </p>
 
-                    <object data="https://www.docdroid.net/m6oylLe/answerspdf-pdf" type="application/pdf" width="100%" height="100%">
+                    <object data="https://www.docdroid.net/m6oylLe/answerspdf-pdf" type="application/pdf" width="100%" height="1100px">
                         <p>Alternative text - Unable to load <a href="https://www.docdroid.net/m6oylLe/answerspdf-pdf">to the PDF</a></p>
                     </object>
                 </div>
