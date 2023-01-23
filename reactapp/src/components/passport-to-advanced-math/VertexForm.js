@@ -39,10 +39,12 @@ class VertexForm extends React.Component {
                     </p>
 
                     <ul className="p-body">
-                        <li>Definition: y = a(x - h)<sup>2</sup> + k</li>
-                        <li><i>y = 2(x - 1)<sup>2</sup> + 3</i></li>
-                        <li><i>y = 3(x - 2)<sup>2</sup> - 4</i></li>
-                        <li><i>y = <sup>4</sup>&frasl;<sub>3</sub>(x + 2)<sup>2</sup> - 5</i></li>
+                        <li><strong>Definition: y = a(x - h)<sup>2</sup> + k</strong></li>
+                        <ul>
+                            <li><i>y = 2(x - 1)<sup>2</sup> + 3</i></li>
+                            <li><i>y = 3(x - 2)<sup>2</sup> - 4</i></li>
+                            <li><i>y = <sup>4</sup>&frasl;<sub>3</sub>(x + 2)<sup>2</sup> - 5</i></li>
+                        </ul>
                     </ul>
 
                     <p className="p-body-small">
