@@ -40,16 +40,26 @@ class VertexForm extends React.Component {
 
                     <ul className="p-body">
                         <li><strong>Definition: y = a(x - h)<sup>2</sup> + k</strong></li>
-                        <ul>
-                            <li><i>y = 2(x - 1)<sup>2</sup> + 3</i></li>
-                            <li><i>y = 3(x - 2)<sup>2</sup> - 4</i></li>
-                            <li><i>y = <sup>4</sup>&frasl;<sub>3</sub>(x + 2)<sup>2</sup> - 5</i></li>
-                        </ul>
+                        <li><i>y = 2(x - 1)<sup>2</sup> + 3</i></li>
+                        <li><i>y = 3(x - 2)<sup>2</sup> - 4</i></li>
+                        <li><i>y = <sup>4</sup>&frasl;<sub>3</sub>(x + 2)<sup>2</sup> - 5</i></li>
                     </ul>
 
                     <p className="p-body-small">
                         To switch from standard form to vertex form, <strong>we actually use completing the square</strong>.
                     </p>
+
+                    <p className="p-body-small">
+                        Let's use x<sup>2</sup> + 4x - 1 = 0 as an example.  Below is my work shown on how I converted the original equation (in standard form) to 
+                        the same equation but in standard form.  We'll also disect it bit by bit.  First, just look at the picture, and see if you can derive the 
+                        steps in your head.  Then read through the explanation after.
+                    </p>
+
+                    <img 
+                        src={"https://i.ibb.co/CwNDfy1/Vertex-Form1.jpg"}
+                        alt="Work Shown"
+                        width={200}
+                        height={300} />
                 </div>
                 <Footer />
             </div>
