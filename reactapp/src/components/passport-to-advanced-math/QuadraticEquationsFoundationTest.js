@@ -158,11 +158,11 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     <hr style={{ width: '100%', textAlign: "center", backgroundColor: "#121d2d" }}></hr>
 
                     <p className="p-body" style={{ paddingTop: "50px" }}>
-                        All done!  Linked below is my work and the answers for each of the questions.  If there are questions that 
+                        All done!  Shown below is my work and the answers for each of the questions.  If there are questions that 
                         you don't see what you got wrong, please reach out to us.
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingBottom: "20px" }}>
                         Just a reminder again that none of this is a grade.  It's all up to you to use this resource to the fullest.  
                         Pleae attempt every one of the questions before checking the answers.  If you can't see your mistakes, or want 
                         to talk about a particular question or concept, <strong>please reach out to us!</strong>  You can get to us 
@@ -170,7 +170,7 @@ class QuadraticEquationsFoundationTest extends React.Component {
                     </p>
 
                     <object data="https://www.docdroid.net/m6oylLe/answerspdf-pdf" type="application/pdf" width="100%" height="100%">
-                        <p>Alternative text - include a link <a href="https://www.docdroid.net/m6oylLe/answerspdf-pdf">to the PDF!</a></p>
+                        <p>Alternative text - Unable to load <a href="https://www.docdroid.net/m6oylLe/answerspdf-pdf">to the PDF</a></p>
                     </object>
                 </div>
                 <Footer />
