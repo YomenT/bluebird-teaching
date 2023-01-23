@@ -77,6 +77,39 @@ class VertexForm extends React.Component {
                         </li>
                         <li>Lastly, I set the equation equal to y.</li>
                     </ol>
+
+                    <p className="p-body-small">
+                        These might seem like a lot of steps, but that's mostly because I'm trying to be more detailed.  Like with factoring, as you get better, you 
+                        probably don't spell out every step every single time you factor a quadratic.  
+                    </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className='p-body'>1.  Convert 2x<sup>2</sup> + 10x - 1 = 0 to vertex form.</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className='p-body'>2.  Convert 3x<sup>2</sup> + 10x + 2 = 0 to vertex form.</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create It!</h4>
+
+                    <p className="p-body">
+                        Does changing from standard form to vertex form change any of the results you'd expect from a quadratic equation?  Does changing forms cause 
+                        the x-intercepts to change?  Does changing forms change the graph of the quadratic equation?  
+                    </p>
+
+                    <p className="p-body">
+                        Try to prove this.  Come up with an argument as to how 2x<sup>2</sup> + 10x - 1 = y in vertex form has the same exact graph and x-intercepts 
+                        or not.  <i>Yes, you can include pictures graphs in your argument.</i>
+                    </p>
+
+                    <p className="p-body-small"><strong><i>Remember, we're always an email away if you need any help...</i></strong></p>
                 </div>
                 <Footer />
             </div>
