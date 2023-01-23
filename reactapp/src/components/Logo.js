@@ -9,7 +9,7 @@ class Logo extends React.Component {
                     <Link to="/">
                     <img
                         style={{ marginBottom: "0px" }}
-                        src={require('../Images/BlueBird-Logo-Color-Light-Text.png')}
+                        src={'../Images/BlueBird-Logo-Color-Light-Text.png'}
                         alt="Open"
                         width={130}
                         height={100} />
