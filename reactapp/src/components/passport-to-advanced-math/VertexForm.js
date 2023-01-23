@@ -58,8 +58,25 @@ class VertexForm extends React.Component {
                     <img 
                         src={"https://i.ibb.co/CwNDfy1/Vertex-Form1.jpg"}
                         alt="Work Shown"
-                        width={200}
-                        height={300} />
+                        width={400}
+                        height={575} />
+
+                    <p className="p-body-small">Let's summarize the steps below.</p>
+
+                    <ol className="p-body">
+                        <li>Start with the original equation in standard form <strong>(ax<sup>2</sup> + bx + c = 0)</strong>.</li>
+                        <li>Following the usual steps of completing the square, I moved the c value to the other side of the equation.</li>
+                        <li>
+                            Followed the procedure of finding our value to make a perfect square <strong>(<sup>b</sup>&frasl;<sub>2</sub>)<sup>2</sup></strong>, 
+                            and added it to both sides.
+                        </li>
+                        <li>Still following the same steps in completing the square, I got my two identical factors.</li>
+                        <li>
+                            In the second to last line, I moved the -5 back to the left side to set the whole equation to zero; to get equation to look more like 
+                            the vertex form definition <strong>(y = a(x - h)<sup>2</sup> + k)</strong>.
+                        </li>
+                        <li>Lastly, I set the equation equal to y.</li>
+                    </ol>
                 </div>
                 <Footer />
             </div>

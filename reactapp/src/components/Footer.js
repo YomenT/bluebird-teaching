@@ -11,8 +11,8 @@ class Footer extends React.Component {
                         style={{ paddingTop: "10px", marginBottom: "0px" }}
                         src={'https://i.ibb.co/1GqfVv1/Blue-Bird-Logo-Color-Light-Text.png'}
                         alt="Open"
-                        width={125}
-                        height={75} />
+                        width={130}
+                        height={100} />
                     </Link>
                 </div>
                 <div style={{ textAlign: "right" }}>
