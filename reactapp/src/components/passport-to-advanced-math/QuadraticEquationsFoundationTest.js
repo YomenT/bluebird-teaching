@@ -1,5 +1,5 @@
 import React from "react";
-// import PDFViewer from 'pdf-viewer-reactjs'
+import PDFViewer from 'pdf-viewer-reactjs'
 
 import Logo from '../Logo'
 import Footer from '../Footer'
@@ -170,11 +170,11 @@ class QuadraticEquationsFoundationTest extends React.Component {
                         via email.  Click on the "Contact Us" button at the bottom right of this page.
                     </p>
 
-                    {/* <PDFViewer
+                    <PDFViewer
                         document={{
                             url: 'https://arxiv.org/pdf/quant-ph/0410100.pdf',
                         }}
-                    /> */}
+                    />
                 </div>
                 <Footer />
             </div>
