@@ -86,16 +86,16 @@ class VertexForm extends React.Component {
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
 
                     <p className='p-body'>1.  Convert 2x<sup>2</sup> + 10x - 1 = 0 to vertex form.</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x + 5)<sup>2</sup> - 27 = y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  -4(x + 5)<sup>2</sup> + 27 = y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  -4(x + <sup>5</sup>&frasl;<sub>2</sub>)<sup>2</sup> + 27 = y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  4(x + <sup>5</sup>&frasl;<sub>2</sub>)<sup>2</sup> - 27 = y</p>
 
-                    <p className='p-body'>2.  Convert 3x<sup>2</sup> + 10x + 2 = 0 to vertex form.</p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className='p-body'>2.  Convert x<sup>2</sup> + 10x + 2 = 0 to vertex form.</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x + 10)<sup>2</sup> -3 = y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (x + 5)<sup>2</sup> + 2 = y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (x + 5)<sup>2</sup> - 2 = y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  (x + 5)<sup>2</sup> - 3 = y</p>
 
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create It!</h4>
 
