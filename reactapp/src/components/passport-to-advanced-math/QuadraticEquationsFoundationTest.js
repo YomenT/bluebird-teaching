@@ -1,4 +1,5 @@
 import React from "react";
+import PDFViewer from 'pdf-viewer-reactjs'
 
 import Logo from '../Logo'
 import Footer from '../Footer'
