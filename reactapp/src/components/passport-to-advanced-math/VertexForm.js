@@ -29,8 +29,15 @@ class VertexForm extends React.Component {
                     </p>
 
                     <p className="p-body">
-                        So this lesson will look at how to go from standard form to vertex form.  In the next lesson, we'll look at how to actually use 
+                        This lesson will look at how to go from standard form to vertex form.  In the next lesson, we'll look at how to actually use 
                         the vertex form to graph the given quadratic equation.
+                    </p>
+
+                    <p className="p-body" style={{ paddingTop: "25px" }}><strong>What does vertex form look like?</strong>  Below is the form definition, 
+                    and some actual examples of what it would look like.</p>
+
+                    <p className="p-body-small">
+                        To switch from standard form to vertex form, <strong>we actually use completing the square</strong>.
                     </p>
                 </div>
                 <Footer />
