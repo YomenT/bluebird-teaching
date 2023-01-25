@@ -306,6 +306,13 @@ input[type='checkbox'] {
   padding: .5rem 1rem;
 }
 
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* Fractions */
 
 /* div.q {
