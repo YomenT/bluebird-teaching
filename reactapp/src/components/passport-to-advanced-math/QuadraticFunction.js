@@ -25,6 +25,10 @@ class QuadraticFunction extends React.Component {
                         <strong>Standard Form: </strong> <span style={{ color: "#5b92e5" }}><i>y = ax<sup>2</sup> + bx + c</i></span>
                     </p>
 
+                    <p className="p-body-small">
+                        Here is what we already know.
+                    </p>
+
                     <ul className="p-body">
                         <li>The "c" term represents the y-intercept.</li>
                         <li>If "a" is positive, the graph opens upward; if b is negative, the graph opens downward.</li>
@@ -41,7 +45,7 @@ class QuadraticFunction extends React.Component {
                         className="center-image"
                         style={{ paddingTop: "50px", paddingBottom: "50px" }}
                         width={400}
-                        height={200} />
+                        height={300} />
                 </div>
                 <Footer />
             </div>
