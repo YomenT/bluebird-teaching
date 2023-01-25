@@ -8,7 +8,7 @@ class Footer extends React.Component {
                 <div>
                     <Link to="/">
                     <img
-                        style={{ paddingTop: "10px", marginBottom: "0px" }}
+                        style={{ marginBottom: "0px" }}
                         src={'https://i.ibb.co/1GqfVv1/Blue-Bird-Logo-Color-Light-Text.png'}
                         alt="Open"
                         width={130}

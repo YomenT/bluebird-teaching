@@ -39,6 +39,7 @@ import QuadraticFormula from './passport-to-advanced-math/QuadraticFormula';
 import CompletingTheSquare from './passport-to-advanced-math/CompletingTheSquare'
 import QuadraticEquationsFoundationTest from './passport-to-advanced-math/QuadraticEquationsFoundationTest';
 import VertexForm from './passport-to-advanced-math/VertexForm';
+import QuadraticFunction from './passport-to-advanced-math/QuadraticFunction'
 
 const Main = () => {
   return (
@@ -82,6 +83,7 @@ const Main = () => {
       <Route exact path='/passport_to_advanced_math/completing_the_square' component={CompletingTheSquare}></Route>
       <Route exact path='/passport_to_advanced_math/quadratics_foundations_checkup' component={QuadraticEquationsFoundationTest}></Route>
       <Route exact path='/passport_to_advanced_math/vertex_form' component={VertexForm}></Route>
+      <Route exact path='/passport_to_advanced_math/quadratics_closer_look' component={QuadraticFunction}></Route>
     </Switch>
   );
 }

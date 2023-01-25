@@ -16,7 +16,7 @@ class VertexForm extends React.Component {
 
                 <div className="aboutBodyDiv">
 
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         We've seen standard form for both linear equations and quadratic equations, but there's actually another form that quadratics 
                         can be written in; it's called vertex form.  
                     </p>
