@@ -39,8 +39,9 @@ class QuadraticFunction extends React.Component {
                         src={"https://i.ibb.co/xX1sTRh/Quadratic-Function1.jpg"}
                         alt="Work Shown"
                         className="center-image"
+                        style={{ paddingTop: "50px", paddingBottom: "50px" }}
                         width={400}
-                        height={300} />
+                        height={200} />
                 </div>
                 <Footer />
             </div>
