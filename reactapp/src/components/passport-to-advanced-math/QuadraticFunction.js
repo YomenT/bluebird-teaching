@@ -26,7 +26,7 @@ class QuadraticFunction extends React.Component {
                     </p>
 
                     <p className="p-body-small">
-                        Here is what we already know.
+                        <b>Here is what we already know.</b>
                     </p>
 
                     <ul className="p-body">
@@ -48,7 +48,7 @@ class QuadraticFunction extends React.Component {
                         height={300} />
 
                     <p className="p-body-small">
-                        Here is what might come as new.
+                        <b>Here is what might come as new.</b>
                     </p>
 
                     <p className="p-body-small">
@@ -67,8 +67,29 @@ class QuadraticFunction extends React.Component {
                         alt="Axis of Symmetry"
                         className="center-image"
                         style={{ paddingTop: "50px", paddingBottom: "50px" }}
-                        width={200}
-                        height={300} />
+                        width={300}
+                        height={450} />
+
+                    <p className="p-body-small">
+                        The dashed line cutting the parabola in the middle is the axis of symmetry.  It makes both sides of the graph symmetrical.  
+                        Not sure if you can read my handwriting, but if the vertex is at (3, -2), then the axis of symmetry can be represented by 
+                        the line x = 3.
+                    </p>
+
+                    <p className="p-body-small">
+                        There are a couple of other things worth taking note of.
+                    </p>
+
+                    <ul className="p-body">
+                        <li>The sum of the roots can be found by computing <sup>-b</sup>&frasl;<sub>a</sub>.</li>
+                        <li>The product of the roots can be found by computing <sup>c</sup>&frasl;<sub>a</sub>.</li>
+                    </ul>
+
+                    <p className="p-body-small">
+                        I know these might seem like very odd facts to know about quadratics, but the reason I'm sharing them with you is because there 
+                        might be questions that require you know know these couple of odd facts.  I know it seems stupid memorizing these odd facts, but 
+                        it's really worth your time.  
+                    </p>
                 </div>
                 <Footer />
             </div>
