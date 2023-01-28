@@ -41,10 +41,33 @@ class QuadraticFunction extends React.Component {
 
                     <img 
                         src={"https://i.ibb.co/xX1sTRh/Quadratic-Function1.jpg"}
-                        alt="Work Shown"
+                        alt="a Value Impact"
                         className="center-image"
                         style={{ paddingTop: "50px", paddingBottom: "50px" }}
                         width={400}
+                        height={300} />
+
+                    <p className="p-body-small">
+                        Here is what might come as new.
+                    </p>
+
+                    <p className="p-body-small">
+                        From the equation being in standard form, we can use a little formula to quickly find the axis of symmetry.  For 
+                        a parabola, the axis of symmetry is a vertical line right at the vertex.  Below is the formula we use to find the 
+                        axis of symmetry (given the quadratic equation is in standard form), and a picture showing what the axis of symmetry 
+                        looks like.  <i>Please forgive my awful drawing skills.</i>
+                    </p>
+
+                    <p className="p-body-medium" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
+                        <strong>Standard Form: </strong> <span style={{ color: "#5b92e5" }}><i>x = <sup>-b</sup>&frasl;<sub>2a</sub></i></span>
+                    </p>
+
+                    <img 
+                        src={"https://i.ibb.co/4Mfddbz/Quadratic-Function2.jpg"}
+                        alt="Axis of Symmetry"
+                        className="center-image"
+                        style={{ paddingTop: "50px", paddingBottom: "50px" }}
+                        width={200}
                         height={300} />
                 </div>
                 <Footer />

@@ -55,8 +55,10 @@ class SatPrepLinkOutline extends React.Component {
                     <li><Link to="passport_to_advanced_math/quadratic_formula" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>The Quadratic Formula</Link></li>
                     <li><Link to="passport_to_advanced_math/completing_the_square" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Completing the Square</Link></li>
                     <li><Link to="passport_to_advanced_math/quadratics_foundations_checkup" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}><strong><i>Quadratics Checkup</i></strong></Link></li>
-                    <li><Link to="passport_to_advanced_math/vertex_form" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Vertex Form</Link></li>
-                    <li><Link to="passport_to_advanced_math/quadratics_closer_look" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Closer Look at Quadratic Functions</Link></li>
+                    <li><Link to="passport_to_advanced_math/vertex_form" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Introducing Vertex Form</Link></li> 
+                    <li><Link to="passport_to_advanced_math/graphing_quadratics" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Graphing Quadratics With Vertex Form</Link></li>  {/* Not started yet. */}
+                    {/* Put Quadratic Function Graphical Analysis here. */}
+                    <li><Link to="passport_to_advanced_math/quadratics_closer_look" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Closer Look at Quadratic Functions</Link></li>  {/* In Progress */}
                     <li>Exponent Rules</li>
                         <ul className="list-medium">
                             <li><Link to="/passport_to_advanced_math/exponent_rules_part1" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 1</Link></li>
