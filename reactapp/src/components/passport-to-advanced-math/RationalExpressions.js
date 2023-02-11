@@ -1,0 +1,42 @@
+import React from "react";
+
+import Logo from '../Logo'
+import Footer from '../Footer'
+
+class RationalExpressions extends React.Component {
+
+    render() {
+        return (
+            <div>
+
+                <Logo />
+                <div className='bodyDiv'>
+                    <h2 style={{ paddingBottom: "25px" }}>Introduction to Rational Expressions</h2>
+                </div>
+
+                <div className="aboutBodyDiv">
+
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
+                        <strong>What are rational expressions?</strong>  To be honest, the best way I can define them for you is they are fractions that can 
+                        have variables in the numerators and/or denominators.  This is relavent to the SAT because they will have questions involving operations 
+                        (adding, subtracting, multiplying, dividing) with rational expressions, and these questions also frequently involve simplifying them.  
+                    </p>
+
+                    <p className="p-body">
+                        In this lesson, we're going to look at adding, subtracting, multiplying, and dividing rational expressions.  We'll leave the simplifying 
+                        part for part 2.
+                    </p>
+
+                    <p className="p-body-small">
+                        Since rational expressions are fractions, you're going to need to remember your fraction rules when it comes to adding, subtracting, multiplying, 
+                        and dividing.  If you forgot, don't worry at all.  I strongly recommend you take some time to brush up on that; it shouldn't take long at all.
+                    </p>
+                </div>
+
+                <Footer />
+            </div>
+        )
+    }
+}
+
+export default RationalExpressions

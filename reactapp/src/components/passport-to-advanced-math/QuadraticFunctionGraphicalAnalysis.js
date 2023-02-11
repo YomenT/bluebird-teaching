@@ -17,9 +17,10 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                     </p>
 
                     <p className="p-body-small">
-                        Specifically, we're going to look at how different operations on a quadratic function change how the graph would look.  We're not going to 
-                        look at graphing a quadratic function by hand just yet.  Instead we're just going to do a graphical analysis; for example, what graphical 
-                        difference would there be between x<sup>2</sup> + 1 = y and -x<sup>2</sup> + 1 = y?
+                        Specifically, we're going to look at how different operations on a quadratic function change how the graph would look.  We've looked at graphing 
+                        quadratics using vertex form, but this time we're just going to do a graphical analysis; for example, what graphical 
+                        difference would there be between x<sup>2</sup> + 1 = y and -x<sup>2</sup> + 1 = y?  Basially we're going to learn what assumptions we can make 
+                        on how a graph of a quadratic equation might look based on certain features in its standard form.
                     </p>
 
                     <p className="p-body-small"><strong><i>Why are the equations set to y and not 0?</i></strong>  Simply put, when we are factoring/solving, we get all the x's on one side, 
@@ -165,7 +166,7 @@ class QuadraticFunctionGraphicalAnalysis extends React.Component {
                         </ul>
                     </ol>
 
-                    <p className="p-body" style={{ marginBottom: "150px" }}>
+                    <p className="p-body">
                         After you've done your visual analysis of the graphs, try to formulate some explanation as to how the bx term impacts the graph.  Does it cause the graph to shift up, down, left, right, etc?  Does it cause the 
                         bell curve to widen or get more narrow?  How does it possibly do those things?  Once you've come up with your explanation, feel free to share it with us!
                     </p>
