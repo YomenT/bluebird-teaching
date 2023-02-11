@@ -31,6 +31,11 @@ class RationalExpressions extends React.Component {
                         Since rational expressions are fractions, you're going to need to remember your fraction rules when it comes to adding, subtracting, multiplying, 
                         and dividing.  If you forgot, don't worry at all.  I strongly recommend you take some time to brush up on that; it shouldn't take long at all.
                     </p>
+
+                    <p className="p-body-small">
+                        <strong>Adding rational expressions</strong>, like adding normal fractions requires having a common denominator.  We achieve this in the same way 
+                        we do with normal fractions.  Take a look at the two examples below to see how I get common denominators.
+                    </p>
                 </div>
 
                 <Footer />
