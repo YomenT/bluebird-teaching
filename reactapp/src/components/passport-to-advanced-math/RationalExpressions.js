@@ -43,10 +43,10 @@ class RationalExpressions extends React.Component {
                         <div className="col-4">
                         <img 
                             src={"https://i.ibb.co/zXXNZTy/Rational-Expressions1.jpg"}
-                            alt="Work Shown"
-                            className="float-right"
-                            width={200}
-                            height={150} />
+                            alt="Adding rational expressions example."
+                            className="mx-auto d-block"
+                            width={300}
+                            height={250} />
                         </div>
 
                         <div className="col-8">
