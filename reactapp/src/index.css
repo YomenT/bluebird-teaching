@@ -152,12 +152,12 @@ p {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-container-fluid {
+.container-fluid {
   padding-left: 0;
   padding-right: 0;
 }
 
-row {
+.row {
   padding-left: 0;
   padding-right: 0;
 }
