@@ -50,7 +50,7 @@ class RationalExpressions extends React.Component {
                         </div>
 
                         <div className="col-8">
-                            <p className="p-body-small">
+                            <p className="p-body-small align-middle">
                                 In the first line, we have the original problem; we're trying to add those to fractions (also known as rational expressions).  In the 
                                 second line, to the left of the arrow, I am multiplying the top and bottom of <sup>7</sup>&frasl;<sub>x</sub> by 5.  As the right of 
                                 the arrow shows, I now have common denominators.  On the third and last line, following the normal steps of adding fractions, I add 
