@@ -40,15 +40,16 @@ class RationalExpressions extends React.Component {
                     </div>
 
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-4">
                         <img 
                             src={"https://i.ibb.co/zXXNZTy/Rational-Expressions1.jpg"}
                             alt="Work Shown"
+                            className="float-right"
                             width={200}
                             height={150} />
                         </div>
 
-                        <div className="col-lg-8 col-md-6">
+                        <div className="col-8">
                             <p className="p-body-small">
                                 Sample text.
                             </p>
