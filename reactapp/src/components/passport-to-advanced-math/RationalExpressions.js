@@ -69,7 +69,7 @@ class RationalExpressions extends React.Component {
                                 height={250} />
                         </div>
 
-                        <dic className="col-8">
+                        <div className="col-8">
                             <p className="p-body-small">
                                 Again, we'll go line by line.  The first line just contains the original problem; we're trying to add those two rational expressions.  
                                 The second line is where I'm trying to get common denominators.  I multiply the top and bottom of the left fraction by (x - 2), and I 
@@ -82,7 +82,17 @@ class RationalExpressions extends React.Component {
                                 Now this is an example where there would be a bit more to do if we were also simplifying, but we're just worrying about adding right now.  
                                 We'll learn about simplifying rational expressions in a later lesson.
                             </p>
-                        </dic>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <p className="p-body-small">
+                            <i>This lesson involves a lot of foundational skills with fractions.  If you are confused on anything, reach out to us!</i>
+                        </p>
+                        
+                        <p className="p-body">
+                            Now let's look at subtracting rational expressions.
+                        </p>
                     </div>
                     
                 </div>
