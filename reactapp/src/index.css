@@ -152,6 +152,10 @@ p {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+container-fluid {
+  padding: 0px;
+}
+
 label {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
