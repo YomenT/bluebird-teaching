@@ -38,6 +38,22 @@ class RationalExpressions extends React.Component {
                             we do with normal fractions.  Take a look at the two examples below to see how I get common denominators.
                         </p>
                     </div>
+
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6">
+                        <img 
+                            src={"https://i.ibb.co/zXXNZTy/Rational-Expressions1.jpg"}
+                            alt="Work Shown"
+                            width={200}
+                            height={150} />
+                        </div>
+
+                        <div className="col-lg-8 col-md-6">
+                            <p className="p-body-small">
+                                Sample text.
+                            </p>
+                        </div>
+                    </div>
                     
                 </div>
 
