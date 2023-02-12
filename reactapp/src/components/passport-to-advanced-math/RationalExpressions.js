@@ -10,10 +10,8 @@ class RationalExpressions extends React.Component {
             <div className="container-fluid">
 
                 <Logo />
-                <div className="row">
-                    <div className='bodyDiv'>
-                        <h2 style={{ paddingBottom: "25px" }}>Introduction to Rational Expressions</h2>
-                    </div>
+                <div className='bodyDiv'>
+                    <h2 style={{ paddingBottom: "25px" }}>Introduction to Rational Expressions</h2>
                 </div>
 
                 <div className="aboutBodyDiv">
@@ -40,7 +38,7 @@ class RationalExpressions extends React.Component {
                             we do with normal fractions.  Take a look at the two examples below to see how I get common denominators.
                         </p>
                     </div>
-
+                    
                 </div>
 
                 <Footer />
