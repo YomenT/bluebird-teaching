@@ -121,6 +121,11 @@ p {
   font-size: 19px;
 }
 
+.p-body-xsmall {
+  color: #365789;
+  font-size: 15px;
+}
+
 .list-medium {
   color: #365789;
   font-size: 21px;

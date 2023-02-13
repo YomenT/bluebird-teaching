@@ -55,12 +55,12 @@ class RationalExpressions extends React.Component {
                                 src={"https://i.ibb.co/zXXNZTy/Rational-Expressions1.jpg"}
                                 alt="Adding rational expressions example."
                                 className="mx-auto d-block"
-                                width={350}
-                                height={300} />
+                                width={400}
+                                height={350} />
                         </div>
 
                         <div className="col-8">
-                            <p className="p-body-small">
+                            <p className="p-body-xsmall">
                                 In the first line, we have the original problem; we're trying to add those to fractions (also known as rational expressions).  In the 
                                 second line, to the left of the arrow, I am multiplying the top and bottom of <sup>7</sup>&frasl;<sub>x</sub> by 5.  As the right of 
                                 the arrow shows, I now have common denominators.  On the third and last line, following the normal steps of adding fractions, I add 
@@ -75,12 +75,12 @@ class RationalExpressions extends React.Component {
                                 src={"https://i.ibb.co/BcG12Tm/Rational-Expressions2.jpg"}
                                 alt="Adding rational expressions example."
                                 className="mx-auto d-block"
-                                width={350}
-                                height={300} />
+                                width={400}
+                                height={350} />
                         </div>
 
                         <div className="col-8">
-                            <p className="p-body-small">
+                            <p className="p-body-xsmall">
                                 Again, we'll go line by line.  The first line just contains the original problem; we're trying to add those two rational expressions.  
                                 The second line is where I'm trying to get common denominators.  I multiply the top and bottom of the left fraction by (x - 2), and I 
                                 multiply the top and bottom of the right fraction with (x + 2).  The third line shows what everything looks like at this point; you'll 
@@ -88,7 +88,7 @@ class RationalExpressions extends React.Component {
                                 of both fractions, and now I can go about normally adding fractions.
                             </p>
 
-                            <p className="p-body-small">
+                            <p className="p-body-xsmall">
                                 Now this is an example where there would be a bit more to do if we were also simplifying, but we're just worrying about adding right now.  
                                 We'll learn about simplifying rational expressions in a later lesson.
                             </p>
@@ -107,7 +107,7 @@ class RationalExpressions extends React.Component {
 
                     <div className="row" style={{ paddingTop: "50px" }}>
                         <div className="col-8">
-                            <p className="p-body-small">
+                            <p className="p-body-xsmall">
                                 The first line contains the original problem; we're trying to subtract those two rational expressions.  In the second line, I'm getting my 
                                 common denominators: I multiply the top and bottom of the left fraction with x<sup>2</sup>, and I multiply the top and bottom of the right 
                                 fraction with (4x - 1).  In the third line, to the left of the equal sign, I've already FOILed my numerators; I didn't bother FOILing the 
@@ -115,7 +115,7 @@ class RationalExpressions extends React.Component {
                                 answer.
                             </p>
 
-                            <p className="p-body-small">
+                            <p className="p-body-xsmall">
                                 Take particular notice to how I distributed the minus sign.  Notice that I flipped the signs of the terms in the second fraction's numerator.  
                                 When distributing a negative sign to a fraction, watch <a href={this.videoUrl} target={"_blank"} style={{ color: "#5b92e5" }} 
                                 onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a>
@@ -127,8 +127,8 @@ class RationalExpressions extends React.Component {
                                 src={"https://i.ibb.co/BcG12Tm/Rational-Expressions2.jpg"}
                                 alt="Adding rational expressions example."
                                 className="mx-auto d-block"
-                                width={350}
-                                height={300} />
+                                width={400}
+                                height={350} />
                         </div>
                     </div>
                     
