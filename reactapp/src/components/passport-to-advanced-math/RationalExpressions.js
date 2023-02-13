@@ -5,6 +5,16 @@ import Footer from '../Footer'
 
 class RationalExpressions extends React.Component {
 
+    videoUrl = "https://www.youtube.com/watch?v=N_N7HygyULk"
+
+    underlineLink(e) {
+        e.target.style.textDecoration = "underline"
+    }
+
+    removeUnderline(e) {
+        e.target.style.textDecoration = "none"
+    }
+
     render() {
         return (
             <div className="container-fluid">
@@ -45,8 +55,8 @@ class RationalExpressions extends React.Component {
                                 src={"https://i.ibb.co/zXXNZTy/Rational-Expressions1.jpg"}
                                 alt="Adding rational expressions example."
                                 className="mx-auto d-block"
-                                width={300}
-                                height={250} />
+                                width={350}
+                                height={300} />
                         </div>
 
                         <div className="col-8">
@@ -65,8 +75,8 @@ class RationalExpressions extends React.Component {
                                 src={"https://i.ibb.co/BcG12Tm/Rational-Expressions2.jpg"}
                                 alt="Adding rational expressions example."
                                 className="mx-auto d-block"
-                                width={300}
-                                height={250} />
+                                width={350}
+                                height={300} />
                         </div>
 
                         <div className="col-8">
@@ -85,14 +95,41 @@ class RationalExpressions extends React.Component {
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row" style={{ paddingTop: "50px" }}>
                         <p className="p-body-small">
                             <i>This lesson involves a lot of foundational skills with fractions.  If you are confused on anything, reach out to us!</i>
                         </p>
-                        
+
                         <p className="p-body">
                             Now let's look at subtracting rational expressions.
                         </p>
+                    </div>
+
+                    <div className="row" style={{ paddingTop: "50px" }}>
+                        <div className="col-8">
+                            <p className="p-body-small">
+                                The first line contains the original problem; we're trying to subtract those two rational expressions.  In the second line, I'm getting my 
+                                common denominators: I multiply the top and bottom of the left fraction with x<sup>2</sup>, and I multiply the top and bottom of the right 
+                                fraction with (4x - 1).  In the third line, to the left of the equal sign, I've already FOILed my numerators; I didn't bother FOILing the 
+                                denominator (we'll worry about that when we work on simplifying rational expressions).  Then to the right of the equal sign, I have my final 
+                                answer.
+                            </p>
+
+                            <p className="p-body-small">
+                                Take particular notice to how I distributed the minus sign.  Notice that I flipped the signs of the terms in the second fraction's numerator.  
+                                When distributing a negative sign to a fraction, watch <a href={this.videoUrl} target={"_blank"} style={{ color: "#5b92e5" }} 
+                                onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a>
+                            </p>
+                        </div>
+
+                        <div className="col-4">
+                            <img 
+                                src={"https://i.ibb.co/BcG12Tm/Rational-Expressions2.jpg"}
+                                alt="Adding rational expressions example."
+                                className="mx-auto d-block"
+                                width={350}
+                                height={300} />
+                        </div>
                     </div>
                     
                 </div>
