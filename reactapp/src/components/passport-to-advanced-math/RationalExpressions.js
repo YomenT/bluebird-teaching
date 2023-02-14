@@ -118,17 +118,53 @@ class RationalExpressions extends React.Component {
                             <p className="p-body-xsmall">
                                 Take particular notice to how I distributed the minus sign.  Notice that I flipped the signs of the terms in the second fraction's numerator.  
                                 When distributing a negative sign to a fraction, watch <a href={this.videoUrl} target={"_blank"} style={{ color: "#5b92e5" }} 
-                                onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a>
+                                onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a>.  Following what she explains in the video, I chose to 
+                                distribute the negative to the numerator, and I followed the normal rules for distributing a negative sign to a polynomial from there.
                             </p>
                         </div>
 
                         <div className="col-4">
                             <img 
-                                src={"https://i.ibb.co/BcG12Tm/Rational-Expressions2.jpg"}
-                                alt="Adding rational expressions example."
+                                src={"https://i.ibb.co/v4TXbMT/Rational-Expressions3.jpg"}
+                                alt="Subtracting rational expressions example."
                                 className="mx-auto d-block"
                                 width={400}
                                 height={350} />
+                        </div>
+                    </div>
+
+                    <div className="row" style={{ paddingTop: "50px" }}>
+                        <p className="p-body">
+                            <strong>Now let's look at multiplying rational expressions.</strong>  This is going to involve a lot of what we've learned regarding FOILing 
+                            and distributing.
+                        </p>
+                    </div>
+
+                    <div className="row" style={{ paddingTop: "50px" }}>
+                        <div className="col-4">
+                            <img 
+                                src={"https://i.ibb.co/z4ypQYw/Rational-Expressions4.jpg"}
+                                alt="Multiplying rational expressions example."
+                                className="mx-auto d-block"
+                                width={400}
+                                height={350} />
+                        </div>
+
+                        <div className="col-8">
+                            <p className="p-body-xsmall">
+                                We follow the same steps we do when we're multiplying fractions: multiply straight across all the numerators involved, and multiply all 
+                                the denominators involved.  Basically just multiplying straight across.  This is where we need to remember FOILing and distribution.  We 
+                                need to foil the two binomials in the numerators, and we need to distribute the two denominators.  Going line by line, in the first line, I 
+                                have the original multiplication problem.  In the second line, I'm FOILing the numerators, and in the third line, I'm distributing the 
+                                denominators.  Now that's all done, I just put the product of the numerators on the numerator of the new fraction, and I put the product of 
+                                the denominators on the denominator of the new fraction.  This is shown as the final product in the fourth line (boxed).   
+                            </p>
+
+                            <p className="p-body-xsmall">
+                                I know that previously, I didn't worry about simplifying the denominator, but this time, I did.  Let me know if this is too confusing, and 
+                                I might try to re-orient this lesson.  In the mean time, we'll see in the lesson where we discuss simplifying rational expressions why we 
+                                sometimes simplify the numerators/denominators, and why we sometimes leave then as the products.  <i>As always, reach out with any questions.</i>
+                            </p>
                         </div>
                     </div>
                     
