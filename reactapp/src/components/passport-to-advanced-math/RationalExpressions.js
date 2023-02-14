@@ -204,4 +204,3 @@ class RationalExpressions extends React.Component {
 }
 
 export default RationalExpressions
-https://i.ibb.co/brmXgqq/Rational-Expressions5.jpg
