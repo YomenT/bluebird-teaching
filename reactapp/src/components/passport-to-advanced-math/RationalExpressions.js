@@ -187,7 +187,7 @@ class RationalExpressions extends React.Component {
 
                         <div className="col-4">
                             <img 
-                                src={"https://i.ibb.co/z4ypQYw/Rational-Expressions6.jpg"}
+                                src={"https://i.ibb.co/jk9tgW9/Rational-Expressions6.jpg"}
                                 alt="Dividing rational expressions example."
                                 className="mx-auto d-block"
                                 width={400}
