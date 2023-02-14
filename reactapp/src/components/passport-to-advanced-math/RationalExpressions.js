@@ -167,6 +167,33 @@ class RationalExpressions extends React.Component {
                             </p>
                         </div>
                     </div>
+
+                    <div className="row" style={{ paddingTop: "50px" }}>
+                        <p className="p-body">
+                            <strong>Lastly, let's look at dividing rational expressions.</strong>  Again, follow the same rules as usual for dividing fractions, and that'll 
+                            put you in a good spot to start.
+                        </p>
+                    </div>
+
+                    <div className="row" style={{ paddingTop: "50px" }}>
+                        <div className="col-8">
+                            <p className="p-body-xsmall">
+                                In the first line, I have the original division problem written out.  In the second line, to the left of the equal sign, I flipped the second 
+                                fraction, and I changed the operation to multiplication (following the steps to dividing fractions).  From there, I went ahead and distributed 
+                                the 5 across the first numerator.  This time I did not distribute the denominators; I just left them as factors.  Again, it'll become more 
+                                clear when we should or shouldn't distribute factors.  If you want, go ahead and try to distribute to see what you get.
+                            </p>
+                        </div>
+
+                        <div className="col-4">
+                            <img 
+                                src={"https://i.ibb.co/z4ypQYw/Rational-Expressions6.jpg"}
+                                alt="Dividing rational expressions example."
+                                className="mx-auto d-block"
+                                width={400}
+                                height={350} />
+                        </div>
+                    </div>
                     
                 </div>
 
@@ -177,3 +204,4 @@ class RationalExpressions extends React.Component {
 }
 
 export default RationalExpressions
+https://i.ibb.co/brmXgqq/Rational-Expressions5.jpg
