@@ -237,7 +237,6 @@ class RationalExpressions extends React.Component {
                     <img 
                         src={"https://i.ibb.co/qsm0KfL/Rational-Expressions8.png"}
                         alt="Multiplying rational expressions problem."
-                        className="mx-auto d-block"
                         width={200}
                         height={150} />
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  
@@ -255,7 +254,6 @@ class RationalExpressions extends React.Component {
                     <img 
                         src={"https://i.ibb.co/rxSwqWg/Rational-Expressions9.png"}
                         alt="Dividing rational expressions problem."
-                        className="mx-auto d-block"
                         width={200}
                         height={150} />
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
