@@ -225,10 +225,9 @@ class RationalExpressions extends React.Component {
                     <img 
                         src={"https://i.ibb.co/HNLmsc0/Rational-Expressions7.png"}
                         alt="Adding rational expressions problem."
-                        className="mx-auto d-block"
                         width={200}
                         height={150} />
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x<sup>3</sup>y - 4y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }}>A)  x<sup>3</sup>y - 4y</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x<sup>3</sup>y + 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x<sup>3</sup>y - 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>3</sup>y - 4x<sup>3</sup> - 4y</p>
@@ -239,7 +238,7 @@ class RationalExpressions extends React.Component {
                         alt="Multiplying rational expressions problem."
                         width={200}
                         height={150} />
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  
+                    <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }}>A)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
                             <span className='top'>4x<sup>2</sup> + 12x</span>
                             <span className="symbol">/</span>
@@ -274,7 +273,7 @@ class RationalExpressions extends React.Component {
                         alt="Dividing rational expressions problem."
                         width={200}
                         height={150} />
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  
+                    <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }}>A)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
                             <span className='top'>12x<sup>2</sup> - 8x - 2</span>
                             <span className="symbol">/</span>
