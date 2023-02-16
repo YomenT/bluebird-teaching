@@ -209,7 +209,7 @@ class RationalExpressions extends React.Component {
                             </i>
                         </p>
 
-                        <p className='p-body'>1.  Distribute the following binomials: x<sup>3</sup> + y and y - 4.(</p>
+                        <p className="p-body">1.  Distribute the following binomials: x<sup>3</sup> + y and y - 4.</p>
                         <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x<sup>3</sup>y - 4y</p>
                         <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x<sup>3</sup>y + 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
                         <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x<sup>3</sup>y - 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
