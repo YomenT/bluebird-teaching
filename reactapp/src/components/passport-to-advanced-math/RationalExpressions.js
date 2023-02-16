@@ -240,15 +240,33 @@ class RationalExpressions extends React.Component {
                         width={200}
                         height={150} />
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  
-                        <div class="frac">
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>4x<sup>2</sup> + 12x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy + 20</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
                             <span className='top'>4x<sup>2</sup> - 12x</span>
                             <span className="symbol">/</span>
                             <span className="bottom">5xy + 20</span>
                         </div>
                     </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>4x<sup>2</sup> - 3x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy - 9</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>4x<sup>2</sup> - 3x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy + 9</span>
+                        </div>
+                    </p>
 
                     <p className="p-body">5.  Solve the problem depicted in the image below.</p>
                     <img 
@@ -256,10 +274,34 @@ class RationalExpressions extends React.Component {
                         alt="Dividing rational expressions problem."
                         width={200}
                         height={150} />
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>12x<sup>2</sup> - 8x - 2</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5y</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>12x<sup>2</sup> - 5x - 1</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5y</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>12x<sup>2</sup> - 5x + 1</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5y</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>12x<sup>2</sup> - 5x - 2</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5y</span>
+                        </div>
+                    </p>
                     
                 </div>
 
