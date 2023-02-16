@@ -191,8 +191,29 @@ class RationalExpressions extends React.Component {
                                 alt="Dividing rational expressions example."
                                 className="mx-auto d-block"
                                 width={400}
-                                height={350} />
+                                height={300} />
                         </div>
+                    </div>
+
+                    <div className="row">
+                        <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                        <p className="p-body">
+                            Some of these questions will be review, and some of them will the new stuff we just learned on operations with rational expressions.
+                        </p>
+
+                        <p className="p-body-small">
+                            <i>
+                                With that in mind, please reach out with any questions!  Even if it's on things we've learned previously.  It's hard to build on a 
+                                weak foundation.
+                            </i>
+                        </p>
+
+                        <p className='p-body'>1.  Distribute the following binomials: x<sup>3</sup> + y and y - 4.(</p>
+                        <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x<sup>3</sup>y - 4y</p>
+                        <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x<sup>3</sup>y + 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
+                        <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x<sup>3</sup>y - 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
+                        <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>3</sup>y - 4x<sup>3</sup> - 4y</p>
                     </div>
                     
                 </div>
@@ -202,5 +223,6 @@ class RationalExpressions extends React.Component {
         )
     }
 }
+
 
 export default RationalExpressions
