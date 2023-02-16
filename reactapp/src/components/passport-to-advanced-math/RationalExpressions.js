@@ -214,6 +214,54 @@ class RationalExpressions extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x<sup>3</sup>y + 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x<sup>3</sup>y - 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>3</sup>y - 4x<sup>3</sup> - 4y</p>
+
+                    <p className="p-body">2.  Simplify 2x<sup>2</sup> - 1 - (-5y + x - 3)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  2x<sup>2</sup> - x + 5y + 2</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  2x<sup>2</sup> + x + 5y + 2</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  2x<sup>2</sup> - x + 5y + 4</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  2x<sup>2</sup> + x + 5y + 4</p>
+
+                    <p className="p-body">3.  Solve the problem depicted in the image below.</p>
+                    <img 
+                        src={"https://i.ibb.co/HNLmsc0/Rational-Expressions7.png"}
+                        alt="Adding rational expressions problem."
+                        className="mx-auto d-block"
+                        width={200}
+                        height={150} />
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x<sup>3</sup>y - 4y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x<sup>3</sup>y + 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x<sup>3</sup>y - 4x<sup>3</sup> + y<sup>2</sup> - 4y</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x<sup>3</sup>y - 4x<sup>3</sup> - 4y</p>
+
+                    <p className="p-body">4.  Solve the problem depicted in the image below.</p>
+                    <img 
+                        src={"https://i.ibb.co/qsm0KfL/Rational-Expressions8.png"}
+                        alt="Multiplying rational expressions problem."
+                        className="mx-auto d-block"
+                        width={200}
+                        height={150} />
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  
+                        <div class="frac">
+                            <span className='top'>4x<sup>2</sup> - 12x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy + 20</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
+
+                    <p className="p-body">5.  Solve the problem depicted in the image below.</p>
+                    <img 
+                        src={"https://i.ibb.co/rxSwqWg/Rational-Expressions9.png"}
+                        alt="Dividing rational expressions problem."
+                        className="mx-auto d-block"
+                        width={200}
+                        height={150} />
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  </p>
                     
                 </div>
 
@@ -222,6 +270,5 @@ class RationalExpressions extends React.Component {
         )
     }
 }
-
 
 export default RationalExpressions
