@@ -321,8 +321,8 @@ class RationalExpressions extends React.Component {
                         src={"https://i.ibb.co/FmYz71X/Rational-Expressions10.png"}
                         alt="Create It example."
                         className="mx-auto d-block"
-                        width={400}
-                        height={500} />
+                        width={500}
+                        height={600} />
                     
                 </div>
 
