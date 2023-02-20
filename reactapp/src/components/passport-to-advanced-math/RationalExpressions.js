@@ -301,6 +301,28 @@ class RationalExpressions extends React.Component {
                             <span className="bottom">5y</span>
                         </div>
                     </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create It!</h4>
+
+                    <p className="p-body-medium">
+                        A lot of what we went over this lesson builds on existing fraction rules.  Now I know that we tend to forgot those fraction rules 
+                        (myself included), so for this lesson, create a diagram that shows two examples for each scenario: addition, subtraction, multiplication, 
+                        and division.  For each scenario, give two exampels: the first example should show solving a simple fraction problem (highlighting the 
+                        steps required), and the second example should show the same scenario with a rational expression (showing the added steps in addition to 
+                        the original required fraction rules).
+                    </p>
+
+                    <p className="p-body-small">
+                        Take a look at the picture below as an example.  I did just one of the scenarios (addition).  You would need to come up with examples for the 
+                        rest of the three scenarios.
+                    </p>
+
+                    <img 
+                        src={"https://i.ibb.co/FmYz71X/Rational-Expressions10.png"}
+                        alt="Create It example."
+                        className="mx-auto d-block"
+                        width={400}
+                        height={500} />
                     
                 </div>
 
