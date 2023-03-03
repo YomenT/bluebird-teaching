@@ -24,6 +24,9 @@ class QuadraticFunction extends React.Component {
                     <p className="p-body-medium" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
                         <strong>Standard Form: </strong> <span style={{ color: "#5b92e5" }}><i>y = ax<sup>2</sup> + bx + c</i></span>
                     </p>
+                    <p className="p-body-medium" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
+                        <strong>Vertex Form: </strong> <span style={{ color: "#5b92e5" }}><i>y = (x - h)<sup>2</sup> + k</i></span>
+                    </p>
 
                     <p className="p-body-small">
                         <b>Here is what we already know.</b>
@@ -90,6 +93,46 @@ class QuadraticFunction extends React.Component {
                         might be questions that require you know know these couple of odd facts.  I know it seems stupid memorizing these odd facts, but 
                         it's really worth your time.  
                     </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className="p-body-small">
+                        These questions seem different; maybe even harder?  That's because some of the following questions are very good examples of 
+                        real SAT questions you might face.  We'd be very interested in hearing how these questions go for you.  Were they very hard, got 
+                        completely stuck, or they were actually easy?
+                    </p>
+
+                    <p className='p-body'>1.  Which of the following could be the graph for <i>y = x<sup>2</sup> + 3x + k</i> where <i>k</i> is an integer?</p>
+                    <p className="p-body-small">A)</p>
+                    <img 
+                        src={"https://i.ibb.co/BykXMjt/Quadratic-Function3.png"}
+                        alt="Answer Choice 1"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small">B)</p>
+                    <img 
+                        src={"https://i.ibb.co/SsLp19q/Quadratic-Function4.png"}
+                        alt="Answer Choice 2"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small">C)</p>
+                    <img 
+                        src={"https://i.ibb.co/bKdRdNV/Quadratic-Function5.png"}
+                        alt="Answer Choice 3"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small">D)</p>
+                    <img 
+                        src={"https://i.ibb.co/Nm0Cf8b/Quadratic-Function6.png"}
+                        alt="Answer Choice 4"
+                        width={200}
+                        height={200} />
+
+                    <p className='p-body'>2.  Which function below would have a double root?</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  y = x<sup>2</sup> - 4</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  y = x<sup>2</sup> + x + 1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  y = x<sup>2</sup> + 6x + 9</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  y = x<sup>2</sup> + 4x - 4</p>
                 </div>
                 <Footer />
             </div>
