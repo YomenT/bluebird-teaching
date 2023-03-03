@@ -109,26 +109,26 @@ class QuadraticFunction extends React.Component {
                         alt="Answer Choice 1"
                         width={200}
                         height={200} />
-                    <p className="p-body-small">B)</p>
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
                     <img 
                         src={"https://i.ibb.co/SsLp19q/Quadratic-Function4.png"}
                         alt="Answer Choice 2"
                         width={200}
                         height={200} />
-                    <p className="p-body-small">C)</p>
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
                     <img 
                         src={"https://i.ibb.co/bKdRdNV/Quadratic-Function5.png"}
                         alt="Answer Choice 3"
                         width={200}
                         height={200} />
-                    <p className="p-body-small">D)</p>
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
                     <img 
                         src={"https://i.ibb.co/Nm0Cf8b/Quadratic-Function6.png"}
                         alt="Answer Choice 4"
                         width={200}
                         height={200} />
 
-                    <p className='p-body'>2.  Which function below would have a double root?</p>
+                    <p className='p-body' style={{ paddingTop: "25px" }}>2.  Which function below would have a double root?</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  y = x<sup>2</sup> - 4</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  y = x<sup>2</sup> + x + 1</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  y = x<sup>2</sup> + 6x + 9</p>
