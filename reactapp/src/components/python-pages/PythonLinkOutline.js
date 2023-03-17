@@ -21,3 +21,5 @@ class PythonLinkOutline extends React.Component {
         )
     }
 }
+
+export default PythonLinkOutline
