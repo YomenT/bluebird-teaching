@@ -2,6 +2,7 @@ import React from "react";
 
 import Logo from './Logo'
 import Footer from './Footer'
+import HowToCodePython from "./python-pages/HowToCodePython";
 
 class Python extends React.Component {
 
@@ -29,18 +30,12 @@ class Python extends React.Component {
                     </p>
 
                     <p className="p-body" style={{ fontSize: "17px" }}>
-                        <strong>Note: </strong> This page is a work in progress.  I plan to have this page finished by the beginning of the summer of 2023l.
-                    </p>
-
-                    <h3 className="h3-blue-headers" style={{ paddingTop: "75px", paddingBottom: "10px" }}>How This Works</h3>
-
-                    <p className="p-body">
-                        Again, this is made in coordination with an in person class, but feel free to use this material on your own.  It should be an 
-                        excellent way for you to get on your feet and well on your way in coding in general.  There are lots of other "beginner" resources 
-                        online, but the vast majority are made by engineers.  It's good to take advantage of this resource made by educators.  
+                        <strong>Note: </strong> This page is a work in progress.  I plan to have this page finished by the beginning of the summer of 2023.
                     </p>
 
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", marginTop: "150px", backgroundColor: "#121d2d" }}></hr>
+
+                    <HowToCodePython />
 
                 </div>
                 <Footer />
