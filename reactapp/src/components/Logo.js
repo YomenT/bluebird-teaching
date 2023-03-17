@@ -21,6 +21,11 @@ class Logo extends React.Component {
                     </Link>
                     &nbsp;
                     &nbsp;
+                    <Link to="/python">
+                        <button type="button" class="btn btn-outline-primary">Python For Non-Engineers</button>
+                    </Link>
+                    &nbsp;
+                    &nbsp;
                     <Link to="/focus_log">
                         <button type="button" class="btn btn-outline-primary">Focus Log</button>
                     </Link>

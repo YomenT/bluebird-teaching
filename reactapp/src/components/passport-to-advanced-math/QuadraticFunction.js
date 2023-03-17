@@ -133,6 +133,32 @@ class QuadraticFunction extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  y = x<sup>2</sup> + x + 1</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  y = x<sup>2</sup> + 6x + 9</p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  y = x<sup>2</sup> + 4x - 4</p>
+
+                    <p className='p-body'>3.  Which of the following could be the graph for <i>ax<sup>2</sup> + bx + c</i>; if <i>a</i>, <i>b</i>, and <i>c</i> are all negative and <i>a</i> is not 0.</p>
+                    <p className="p-body-small">A)</p>
+                    <img 
+                        src={"https://i.ibb.co/6gyWX1w/Quadratic-Function9.png"}
+                        alt="Answer Choice 1"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
+                    <img 
+                        src={"https://i.ibb.co/KLshGJL/Quadratic-Function7.png"}
+                        alt="Answer Choice 2"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
+                    <img 
+                        src={"https://i.ibb.co/2jptpkN/Quadratic-Function8.png"}
+                        alt="Answer Choice 3"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
+                    <img 
+                        src={"https://i.ibb.co/ykcRgK2/Quadratic-Function10.png"}
+                        alt="Answer Choice 4"
+                        width={200}
+                        height={200} />
                 </div>
                 <Footer />
             </div>

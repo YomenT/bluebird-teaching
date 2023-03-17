@@ -9,6 +9,7 @@ import FocusLog from './FocusLog'
 import Resources from './Resources'
 import SatPrep from './SatPrep'
 import AboutSATPrep from './AboutSATPrep'
+import Python from './Python'
 
 // Heart of Algebra
 import IntroductionToHeartOfAlgebra from './IntroductionToHeartOfAlgebra';
@@ -55,6 +56,7 @@ const Main = () => {
       <Route exact path='/resources' component={Resources}></Route>
       <Route exact path='/satprep' component={SatPrep}></Route>
       <Route exact path='/aboutsatprep' component={AboutSATPrep}></Route>
+      <Route exact path='/python' component={Python}></Route>
 
       {/* Heart of Algebra */}
       <Route exact path='/heart_of_algebra/about' component={IntroductionToHeartOfAlgebra}></Route>
