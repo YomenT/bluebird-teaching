@@ -45,6 +45,7 @@ import GraphingQuadraticsVertexForm from './passport-to-advanced-math/GraphingQu
 
 // Python
 import Python from './Python'
+import HowToCodePython from './python-pages/HowToCodePython';
 
 const Main = () => {
   return (
@@ -95,7 +96,7 @@ const Main = () => {
 
       {/* Python */}
       <Route exact path='/python' component={Python}></Route>
-      <Route exact path='/python/introduction' component={PassportToAdvancedMathIntroduction}></Route>
+      <Route exact path='/python/introduction' component={HowToCodePython}></Route>
     </Switch>
   );
 }
