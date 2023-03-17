@@ -9,7 +9,6 @@ import FocusLog from './FocusLog'
 import Resources from './Resources'
 import SatPrep from './SatPrep'
 import AboutSATPrep from './AboutSATPrep'
-import Python from './Python'
 
 // Heart of Algebra
 import IntroductionToHeartOfAlgebra from './IntroductionToHeartOfAlgebra';
@@ -43,6 +42,9 @@ import VertexForm from './passport-to-advanced-math/VertexForm';
 import QuadraticFunction from './passport-to-advanced-math/QuadraticFunction'
 import RationalExpressions from './passport-to-advanced-math/RationalExpressions';
 import GraphingQuadraticsVertexForm from './passport-to-advanced-math/GraphingQuadraticsVertexForm';
+
+// Python
+import Python from './Python'
 
 const Main = () => {
   return (
@@ -90,6 +92,10 @@ const Main = () => {
       <Route exact path='/passport_to_advanced_math/graphing_quadratics' component={GraphingQuadraticsVertexForm}></Route>
       <Route exact path='/passport_to_advanced_math/quadratics_closer_look' component={QuadraticFunction}></Route>
       <Route exact path='/passport_to_advanced_math/rational_expressions_part1' component={RationalExpressions}></Route>
+
+      {/* Python */}
+      <Route exact path='/python' component={Python}></Route>
+      <Route exact path='/python/introduction' component={PassportToAdvancedMathIntroduction}></Route>
     </Switch>
   );
 }

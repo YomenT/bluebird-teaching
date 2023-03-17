@@ -2,7 +2,8 @@ import React from "react";
 
 import Logo from './Logo'
 import Footer from './Footer'
-import HowToCodePython from "./python-pages/HowToCodePython";
+
+import PythonLinkOutline from './python-pages/PythonLinkOutline'
 
 class Python extends React.Component {
 
@@ -35,7 +36,7 @@ class Python extends React.Component {
 
                     <hr style={{ width: '100%', textAlign: "center", marginBottom: "150px", marginTop: "150px", backgroundColor: "#121d2d" }}></hr>
 
-                    <HowToCodePython />
+                    <PythonLinkOutline />
 
                 </div>
                 <Footer />

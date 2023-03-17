@@ -39,6 +39,7 @@ class HowToCodePython extends React.Component {
                         To write code, simply click <a href={this.videoUrl} target={"_blank"} style={{ color: "#5b92e5" }} onMouseOver={this.underlineLink} 
                         onMouseOut={this.removeUnderline}>here</a>.  It'll redirect you to a page where you can code in Python without having to install anything.
                     </p>
+                    
                 </div>
 
                 <Footer />
