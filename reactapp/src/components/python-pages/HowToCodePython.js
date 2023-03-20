@@ -44,6 +44,15 @@ class HowToCodePython extends React.Component {
                         <i>Feel free to bookmark that page.  We'll be coming back to it a lot.</i>
                     </p>
 
+                    <h4 className="h4-blue-headers">Displaying Text in Console</h4>
+
+                    <p className="p-body-small">
+                        You might have noticed, when you click the link for the online Python interpreter, that there is already a line of code there.
+                    </p>
+
+                    <pre>
+                        print('Hello, world!')
+                    </pre>
                 </div>
 
                 <Footer />
