@@ -5,6 +5,8 @@ import Footer from '../Footer'
 
 class QuadraticFunction extends React.Component {
 
+    maximumHeightUrl = "https://www.youtube.com/watch?v=s3L__Mi79Ho"
+
     render() {
         return (
             <div>
@@ -62,7 +64,7 @@ class QuadraticFunction extends React.Component {
                     </p>
 
                     <p className="p-body-medium" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
-                        <strong>Standard Form: </strong> <span style={{ color: "#5b92e5" }}><i>x = <sup>-b</sup>&frasl;<sub>2a</sub></i></span>
+                        <strong>Axis of Symmetry: </strong> <span style={{ color: "#5b92e5" }}><i>x = <sup>-b</sup>&frasl;<sub>2a</sub></i></span>
                     </p>
 
                     <img 
@@ -159,6 +161,22 @@ class QuadraticFunction extends React.Component {
                         alt="Answer Choice 4"
                         width={200}
                         height={200} />
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                    <p className="p-body-small">
+                        Like a lot of other concepts, the SAT math portion isn't going to have questions that outright ask you to solve for the axis of symmetry, convert 
+                        from standard form to vertex form, etc.  They're going to try to think of clever little ways to assess these skills.  
+                    </p>
+
+                    <p className="p-body">
+                        Try to think of a clever way yourself they might ask you questions in the math portion.  Try coming up with a sample question you might see.
+                    </p>
+
+                    <p className="p-body-small">
+                        If you are stuck, try watching <a href="https://www.youtube.com/watch?v=xGOQYTo9AKY" target={"_blank"} style={{ color: "#5b92e5" }} 
+                        onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a>.  This is a perfect example of a question you might see.
+                    </p>
                 </div>
                 <Footer />
             </div>
