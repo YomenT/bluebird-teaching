@@ -25,7 +25,7 @@ class HowToCodePython extends React.Component {
 
                 <div className="aboutBodyDiv">
                     
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         Before we can get started coding, we first need to know how one can even write code?
                     </p>
 
@@ -44,15 +44,25 @@ class HowToCodePython extends React.Component {
                         <i>Feel free to bookmark that page.  We'll be coming back to it a lot.</i>
                     </p>
 
-                    <h4 className="h4-blue-headers">Displaying Text in Console</h4>
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "50px" }}>Displaying Text in Console</h4>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
                         You might have noticed, when you click the link for the online Python interpreter, that there is already a line of code there.
                     </p>
 
                     <pre>
                         print('Hello, world!')
                     </pre>
+
+                    <p className="p-body-small">
+                        To display a message in the console, that's all it takes.  Python provides us with functions (we'll talk more about functions later) 
+                        for a lot of these base functionalities.  In this case, the <code>print()</code> function let's use display/print any message we 
+                        want to the console.
+                    </p>
+
+                    <p className="p-body-small">
+                        Go ahead and try changing "Hello, world" to be whatever message you like; then give it a shot and click the big green "Run" button.
+                    </p>
                 </div>
 
                 <Footer />
