@@ -174,7 +174,7 @@ class QuadraticFunction extends React.Component {
                     </p>
 
                     <p className="p-body-small">
-                        If you are stuck, try watching <a href="https://www.youtube.com/watch?v=xGOQYTo9AKY" target={"_blank"} style={{ color: "#5b92e5" }} 
+                        If you are stuck, try watching <a href={this.maximumHeightUrl} target={"_blank"} style={{ color: "#5b92e5" }} 
                         onMouseOver={this.underlineLink} onMouseOut={this.removeUnderline}>this video</a>.  This is a perfect example of a question you might see.
                     </p>
                 </div>
