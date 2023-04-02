@@ -96,7 +96,7 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                         width={200}
                         height={200} />
 
-                    <p className='p-body'>2.  Which of the following could be the graph for <i>y = -0.5x<sup>2</sup> - x + 1</i>?</p>
+                    <p className='p-body' style={{ paddingTop: "25px" }}>2.  Which of the following could be the graph for <i>y = -0.5x<sup>2</sup> - x + 1</i>?</p>
                     <p className="p-body-small">A)</p>
                     <img 
                         src={"https://i.ibb.co/rwTFydk/Graphical-Analysis2-Answer5.png"}
