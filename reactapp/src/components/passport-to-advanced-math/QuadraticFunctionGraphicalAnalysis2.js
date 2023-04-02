@@ -62,6 +62,73 @@ class QuadraticFunctionGraphicalAnalysis2 extends React.Component {
                         <li>0.8x<sup>2</sup> = y</li>
                         <li>0.2x<sup>2</sup> = y</li>
                     </ul>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className="p-body-small">
+                        For these questions, don't actually graph them by hand or with a graphing calculator.  The point of these questions is to get you to try 
+                        guessing the graph based off the quadratic equation given.
+                    </p>
+
+                    <p className='p-body'>1.  Which of the following could be the graph for <i>y = 4x<sup>2</sup> - 1</i>?</p>
+                    <p className="p-body-small">A)</p>
+                    <img 
+                        src={"https://i.ibb.co/SdHdxPb/Graphical-Analysis2-Answer1.png"}
+                        alt="Answer Choice 1"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
+                    <img 
+                        src={"https://i.ibb.co/2yhgZ9b/Graphical-Analysis2-Answer2.png"}
+                        alt="Answer Choice 2"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
+                    <img 
+                        src={"https://i.ibb.co/vPWhQxx/Graphical-Analysis2-Answer3.png"}
+                        alt="Answer Choice 3"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
+                    <img 
+                        src={"https://i.ibb.co/vXbCF3F/Graphical-Analysis2-Answer4.png"}
+                        alt="Answer Choice 4"
+                        width={200}
+                        height={200} />
+
+                    <p className='p-body'>2.  Which of the following could be the graph for <i>y = -0.5x<sup>2</sup> - x + 1</i>?</p>
+                    <p className="p-body-small">A)</p>
+                    <img 
+                        src={"https://i.ibb.co/rwTFydk/Graphical-Analysis2-Answer5.png"}
+                        alt="Answer Choice 1"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>B)</p>
+                    <img 
+                        src={"https://i.ibb.co/xgPf9Cp/Graphical-Analysis2-Answer6.png"}
+                        alt="Answer Choice 2"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>C)</p>
+                    <img 
+                        src={"https://i.ibb.co/kx1hxbB/Graphical-Analysis2-Answer7.png"}
+                        alt="Answer Choice 3"
+                        width={200}
+                        height={200} />
+                    <p className="p-body-small" style={{ paddingTop: "30px" }}>D)</p>
+                    <img 
+                        src={"https://i.ibb.co/9tM8ywx/Graphical-Analysis2-Answer8.png"}
+                        alt="Answer Choice 4"
+                        width={200}
+                        height={200} />
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                    <p className="p-body-small">
+                        As of now, you've learned about the impacts of each term on the graph of a quadratic: a, b, and c.  Make a little cheat sheet that 
+                        quickly summarizes the impacts of each of these terms.  Remember that each term might have quite a few impacts.  Feel free to go back 
+                        over previous lessons to go over them again.    
+                    </p>
                 </div>
                 <Footer />
             </div>
