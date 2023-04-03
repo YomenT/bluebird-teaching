@@ -60,7 +60,8 @@ class RationalExpressions2 extends React.Component {
 
                     <p className="p-body-small">
                         Just like with normal fractions, we can canel out common factors that show up in the numerator and denominator.  If we do that, we'll be left with 
-                        what's shown below.  
+                        what's shown below.  <strong>A simple trick: </strong> any time you see a factor like (x - 1), (x + 5), etc, leave it alone.  You might be able to use 
+                        it at some point later in the problem to simplify.
                     </p>
 
                     <p className="p-body" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
@@ -87,6 +88,49 @@ class RationalExpressions2 extends React.Component {
                     <p className="p-body-small">
                         Some of these questions are just going to be simplification questions.  This will not only give more practice, but this might actually happen in the 
                         SAT.  You might get a question that is just simplification.  
+                    </p>
+
+                    <p className="p-body">
+                        1.  Complete the following operation and simplify: 
+                        <div className="frac" style={{ paddingRight: "10px" }}>
+                            <span className="top">x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">(x + 2)</span>
+                        </div>
+                        &plus;
+                        <div className="frac" style={{ paddingLeft: "10px" }}>
+                            <span className="top">3x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">(x + 2)</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }}>A)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>4x<sup>2</sup> + 12x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy + 20</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>4x<sup>2</sup> - 12x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy + 20</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>4x<sup>2</sup> - 3x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy - 9</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>4x<sup>2</sup> - 3x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5xy + 9</span>
+                        </div>
                     </p>
 
                 </div>
