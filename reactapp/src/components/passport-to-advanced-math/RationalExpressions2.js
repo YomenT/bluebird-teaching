@@ -91,13 +91,13 @@ class RationalExpressions2 extends React.Component {
                     </p>
 
                     <p className="p-body">
-                        1.  Complete the following operation and simplify: 
+                        1.  Complete the following operation and simplify: &nbsp;
                         <div className="frac" style={{ paddingRight: "10px" }}>
                             <span className="top">x</span>
                             <span className="symbol">/</span>
                             <span className="bottom">(x + 2)</span>
                         </div>
-                        &plus;
+                        +
                         <div className="frac" style={{ paddingLeft: "10px" }}>
                             <span className="top">3x</span>
                             <span className="symbol">/</span>
