@@ -26,8 +26,8 @@ class RationalExpressions2 extends React.Component {
                         Basically, you're not always going to want to FOIL or distribute terms.  We're going to learn why in this lesson.  Let's consider the problem below.
                     </p>
 
-                    <p className="p-body-medium" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
-                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                    <p className="p-body" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
+                        <div class="frac" style={{ paddingRight: "10px" }}>
                             <span className='top'>(x - 3)</span>
                             <span className="symbol">/</span>
                             <span className="bottom">5x</span>
@@ -37,6 +37,18 @@ class RationalExpressions2 extends React.Component {
                             <span className="top">(x + 4)</span>
                             <span className="symbol">/</span>
                             <span className="bottom">(x - 3)</span>
+                        </div>
+                    </p>
+
+                    <p className="p-body-small">
+                        First thing, we're still going to multiply across like we did in the last lesson.  Once we do that, we should have the rational expression shown below.
+                    </p>
+
+                    <p className="p-body" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
+                        <div className="frac">
+                            <span className="top">(x - 3)(x + 4)</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5x(x - 3)</span>    
                         </div>
                     </p>
 
