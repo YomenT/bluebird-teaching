@@ -76,6 +76,19 @@ class RationalExpressions2 extends React.Component {
                         have any questions feel free to shoot us an email.  We can set up a call time and settle any questions.</i>
                     </p>
 
+                    <p className="p-body">
+                        Something to keep in mind is that when it comes to simplifying rational expressions, the SAT might utilize some of your other skills as well.  
+                        SAT questions related to simplifying rational expressions also utilize factoring in some fashion.  We'll practice this a bit in the practice problems 
+                        ahead.
+                    </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className="p-body-small">
+                        Some of these questions are just going to be simplification questions.  This will not only give more practice, but this might actually happen in the 
+                        SAT.  You might get a question that is just simplification.  
+                    </p>
+
                 </div>
 
             <Footer />
