@@ -52,6 +52,30 @@ class RationalExpressions2 extends React.Component {
                         </div>
                     </p>
 
+                    <p className="p-body-small">
+                        This is where, like in the last lesson, we stop for a second.  When it comes to working with rational expressions, we're usually trying to cancel 
+                        out things.  If we go ahead and FOIL the numerator, we won't see it anymore, but do you see a way we might be able to cancel something out?  In 
+                        this case, the numerator and the denominator both have a common factor (the x - 3); if we FOIL, we actually lose that common factor.
+                    </p>
+
+                    <p className="p-body-small">
+                        Just like with normal fractions, we can canel out common factors that show up in the numerator and denominator.  If we do that, we'll be left with 
+                        what's shown below.  
+                    </p>
+
+                    <p className="p-body" style={{ textAlign: "center", paddingTop: "50px", paddingBottom: "50px" }}>
+                        <div className="frac">
+                            <span className="top">(x + 4)</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">5x</span>    
+                        </div>
+                    </p>
+
+                    <p className="p-body-small">
+                        While you've probably learned these fraction tricks in school, I realize we haven't really done much of this in this SAT prep series.  <i>If you
+                        have any questions feel free to shoot us an email.  We can set up a call time and settle any questions.</i>
+                    </p>
+
                 </div>
 
             <Footer />
