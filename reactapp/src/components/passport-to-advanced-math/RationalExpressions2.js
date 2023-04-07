@@ -133,7 +133,7 @@ class RationalExpressions2 extends React.Component {
                         </div>
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
                         <i>
                             The problem below might be a bit tough.  If you're stuck, have any questions, or just want to check your answer, reach out to us 
                             in the Contact Us link at the bottom right of this page.
