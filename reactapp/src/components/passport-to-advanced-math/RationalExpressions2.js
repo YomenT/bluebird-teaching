@@ -99,38 +99,97 @@ class RationalExpressions2 extends React.Component {
                         </div>
                         +
                         <div className="frac" style={{ paddingLeft: "10px" }}>
-                            <span className="top">3x</span>
+                            <span className="top">2x</span>
                             <span className="symbol">/</span>
                             <span className="bottom">(x + 2)</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }}>A)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>4x<sup>2</sup> + 12x</span>
+                            <span className='top'>x<sup>2</sup> + 2x</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">5xy + 20</span>
+                            <span className="bottom">(x + 2)(x + 2)</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>4x<sup>2</sup> - 12x</span>
+                            <span className='top'>x(x + 2)</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">5xy + 20</span>
+                            <span className="bottom">(x + 2)(x + 2)</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>4x<sup>2</sup> - 3x</span>
+                            <span className='top'>x</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">5xy - 9</span>
+                            <span className="bottom">(x + 2)</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>4x<sup>2</sup> - 3x</span>
+                            <span className='top'>2x</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">5xy + 9</span>
+                            <span className="bottom">(x + 2)</span>
                         </div>
+                    </p>
+
+                    <p className="p-body-small">
+                        <i>
+                            The problem below might be a bit tough.  If you're stuck, have any questions, or just want to check your answer, reach out to us 
+                            in the Contact Us link at the bottom right of this page.
+                        </i>
+                    </p>
+
+                    <p className="p-body">
+                        2.  Simplify: &nbsp;
+                        <div className="frac" style={{ paddingRight: "10px" }}>
+                            <span className="top">6x<sup>2</sup> - 19x + 3</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">4x<sup>2</sup> - 36</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }}>A)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>6x - 1</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">4(x + 3)</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>6x - 1</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">4(x - 3)</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>(x - 3)</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">4(x + 3)</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>(x + 3)</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">4(x + 3)</span>
+                        </div>
+                    </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create It!</h4>
+
+                    <p className="p-body-small">
+                        As you might have seen, rational expressions can be tricky: both solving and simplifying.  This is most likely an area you're going to want to 
+                        search online for more practice.  
+                    </p>
+
+                    <p className="p-body-small">
+                        Your mission is to research, create, and solve two ratinoal expression problems.  The first problem is an example of completing some operation with 
+                        two or more ratinoal expressions, and the second problem is an example where you're just simplifying a rational expression (a rational expression 
+                        that contains polynomials most likely).  After you've done this, write a brief explanation as to how you might be able to spot what you need to do.  
+                        As in, answer questions like "when do I start simplifying versus FOILing/distrbuting".  If you're stumped, write a list of questions that came up, 
+                        and shoot us an email with those questions.
                     </p>
 
                 </div>
