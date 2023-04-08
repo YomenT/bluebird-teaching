@@ -7,7 +7,8 @@ class RationalExpressions3 extends React.Component {
 
     render() {
 
-        <div>
+        return (
+            <div>
 
                 <Logo />
                 <div className='bodyDiv'>
@@ -37,8 +38,9 @@ class RationalExpressions3 extends React.Component {
 
                 </div>
 
-        <Footer />
-        </div>
+            <Footer />
+            </div>
+        )
     }
 }
 
