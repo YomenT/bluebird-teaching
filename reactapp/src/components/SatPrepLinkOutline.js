@@ -61,8 +61,8 @@ class SatPrepLinkOutline extends React.Component {
                     <li>Rational Expressions</li>
                         <ul className="list-medium">
                         <li><Link to="/passport_to_advanced_math/rational_expressions_part1" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 1</Link></li>
-                        <li><Link to="passport_to_advanced_math/rational_expressions_part2" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 2</Link></li>  {/* Not started yet. */}
-                        <li><Link to="passport_to_advanced_math/rational_expressions_part3" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 3</Link></li>  {/* Not started yet. */}
+                        <li><Link to="passport_to_advanced_math/rational_expressions_part2" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 2</Link></li>
+                        <li><Link to="passport_to_advanced_math/rational_expressions_part3" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 3</Link></li>  {/* In Progress */}
                         </ul>
                     <li>Exponent Rules</li>
                         <ul className="list-medium">

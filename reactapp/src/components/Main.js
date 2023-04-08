@@ -43,6 +43,7 @@ import QuadraticFunction from './passport-to-advanced-math/QuadraticFunction'
 import RationalExpressions from './passport-to-advanced-math/RationalExpressions';
 import GraphingQuadraticsVertexForm from './passport-to-advanced-math/GraphingQuadraticsVertexForm';
 import RationalExpressions2 from './passport-to-advanced-math/RationalExpressions2';
+import RationalExpressions3 from './passport-to-advanced-math/RationalExpressions3';
 
 // Python
 import Python from './Python'
@@ -95,6 +96,7 @@ const Main = () => {
       <Route exact path='/passport_to_advanced_math/quadratics_closer_look' component={QuadraticFunction}></Route>
       <Route exact path='/passport_to_advanced_math/rational_expressions_part1' component={RationalExpressions}></Route>
       <Route exact path='/passport_to_advanced_math/rational_expressions_part2' component={RationalExpressions2}></Route>
+      <Route exact path='/passport_to_advanced_math/rational_expressions_part3' component={RationalExpressions3}></Route>
 
       {/* Python */}
       <Route exact path='/python' component={Python}></Route>
