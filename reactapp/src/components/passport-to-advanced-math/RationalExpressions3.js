@@ -5,6 +5,16 @@ import Footer from '../Footer'
 
 class RationalExpressions3 extends React.Component {
 
+    wrongAnswer(e) {
+        e.target.style.color = "#E32636"
+        e.target.style.pointerEvents = "none"
+    }
+
+    rightAnswer(e) {
+        e.target.style.color = "#018749"
+        e.target.style.pointerEvents = "none"
+    }
+
     render() {
 
         return (
@@ -30,10 +40,59 @@ class RationalExpressions3 extends React.Component {
                         put together.
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingBottom: "50px" }}>
                         If there are still a lot of questions in your head regarding working with rational expressions, you don't quite know the answers to the 
                         questions from previous lessons, or just want to talk these concepts over, I highly recommend you actually reach out to us before attempting these 
                         practice problems.  I think to get the most out of this practice, you should go into it with a pretty good understanding first.
+                    </p>
+
+                    <hr style={{ width: '100%', textAlign: "center", backgroundColor: "#121d2d" }}></hr>
+
+                    <p className="p-body" style={{ paddingTop: "50px" }}>
+                        <strong>Complete the operation specified and simplify.</strong>
+                    </p>
+
+                    <p className="p-body">
+                        1.  &nbsp;
+                        <div className="frac" style={{ paddingRight: "10px" }}>
+                            <span className="top">x + 2</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">x - 1</span>
+                        </div>
+                        +
+                        <div className="frac" style={{ paddingLeft: "10px" }}>
+                            <span className="top">x - 5</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">x + 3</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }} onClick={this.wrongAnswer}>A)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>x<sup>2</sup> + 2x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">(x + 2)(x + 2)</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}} onClick={this.rightAnswer}>B)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>x(x + 2)</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">(x + 2)(x + 2)</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>C)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">(x + 2)</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}} onClick={this.wrongAnswer}>D)  
+                        <div class="frac" style={{ paddingLeft: "10px" }}>
+                            <span className='top'>2x</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">(x + 2)</span>
+                        </div>
                     </p>
 
                 </div>
