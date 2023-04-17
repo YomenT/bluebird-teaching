@@ -200,7 +200,7 @@ class RationalExpressions3 extends React.Component {
                         My work is shown below.  Please make sure you've attempted all the previous questions before looking over the answers.
                     </p>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingBottom: "20px" }}>
                         Again, this isn't a grade!  Please reach out to us if you need any help!
                     </p>
 
