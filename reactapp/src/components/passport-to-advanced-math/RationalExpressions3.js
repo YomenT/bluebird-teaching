@@ -5,16 +5,6 @@ import Footer from '../Footer'
 
 class RationalExpressions3 extends React.Component {
 
-    wrongAnswer(e) {
-        e.target.style.color = "#E32636"
-        e.target.style.pointerEvents = "none"
-    }
-
-    rightAnswer(e) {
-        e.target.style.color = "#018749"
-        e.target.style.pointerEvents = "none"
-    }
-
     render() {
 
         return (
@@ -55,43 +45,43 @@ class RationalExpressions3 extends React.Component {
                     <p className="p-body">
                         1.  &nbsp;
                         <div className="frac" style={{ paddingRight: "10px" }}>
-                            <span className="top">x + 2</span>
+                            <span className="top">8</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">x - 1</span>
+                            <span className="bottom">x<sup>2</sup> - 16</span>
                         </div>
-                        +
+                        &divide;
                         <div className="frac" style={{ paddingLeft: "10px" }}>
-                            <span className="top">x - 5</span>
+                            <span className="top">1</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">x + 3</span>
+                            <span className="bottom">x - 4</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%", paddingTop: "15px" }}>A)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>x<sup>2</sup> + 2x</span>
+                            <span className='top'>8</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">(x + 2)(x + 2)</span>
+                            <span className="bottom">x - 4</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>x(x + 2)</span>
+                            <span className='top'>8</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">(x + 2)(x + 2)</span>
+                            <span className="bottom">x + 4</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>x</span>
+                            <span className='top'>x - 4</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">(x + 2)</span>
+                            <span className="bottom">x + 4</span>
                         </div>
                     </p>
                     <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
-                            <span className='top'>2x</span>
+                            <span className='top'>8x - 32</span>
                             <span className="symbol">/</span>
-                            <span className="bottom">(x + 2)</span>
+                            <span className="bottom">x<sup>2</sup> - 16</span>
                         </div>
                     </p>
 
@@ -102,7 +92,7 @@ class RationalExpressions3 extends React.Component {
                             <span className="symbol">/</span>
                             <span className="bottom">3x<sup>2</sup></span>
                         </div>
-                        +
+                        &times;
                         <div className="frac" style={{ paddingLeft: "10px" }}>
                             <span className="top">5x<sup>2</sup> - x</span>
                             <span className="symbol">/</span>
@@ -196,13 +186,27 @@ class RationalExpressions3 extends React.Component {
                             <span className="bottom">x - 9</span>
                         </div>
                     </p>
-                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  
+                    <p className="p-body-small" style={{ marginLeft: "4%", paddingBottom: "50px" }}>D)  
                         <div class="frac" style={{ paddingLeft: "10px" }}>
                             <span className='top'>5</span>
                             <span className="symbol">/</span>
                             <span className="bottom">x + 9</span>
                         </div>
                     </p>
+
+                    <hr style={{ width: '100%', textAlign: "center", backgroundColor: "#121d2d" }}></hr>
+
+                    <p className="p-body" style={{ paddingTop: "50px" }}>
+                        My work is shown below.  Please make sure you've attempted all the previous questions before looking over the answers.
+                    </p>
+
+                    <p className="p-body-small">
+                        Again, this isn't a grade!  Please reach out to us if you need any help!
+                    </p>
+
+                    <object data="https://www.docdroid.net/m6oylLe/answerspdf-pdf" type="application/pdf" width="100%" height="1100px">
+                        <p>Alternative text - Unable to load <a href="https://www.docdroid.net/m6oylLe/answerspdf-pdf">to the PDF</a></p>
+                    </object>
 
                 </div>
 
