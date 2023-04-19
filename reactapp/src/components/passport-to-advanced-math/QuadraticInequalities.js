@@ -33,7 +33,11 @@ class QuadraticInequalities extends React.Component {
                     </p>
 
                     <p className="p-body-medium" style={{ textAlign: "center", paddingTop: "20px", paddingBottom: "20px" }}>
-                        <strong>solve: </strong> <span style={{ color: "#5b92e5" }}><i>2x<sup>2 - 6x + 2 &gt; -2</sup></i></span>
+                        <strong>solve: </strong> <span style={{ color: "#5b92e5" }}><i>2x<sup>2</sup> - 6x + 2 &gt; -2</i></span>
+                    </p>
+
+                    <p className="p-body-small">
+                        Just watch the work he shows for problem 1 for now.  Once he gets to the second problem that he works on, you can stop there.
                     </p>
 
                     <div>
