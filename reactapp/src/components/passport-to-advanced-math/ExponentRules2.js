@@ -33,9 +33,15 @@ class ExponentRules2 extends React.Component {
                         resume the video once you've gotten an answer or are stuck.    
                     </p>
 
-                    {/* We really need to replace this with a 
+                    {/* 
+                    We really need to replace this with a 
                     more accurate video for what we're trying 
-                    to cover in this lesson. */}
+                    to cover in this lesson.
+                    
+                    The video should contain problems where 
+                    we involve multiple exponent rules in a 
+                    single simplification problem.
+                    */}
 
                     <div>
                         <ReactPlayer 
