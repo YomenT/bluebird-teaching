@@ -13,7 +13,7 @@ class ExponentRules2 extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Exponent Rules - Part 2</h2>
                 </div>
                 <div className='aboutBodyDiv'>
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         Part 1 of exponent rules was to get you familiar with the 5 exponent rules.  In part 2, we're going to look at how the SAT uses a 
                         combination of exponent rules in a single problem.  A single simplication problem is going to involve many steps; each step involving 
                         an exponent rule.  
@@ -32,6 +32,11 @@ class ExponentRules2 extends React.Component {
                         in a slightly different way; however, results should be the same.  It's a very good idea to pause the video and try the problem yourself; 
                         resume the video once you've gotten an answer or are stuck.    
                     </p>
+
+                    {/* We really need to replace this with a 
+                    more accurate video for what we're trying 
+                    to cover in this lesson. */}
+
                     <div>
                         <ReactPlayer 
                             url="https://www.youtube.com/watch?v=MHeirBPOI6w"

@@ -45,6 +45,7 @@ import GraphingQuadraticsVertexForm from './passport-to-advanced-math/GraphingQu
 import RationalExpressions2 from './passport-to-advanced-math/RationalExpressions2';
 import RationalExpressions3 from './passport-to-advanced-math/RationalExpressions3';
 import QuadraticInequalities from './passport-to-advanced-math/QuadraticInequalities'
+import ExponentialEquations from './passport-to-advanced-math/ExponentialEquations'
 
 // Python
 import Python from './Python'
@@ -101,6 +102,7 @@ const Main = () => {
       <Route exact path='/passport_to_advanced_math/rational_expressions_part3' component={RationalExpressions3}></Route>
       <Route exact path='/passport_to_advanced_math/quadratic_inequalities' component={QuadraticInequalities}></Route>
       <Route exact path='/passport_to_advanced_math/polynomials_of_higher_degree' component={PolynomialsOfHigherDegree}></Route>
+      <Route exact path='/passport_to_advanced_math/exponential_equations' component={ExponentialEquations}></Route>
 
       {/* Python */}
       <Route exact path='/python' component={Python}></Route>

@@ -12,7 +12,7 @@ class ExponentRules extends React.Component {
                     <h2 style={{ paddingBottom: "25px" }}>Exponent Rules - Part 1</h2>
                 </div>
                 <div className='aboutBodyDiv'>
-                    <p className="p-body">
+                    <p className="p-body" style={{ paddingTop: "25px" }}>
                         There are going to be a set of exponent rules that you're going to have to memorize.  You may want to create flashcards for these rules.  However, 
                         the more you practice these kinds of problems, the more they'll just stick in your head.  This is one of those sections that I highly encourage 
                         you to seek extra practice on.  I'll be sure to include sources for extra practice at some point in this section.  

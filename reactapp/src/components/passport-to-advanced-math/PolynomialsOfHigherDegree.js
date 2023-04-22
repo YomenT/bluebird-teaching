@@ -16,7 +16,7 @@ class PolynomialsOfHigherDegree extends React.Component {
 
                 <div className="aboutBodyDiv">
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
                         The last few lessons might have been a bit tough.  Hopefully, this lesson should be a sort of break for you.
                     </p>
 
