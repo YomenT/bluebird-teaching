@@ -49,6 +49,7 @@ import QuadraticInequalities from './passport-to-advanced-math/QuadraticInequali
 // Python
 import Python from './Python'
 import HowToCodePython from './python-pages/HowToCodePython';
+import PolynomialsOfHigherDegree from './passport-to-advanced-math/PolynomialsOfHigherDegree';
 
 const Main = () => {
   return (
@@ -99,6 +100,7 @@ const Main = () => {
       <Route exact path='/passport_to_advanced_math/rational_expressions_part2' component={RationalExpressions2}></Route>
       <Route exact path='/passport_to_advanced_math/rational_expressions_part3' component={RationalExpressions3}></Route>
       <Route exact path='/passport_to_advanced_math/quadratic_inequalities' component={QuadraticInequalities}></Route>
+      <Route exact path='/passport_to_advanced_math/polynomials_of_higher_degree' component={PolynomialsOfHigherDegree}></Route>
 
       {/* Python */}
       <Route exact path='/python' component={Python}></Route>

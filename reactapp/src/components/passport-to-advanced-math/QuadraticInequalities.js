@@ -46,7 +46,7 @@ class QuadraticInequalities extends React.Component {
                         />
                     </div>
 
-                    <p className="p-body-small">
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
                         All this stuff about utilizing the number line shown in the video, and finding x values that fulfill the inequality might sound new.  If all this 
                         is confusing, <i>please don't hesitate to reach out to us with any questions</i>.
                     </p>
