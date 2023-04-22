@@ -35,6 +35,17 @@ class PolynomialsOfHigherDegree extends React.Component {
                         width={400}
                         height={400} />
 
+                    <p className="p-body-small" style={{ paddingTop: "25px" }}>
+                        We factor by grouping in a very similar manner like when we factor quadratics that have an "a" value greater than 1.
+                    </p>
+
+                    <p className="p-body-medium">
+                        Remember that when we have a function that is factored like <span style={{ color: "#5b92e5" }}>y = (x - a)(x - b)(x - c)</span>, then we can 
+                        find the zeros/solutions by setting that equation to zero.  If we do, <span style={{ color: "#5b92e5" }}>(x - a)(x - b)(x - c) = 0</span>, then 
+                        <span style={{ color: "#5b92e5" }}>a</span>, <span style={{ color: "#5b92e5" }}>b</span>, and <span style={{ color: "#5b92e5" }}>c</span> are all 
+                        the x-intercepts/solutions/zeros.
+                    </p>
+
                 </div>
 
             <Footer />
