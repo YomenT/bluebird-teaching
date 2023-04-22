@@ -42,8 +42,35 @@ class PolynomialsOfHigherDegree extends React.Component {
                     <p className="p-body-medium">
                         Remember that when we have a function that is factored like <span style={{ color: "#5b92e5" }}>y = (x - a)(x - b)(x - c)</span>, then we can 
                         find the zeros/solutions by setting that equation to zero.  If we do, <span style={{ color: "#5b92e5" }}>(x - a)(x - b)(x - c) = 0</span>, then 
-                        <span style={{ color: "#5b92e5" }}>a</span>, <span style={{ color: "#5b92e5" }}>b</span>, and <span style={{ color: "#5b92e5" }}>c</span> are all 
+                        <span style={{ color: "#5b92e5" }}> a</span>, <span style={{ color: "#5b92e5" }}>b</span>, and <span style={{ color: "#5b92e5" }}>c</span> are all 
                         the x-intercepts/solutions/zeros.
+                    </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className='p-body'>1.  Factor x<sup>3</sup> + 5x<sup>2</sup> + 5x + 25</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x + 5)(x - 5)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (x + 5)(x + 5)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (x<sup>2</sup> + 5)(x + 5)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  (x - 5)(x<sup>2</sup> + 5)</p>
+
+                    <p className='p-body'>2.  Find the x-intercepts for 9x<sup>3</sup> + 3x<sup>2</sup> + 15x + 5</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (3x<sup>2</sup> + 5)(3x + 5)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (3x<sup>2</sup> + 5)<sup>2</sup></p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (3x<sup>2</sup> + 1)<sup>2</sup></p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  (3x<sup>2</sup> + 5)(3x + 1)</p>
+
+                    <p className='p-body'>3.  Factor 5xy - 3x + 25y - 15</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  (x + 5)(5y - 3)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  (5y - 3)(y + 5)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  (x - 5)(5y - 3)</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  (5y + 3)(x + 5)</p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                    <p className="p-body-small">
+                        Since this is kind of review, we'll give you a break on for this portion.  As long as you promise that if you have any questions, comments, or 
+                        concerns regarding the material covered in this lesson, or any prior lesson, you won't hesitate to reach out to us!
                     </p>
 
                 </div>
