@@ -50,7 +50,34 @@ class ExponentialEquations extends React.Component {
                         Seems easy enough, right?  The only catch is that sometimes the SAT will have a problem where the bases don't look the same, but you have to actually 
                         get them to be the same.  For example, <i>2<sup>3</sup></i> and <i>4<sup>x</sup></i> don't initially have the same bases, but if we apply our power 
                         rule in reverse, we can get them to be the same bases.  Isn't <i>4</i> the same as <i>2<sup>2</sup></i>?  With that, we just substitute it to look 
-                        like <i>(2<sup>2</sup>)<sup>x</sup></i>; now we have the same bases.
+                        like <i>(2<sup>2</sup>)<sup>x</sup></i>; now we have the same bases.  
+                    </p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    <p className='p-body'>1.  Solve for x: 6<sup>2x</sup> = 6<sup>1 - 3x</sup></p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = -5</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = 5</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = -1/5</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = 1/5</p>
+
+                    <p className='p-body'>2.  Solve for x: 3<sup>2x</sup> = 27<sup>x - 2</sup></p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = 3</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = 6</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = -3</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = -6</p>
+
+                    <p className='p-body'>3.  Solve for x: 5<sup>1 - x</sup> = 25</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>A)  x = 1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>B)  x = -1</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>C)  x = 3</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%"}}>D)  x = -3</p>
+
+                    <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                    <p className="p-body">
+                        On a piece of paper, try to make up three example problems like the ones above.  After you've written them out, try to solve them for x.  It's okay 
+                        if you have to adjust a problem once you start solving it if it can't actually be solved.
                     </p>
 
                 </div>
