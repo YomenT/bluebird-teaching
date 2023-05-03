@@ -71,7 +71,7 @@ class SatPrepLinkOutline extends React.Component {
                             <li><Link to="/passport_to_advanced_math/exponent_rules_part1" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 1</Link></li>
                             <li><Link to="/passport_to_advanced_math/exponent_rules_part2" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 2</Link></li>  {/* In Progress */}
                         </ul>
-                    <li style={{ paddingBottom: "25px" }}><Link to="passport_to_advanced_math/exponential_equations" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Exponential Equations</Link></li>  {/* In Progress */}
+                    <li style={{ paddingBottom: "25px" }}><Link to="passport_to_advanced_math/exponential_equations" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Exponential Equations</Link></li>
                 </ol>
                 <h4 className="h4-blue-headers">Additional Topics in Math</h4>
             </div>
