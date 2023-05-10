@@ -64,6 +64,7 @@ class SatPrepLinkOutline extends React.Component {
                             <li><Link to="passport_to_advanced_math/rational_expressions_part2" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 2</Link></li>
                             <li><Link to="passport_to_advanced_math/rational_expressions_part3" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Part 3</Link></li>
                         </ul>
+                        <li><Link to="passport_to_advanced_math/equations_with_rational_expressions" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Equations With Rational Expressions</Link></li>
                     <li><Link to="passport_to_advanced_math/quadratic_inequalities" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Quadratic Inequalities</Link></li>
                     <li><Link to="passport_to_advanced_math/polynomials_of_higher_degree" style={{ color: "#365789" }} onMouseOver={this.changeLinkColorEnter} onMouseOut={this.changeLinkColorLeave}>Polynomials of Higher Degree</Link></li>
                     <li>Exponent Rules</li>
