@@ -37,8 +37,8 @@ class RationalExpressionsEquations extends React.Component {
                     <img 
                         src={"https://i.ibb.co/v4kfTpy/Rational-Expression-Equation1.png"}
                         alt="Adding rational expressions problem."
-                        width={200}
-                        height={150} />
+                        width={500}
+                        height={900} />
 
                     <p className="p-body-medium" style={{ paddingTop: "25px" }}>
                         Now let's see an example where we can see some of that cancelling out to make things easier.  You'll see that in this scenario, I actually didn't 
@@ -49,8 +49,8 @@ class RationalExpressionsEquations extends React.Component {
                     <img 
                         src={"https://i.ibb.co/zfXbk01/Rational-Expression-Equation2.png"}
                         alt="Adding rational expressions problem."
-                        width={200}
-                        height={150} />
+                        width={500}
+                        height={500} />
 
                     <p className="p-body-medium" style={{ paddingTop: "25px" }}>
                         The important take away here is to be patient and flexible.  When solving an equation with rational expressions, you might need to pull out your 
@@ -64,9 +64,31 @@ class RationalExpressionsEquations extends React.Component {
                         equation.
                     </p>
 
+                    <p className="p-body-small">
+                        By the way, apologies for the horrible handwriting.  If you have any clarification questions, don't hesitate to ask.
+                    </p>
+
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
 
-                    
+                    <p className="p-body">
+                        1.  Solve the following equation: &nbsp;
+                        <div className="frac">
+                            <span className="top">5</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">x</span>
+                        </div>
+                        -
+                        <div className="frac">
+                            <span className="top">5</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">6</span>
+                        </div>
+                        = 5
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>A)  7/6</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>B)  6/7</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>C)  -7/6</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>D)  -6/7</p>
 
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
 
