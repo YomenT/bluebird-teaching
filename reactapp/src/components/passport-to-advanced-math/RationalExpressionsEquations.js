@@ -90,7 +90,44 @@ class RationalExpressionsEquations extends React.Component {
                     <p className="p-body-small" style={{ marginLeft: "4%" }}>C)  -7/6</p>
                     <p className="p-body-small" style={{ marginLeft: "4%" }}>D)  -6/7</p>
 
+                    <p className="p-body">
+                        2.  Solve the following equation: &nbsp;
+                        <div className="frac" style={{ paddingRight: "10px" }}>
+                            <span className="top">6</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">x - 3</span>
+                        </div>
+                        + 9 = 
+                        <div className="frac" style={{ paddingLeft: "10px" }}>
+                            <span className="top">-3</span>
+                            <span className="symbol">/</span>
+                            <span className="bottom">x - 3</span>
+                        </div>
+                    </p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>A)  x = 2</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>B)  x = -2</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>C)  x = 3</p>
+                    <p className="p-body-small" style={{ marginLeft: "4%" }}>D)  x = 9</p>
+
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
+
+                    <p className="p-body">
+                        This lesson is probably one of the harder ones for you.  Before proceeding, please don't hesitate to reach out with any questions.  Just click the 
+                        "Contact Us" link at the bottom right of this page.
+                    </p>
+
+                    <p className="p-body-small">
+                        Your task this time is going to be completing a challenge problem.  Try to document all your steps as best as you can.  First, try to solve this 
+                        problem completely on your own.  If you get stuck, then try reading the steps that they're showing.  If your completely stuck, which is completely 
+                        fine, you can also reach out to us.  We can get on a call and crack this together.
+                    </p>
+
+                    <p className="p-body-small">
+                        The problem is Example 6 from <a href={"https://www.chilimath.com/lessons/advanced-algebra/solving-rational-equations/"} target={"_blank"} 
+                        className="anchor">this page</a>.  Once you've found Example 6, be sure not to read the explanation and steps they give below.  The only way 
+                        you can master this is by giving it your own shot first.  It's completely fine, and it's actually really good, to try this on your own and struggle 
+                        a bit with it first; then go for help.
+                    </p>
 
                 </div>
 
