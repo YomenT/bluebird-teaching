@@ -29,32 +29,44 @@ class RationalExpressionsEquations extends React.Component {
                     </p>
 
                     <p className="p-body-medium">
-                        We've seen what simplifying rational expressions looks like; now let's see what solving an equation containing rational expressions might look like.
+                        We've seen what simplifying rational expressions looks like; now let's see what solving an equation containing rational expressions might look 
+                        like.  Just a heads up, this might look a little bit messy, but really just focus on the part where I'm simplifying the equation down.  From there, 
+                        I'm just going to use the quadratic formula to solve the equation.
                     </p>
 
-                    {/* 
-                        Example of a somple equation with rational expressions.
-                        Should not contain anything that can be canceled out just yet. 
-                    */}
+                    <img 
+                        src={"https://i.ibb.co/v4kfTpy/Rational-Expression-Equation1.png"}
+                        alt="Adding rational expressions problem."
+                        width={200}
+                        height={150} />
+
+                    <p className="p-body-medium" style={{ paddingTop: "25px" }}>
+                        Now let's see an example where we can see some of that cancelling out to make things easier.  You'll see that in this scenario, I actually didn't 
+                        need to use the quadratic formula.  This is just because, just by chance, I didn't end up with a quadratic; instead, I just ended up with a regular 
+                        linear equation that I can solve like I solve any one variable equation.    
+                    </p>
+
+                    <img 
+                        src={"https://i.ibb.co/zfXbk01/Rational-Expression-Equation2.png"}
+                        alt="Adding rational expressions problem."
+                        width={200}
+                        height={150} />
+
+                    <p className="p-body-medium" style={{ paddingTop: "25px" }}>
+                        The important take away here is to be patient and flexible.  When solving an equation with rational expressions, you might need to pull out your 
+                        factoring skills, your quadratic formula skills, or just solving one variable equations.
+                    </p>
 
                     <p className="p-body-medium">
-                        Now let's see an example where we can see some of that cancelling out to make things easier.
+                        <strong>Regardless of whatever equation you end up with, </strong> it should always come down to working with a quadratic or a linear equation.  
+                        Now you might look at the first picture above, and see that wasn't a quadratic, but there should always be some work around to break down what 
+                        you ended up with.  I don't know if I can promise you this, but it really should most of the time end up being working with a quadratic or a linear 
+                        equation.
                     </p>
-
-                    {/* 
-                        Example of a somple equation with rational expressions that contains cancelling out.
-                    */}
-
-                    <p className="p-body-medium">
-                        Lastly, let's see what a tough/messy example problem might look like.  
-                    </p>
-
-                    {/* 
-                        Example of a somple equation with rational expressions.
-                        This problem should get pretty messy.
-                    */}
 
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Try it!</h4>
+
+                    
 
                     <h4 className="h4-blue-headers" style={{ paddingTop: "75px" }}>Create it!</h4>
 
