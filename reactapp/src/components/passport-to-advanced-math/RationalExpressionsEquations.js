@@ -72,13 +72,13 @@ class RationalExpressionsEquations extends React.Component {
 
                     <p className="p-body">
                         1.  Solve the following equation: &nbsp;
-                        <div className="frac">
+                        <div className="frac" style={{ paddingRight: "10px" }}>
                             <span className="top">5</span>
                             <span className="symbol">/</span>
                             <span className="bottom">x</span>
                         </div>
                         -
-                        <div className="frac">
+                        <div className="frac" style={{ paddingLeft: "10px", paddingRight: "10px" }}>
                             <span className="top">5</span>
                             <span className="symbol">/</span>
                             <span className="bottom">6</span>
