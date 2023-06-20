@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ld^lzbe!0151re*tr!6t2=-c#=iea(pg0mt3(r7^#55%hr-*x('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com', 'localhost', 'http://www.bluebird-teaching.com/', 'www.bluebird-teaching.com']
 

@@ -21,6 +21,8 @@ from django.conf.urls import url
 
 # routes = getattr(settings, 'REACT_ROUTES', [])
 
+handler404 = 'djreact.views.error_404'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name='index.html')),
