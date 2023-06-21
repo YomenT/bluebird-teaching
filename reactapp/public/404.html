@@ -8,7 +8,7 @@
     <style>
         html,
         body {
-            height: 100%;
+            height:100%;
             margin: 0;
             padding: 0;
         }
@@ -30,16 +30,16 @@
             border-radius: 8px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
             max-width: 750px;
-            width: 90%;
+            width: 80vw;
         }
 
         .error {
-            font-size: 32px;
+            font-size: clamp(1rem, 5vw, 2rem);
             color: #1b2b44;
         }
 
         p {
-            font-size: 20px;
+            font-size: clamp(.5rem, 3vw, 1.2rem);
             font-weight: 500;
             margin-bottom: 10px;
             color: #333;
@@ -50,7 +50,7 @@
         }
 
         .title {
-            font-size: 72px;
+            font-size: clamp(2rem, 5vw, 3rem);
             color: #fff;
             width: 100%;
             text-align: center;
@@ -81,7 +81,7 @@
         }
 
         .bird {
-            height: 150px;
+            height: 20vh;
         }
     </style>
 </head>
@@ -96,8 +96,8 @@
             <a href="/" class="button-text">Back to the Nest!</a>
         </div>
     </div>
-    <img src="static/bird.png" class="bird">
-    <a style="position: fixed; bottom: 10px;color: rgb(47, 133, 255);" href="https://www.flaticon.com/free-stickers/parakeet" title="parakeet stickers">Parakeet stickers created by SoulGIE -
+    <img src="https://i.ibb.co/ZVmTwmJ/image-2023-06-20-174043623.png" class="bird">
+    <a style="font-size: clamp(.2rem, 3vw, 1rem); text-decoration: none; position: fixed; bottom: 10px;color: rgb(47, 133, 255);" href="https://www.flaticon.com/free-stickers/parakeet" title="parakeet stickers">Parakeet stickers created by SoulGIE -
         Flaticon</a>
 </body>
 </html>
