@@ -53,6 +53,7 @@ import RationalExpressionsInequalities from './passport-to-advanced-math/Rationa
 import Python from './Python'
 import HowToCodePython from './python-pages/HowToCodePython';
 import PolynomialsOfHigherDegree from './passport-to-advanced-math/PolynomialsOfHigherDegree';
+import ChainsSeriesPdfPage from './ChainsSeriesPdfPage';
 
 const Main = () => {
   return (
@@ -67,6 +68,7 @@ const Main = () => {
       <Route exact path='/satprep' component={SatPrep}></Route>
       <Route exact path='/aboutsatprep' component={AboutSATPrep}></Route>
       <Route exact path='/python' component={Python}></Route>
+      <Route exact path='/chains-series' component={ChainsSeriesPdfPage}></Route>
 
       {/* Heart of Algebra */}
       <Route exact path='/heart_of_algebra/about' component={IntroductionToHeartOfAlgebra}></Route>
