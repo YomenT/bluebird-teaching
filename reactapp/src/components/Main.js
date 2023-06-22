@@ -47,6 +47,7 @@ import RationalExpressions3 from './passport-to-advanced-math/RationalExpression
 import QuadraticInequalities from './passport-to-advanced-math/QuadraticInequalities'
 import ExponentialEquations from './passport-to-advanced-math/ExponentialEquations'
 import RationalExpressionsEquations from './passport-to-advanced-math/RationalExpressionsEquations'
+import RationalExpressionsInequalities from './passport-to-advanced-math/RationalExpressionsInequalities'
 
 // Python
 import Python from './Python'
@@ -105,6 +106,7 @@ const Main = () => {
       <Route exact path='/passport_to_advanced_math/polynomials_of_higher_degree' component={PolynomialsOfHigherDegree}></Route>
       <Route exact path='/passport_to_advanced_math/exponential_equations' component={ExponentialEquations}></Route>
       <Route exact path='/passport_to_advanced_math/equations_with_rational_expressions' component={RationalExpressionsEquations}></Route>
+      <Route exact path='/passport_to_advanced_math/inequalities_with_rational_expressions' component={RationalExpressionsInequalities}></Route>
 
       {/* Python */}
       <Route exact path='/python' component={Python}></Route>
