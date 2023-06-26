@@ -17,17 +17,17 @@ class Logo extends React.Component {
                 </div>
                 <div style={{ textAlign: "right" }}>
                     <Link to="/satprep">
-                        <button type="button" class="button">SAT Prep</button>
+                        <button type="button" class="outline-button">SAT Prep</button>
                     </Link>
                     &nbsp;
                     &nbsp;
                     <Link to="/python">
-                        <button type="button" class="button">Python For Non-Engineers</button>
+                        <button type="button" class="outline-button">Python For Non-Engineers</button>
                     </Link>
                     &nbsp;
                     &nbsp;
                     <Link to="/focus_log">
-                        <button type="button" class="button">Focus Log</button>
+                        <button type="button" class="outline-button">Focus Log</button>
                     </Link>
                     {/* &nbsp;
                     &nbsp;
