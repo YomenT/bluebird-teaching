@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 class HeaderButtons extends React.Component {
     render() {
         return (
-            <div style={{ paddingBottom: "100px" }}>
+            <div class="header-buttons" style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
                 <Link to="/about">
                     <button class="button">How This Works</button>
                 </Link>

@@ -33,7 +33,7 @@ class LatestFocus extends React.Component {
             return (
                 <div className="bodyDiv">
                     <h2 style={{ textAlign: "center", color: "#5b92e5", paddingTop: "100px" }}>Just Completed!</h2>
-                    <h3 style={{ paddingTop: "25px", textAlign: "center", paddingBottom: "25px" }}><a href={urlList[urlList.length - 2]} target={"_blank"} className="glow" style={{ fontSize: "50px", color: "#fff" }}>{titleList[titleList.length - 2]}</a></h3>
+                    <h3 style={{ paddingTop: "25px", textAlign: "center", paddingBottom: "25px" }}><a href={urlList[urlList.length - 2]} target={"_blank"} className="glow" style={{ fontSize: "clamp(40px, 2vw, 50px)", color: "#fff" }}>{titleList[titleList.length - 2]}</a></h3>
                     <p className="p-focus" style={{ textAlign: "center" }}>Click on the focus name above to access the latest resource!</p>
                 </div>
             )
