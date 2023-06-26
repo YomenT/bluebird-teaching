@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'reactstrap'
 import { Link } from 'react-router-dom'
 
 class HeaderButtons extends React.Component {
@@ -7,7 +6,7 @@ class HeaderButtons extends React.Component {
         return (
             <div style={{ paddingBottom: "100px" }}>
                 <Link to="/about">
-                    <Button color="primary">How This Works</Button>
+                    <button class="button">How This Works</button>
                 </Link>
                 &nbsp;
                 &nbsp;
@@ -16,7 +15,7 @@ class HeaderButtons extends React.Component {
                 &nbsp;
                 &nbsp;
                 <Link to="/about_resources">
-                    <Button color="secondary">Other Online Education Resources</Button>
+                    <button class="button button-alt">Other Online Education Resources</button>
                 </Link>
             </div>
         )

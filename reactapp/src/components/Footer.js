@@ -17,7 +17,7 @@ class Footer extends React.Component {
                 </div>
                 <div style={{ textAlign: "right" }}>
                     <Link to="/contact">
-                        <button type="button" class="btn btn-link">Contact Us</button>
+                        <button type="button" class="button">Contact Us</button>
                     </Link>
                 </div>
             </div>
