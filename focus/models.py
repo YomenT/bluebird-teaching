@@ -17,3 +17,6 @@ class FocusLog(models.Model):
     completed = models.BooleanField(default=False) 
     date_created = models.DateTimeField(default=timezone.now)
     url = models.TextField(default='None')
+
+    def __str__(self):
+        return self.title
