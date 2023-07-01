@@ -76,9 +76,9 @@ TEMPLATES = [
     },
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "https://bluebird-teaching.web.app",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://bluebird-teaching.web.app",
+# ]
 
 WSGI_APPLICATION = 'djreact.wsgi.application'
 
