@@ -26,7 +26,7 @@ SECRET_KEY = 'ld^lzbe!0151re*tr!6t2=-c#=iea(pg0mt3(r7^#55%hr-*x('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com', 'localhost', 'http://www.bluebird-teaching.com/', 'www.bluebird-teaching.com', 'https://main.d39uza0plpzhae.amplifyapp.com']
+ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com', 'localhost', 'http://www.bluebird-teaching.com/', 'www.bluebird-teaching.com', 'https://bluebird-teaching.web.app']
 
 
 # Application definition
