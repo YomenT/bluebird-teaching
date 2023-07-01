@@ -26,7 +26,7 @@ SECRET_KEY = 'ld^lzbe!0151re*tr!6t2=-c#=iea(pg0mt3(r7^#55%hr-*x('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com', 'localhost', 'http://www.bluebird-teaching.com/', 'www.bluebird-teaching.com', 'https://bluebird-teaching.web.app']
+ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com', 'localhost', 'https://www.bluebird-teaching.com/', 'www.bluebird-teaching.com', 'https://bluebird-teaching.web.app']
 
 
 # Application definition
@@ -76,9 +76,9 @@ TEMPLATES = [
     },
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://bluebird-teaching.web.app",
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://bluebird-teaching.web.app",
+]
 
 WSGI_APPLICATION = 'djreact.wsgi.application'
 
