@@ -17,6 +17,6 @@ def get_lessons_by_subset(request, subset):
 
 @api_view(['GET'])
 def get_lesson_by_id(request, subset, lesson_id):
-    lesson = Lesson.objects.get(id=lesson_id)
-    serializer = LessonSerializer(lesson)
+    lessons = Lesson.objects.filter(subset__name=subset)
+    serializer = LessonSerializer(lessons[lesson_id-1])
     return Response(serializer.data)
