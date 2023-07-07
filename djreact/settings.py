@@ -26,7 +26,7 @@ SECRET_KEY = 'ld^lzbe!0151re*tr!6t2=-c#=iea(pg0mt3(r7^#55%hr-*x('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com', 'localhost', 'http://www.bluebird-teaching.com/', 'www.bluebird-teaching.com']
+ALLOWED_HOSTS = ['adminbluebirdteaching.pythonanywhere.com', 'localhost', 'https://www.bluebird-teaching.com/', 'www.bluebird-teaching.com', 'https://bluebird-teaching.web.app']
 
 
 # Application definition
@@ -42,9 +42,12 @@ INSTALLED_APPS = [
     'focus',
     'lessons',
     'tinymce',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -73,6 +76,13 @@ TEMPLATES = [
             ],
         },
     },
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://bluebird-teaching.web.app",
+    "https://bluebird-teaching.com",
+    "http://127.0.0.1:5000",
+    "http://localhost:5000",
 ]
 
 WSGI_APPLICATION = 'djreact.wsgi.application'
