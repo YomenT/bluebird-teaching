@@ -16,3 +16,6 @@ class Lesson(models.Model):
 
     def __str__(self):
         return self.title
+
+    def subset_name(self):
+        return self.subset.name
