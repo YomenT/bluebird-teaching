@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name='index.html')),
     path('', include('focus.urls')),
-    path('', include('lesson.urls')),
+    path('', include('lessons.urls')),
     path(r'^tinymce/', include('tinymce.urls')),
 ]
