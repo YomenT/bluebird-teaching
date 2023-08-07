@@ -13,7 +13,8 @@ class Lesson(models.Model):
     introduction = HTMLField()
     try_it = HTMLField()
     create_it = HTMLField()
-
+    completed = models.BooleanField(default=True)
+    
     def __str__(self):
         return self.title
 
