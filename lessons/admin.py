@@ -1,5 +1,9 @@
 from django.contrib import admin
-from .models import Lesson, Subset
+from adminsortable2.admin import SortableAdminMixin
+from .models import Subset, Lesson
+
+class LessonAdmin(SortableAdminMixin, admin.ModelAdmin):
+    list_display = ('title', 'subset_name', 'order') 
 
 admin.site.register(Subset)
-admin.site.register(Lesson)
+admin.site.register(Lesson, LessonAdmin)
