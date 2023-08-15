@@ -14,9 +14,13 @@ class Lesson(models.Model):
     try_it = HTMLField()
     create_it = HTMLField()
     completed = models.BooleanField(default=True)
-    
+    order = models.PositiveIntegerField(default=0)
+
     def __str__(self):
         return self.title
 
     def subset_name(self):
         return self.subset.name
+
+    class Meta:
+        ordering = ['order']

@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'initiate_contract',
     'upload_resource',
     'corsheaders',
+    'adminsortable2'
 ]
 
 TINYMCE_JS_URL = "https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js"
