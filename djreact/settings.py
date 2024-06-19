@@ -61,6 +61,7 @@ TINYMCE_DEFAULT_CONFIG = {
   "plugins":
     "advlist autolink lists link image charmap print preview anchor searchreplace visualblocks code fullscreen insertdatetime media table powerpaste advcode help wordcount spellchecker typography codesample",
   "selector": "textarea",
+  "api_key": "4myjgav46uzyjt8yrattxptc7w0tahrbut2gw70a9lxbykfo",
 }
 
 MIDDLEWARE = [
