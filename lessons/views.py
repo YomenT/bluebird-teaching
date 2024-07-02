@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from .models import Lesson
 from .models import Comment
 from .serializers import LessonSerializer
-from .seralizers import CommentSerializer
+from .serializers import CommentSerializer
 
 @api_view(['GET'])
 def get_all_lessons(request):
