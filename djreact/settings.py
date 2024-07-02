@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'adminsortable2'
 ]
 
-TINYMCE_JS_URL = "https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js"
+TINYMCE_JS_URL = "https://cdn.tiny.cloud/1/4myjgav46uzyjt8yrattxptc7w0tahrbut2gw70a9lxbykfo/tinymce/6/tinymce.min.js"
 
 TINYMCE_COMPRESSOR = False
 
