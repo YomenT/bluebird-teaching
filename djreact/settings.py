@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'focus',
     'lessons',
+    'documentation',
     'tinymce',
     'initiate_contract',
     'upload_resource',

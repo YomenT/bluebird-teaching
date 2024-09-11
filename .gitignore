@@ -1,2 +1,9 @@
 .env
 db.sqlite3
+
+# Ignore __pycache__ directories and .pyc files
+__pycache__/
+*.pyc
+
+# Ignore PyCharm and other IDE config directories
+.idea/
